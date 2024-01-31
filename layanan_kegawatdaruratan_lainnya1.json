@@ -1,0 +1,22 @@
+{
+  "content_attributes": {
+    "items": [        
+        {"title": "Kota Tasikmalaya", "value": "Kota Tasikmalaya"},
+        {"title": "Kab. Bandung", "value": "Kab. Bandung"},
+        {"title": "Kab. Bandung Barat", "value": "Kab. Bandung Barat"},
+        {"title": "Kab. Bekasi", "value": "Kab. Bekasi"},
+        {"title": "Kab. Bogor", "value": "Kab. Bogor"},
+        {"title": "Kab. Ciamis", "value": "Kab. Ciamis"},
+        {"title": "Kab. Cianjur", "value": "Kab. Cianjur"},
+        {"title": "Kab. Cirebon", "value": "Kab. Cirebon"},
+        {"title": "Kab. Garut", "value": "Kab. Garut"},
+        {"title": "Kota/ Kab Lainnya", "value": "Kota/ Kab Lainnya 2"}
+    ]
+  },
+  "private": false,
+  "content_type": "input_select",
+  "content": "Silakan pilih salah satu opsi di bawah ini :"
+}
+
+
+

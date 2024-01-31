@@ -1,0 +1,22 @@
+{
+  "content_attributes": {
+    "items": [        
+        {"title": "Kab. Indramayu", "value": "Kab. Indramayu"},
+        {"title": "Kab. Karawang", "value": "Kab. Karawang"},
+        {"title": "Kab. Kuningan", "value": "Kab. Kuningan"},
+        {"title": "Kab. Majalengka", "value": "Kab. Majalengka"},
+        {"title": "Kab. Pangandaran", "value": "Kab. Pangandaran"},
+        {"title": "Kab. Purwakarta", "value": "Kab. Purwakarta"},
+        {"title": "Kab. Subang", "value": "Kab. Subang"},
+        {"title": "Kab. Sukabumi", "value": "Kab. Sukabumi"},
+        {"title": "Kab. Sumedang", "value": "Kab. Sumedang"},
+        {"title": "Kab. Tasikmalaya", "value": "Kab. Tasikmalaya"}
+    ]
+  },
+  "private": false,
+  "content_type": "input_select",
+    "content": "Silakan pilih salah satu opsi di bawah ini :"
+}
+
+
+
