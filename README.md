@@ -7,7 +7,7 @@
     │   ├── Layanan Aduan Warga/
     │   │   └── Layanan Aduan warga
     │   ├── Layanan Produk Sapawarga/
-    │   │   ├── nformasi Pembuatan Akun Sapawarga
+    │   │   ├── Informasi Pembuatan Akun Sapawarga
     │   │   ├── Informasi Akun Belum Terverifikasi
     │   │   ├── Informasi Lupa Password
     │   │   ├── Informasi Tata Cara Pembuatan Akun Sapawarga RW
