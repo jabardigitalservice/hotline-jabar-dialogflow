@@ -1,0 +1,10 @@
+{
+    "content": "Fitur yang terdapat pada Aduan Warga adalah:\n\n1. Form Aduan: Formulir khusus yang dirancang untuk menyampaikan keluhan, masukan, atau laporan terkait berbagai masalah. Silakan untuk Wargi akses di sini:  https://s.id/FormAduanWarga\n\n2. Tracking Aduan: Fitur yang memfasilitasi warga untuk melacak perkembangan atau status dari aduan yang disampaikan. Wargi Jabar dapat mengaksesnya melalui link berikut:  https://s.id/CariAduan\n\nApabila Wargi Jabar mengalami kendala dalam mengakses link diatas, silakan Wargi Jabar dapat menghubungi live agent dengan klik Dibawah ini.",
+    "content_type": "input_select",
+    "content_attributes": {
+        "items": [
+            { "title": "Chat Live Agent", "value": "Live Agent" }
+        ]
+    },
+    "private":false
+}
