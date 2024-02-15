@@ -1,0 +1,13 @@
+{
+  "content_attributes": {
+    "items": [
+        {"title": "Info Umum program JDA", "value": "Info Umum program JDA"},
+        {"title": "Cara Daftar JDA", "value": "Cara Daftar JDA"},
+        {"title": "Informasi Kemitraan", "value": "Informasi Kemitraan"},
+        {"title": "Live Chat Agent", "value": "Live Chat Agent"}
+    ]
+  },
+  "private": false,
+  "content_type": "input_select",
+  "content": "Silakan pilih salah satu opsi di bawah:"
+}
