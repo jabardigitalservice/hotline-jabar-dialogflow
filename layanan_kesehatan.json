@@ -1,0 +1,13 @@
+{
+  "content_attributes": {
+    "items": [
+        {"title": "RS Provinsi Jabar", "value": "RS Provinsi Jabar"},
+        {"title": "Lab Kesehatan Jabar", "value": "Lab Kesehatan Jabar"},
+        {"title": "Layanan Kesehatan Jiwa", "value": "Layanan Kesehatan Jiwa"},
+        {"title": "Aduan/Pertanyaan Lain", "value": "Aduan/Pertanyaan Lain"}
+    ]
+  },
+  "private": false,
+  "content_type": "input_select",
+  "content": "Melalui fitur Layanan Kesehatan, Wargi Jabar kini dapat menikmati kemudahan dalam mengakses informasi kesehatan. Wargi Jabar juga dapat menemukan informasi terkini seputar Pertumbuhan Angka Harapan Hidup dan Indeks Kesehatan, juga Sebaran Angka Harapan Hidup di Jawa Barat melalui dashboard kesehatan di link berikut:\n https://dashboard.jabarprov.go.id/id/topic/kesehatan\n\n Apa saja Informasi yang ingin Wargi Jabar ketahui seputar Layanan Kesehatan?. Silahkan pilih opsi dibawah ini:"
+}

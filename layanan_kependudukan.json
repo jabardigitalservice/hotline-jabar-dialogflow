@@ -1,0 +1,15 @@
+{
+  "content_attributes": {
+    "items": [
+        {"title":"SIDATUK", "value": "SIDATUK"},
+        {"title":"Dokumen Kependudukan", "value": "Dokumen Kependudukan"},
+        {"title":"Syarat Dokumen Adminduk", "value": "Syarat Dokumen Adminduk"},
+        {"title":"Aduan/Pertanyaan Lain", "value": "Aduan/Pertanyaan Lain"}
+    ]
+  },
+  "private": false,
+  "content_type": "input_select",
+  "content": "Melalui fitur Layanan Kependudukan, Wargi Jabar kini dapat menikmati kemudahan dalam mengakses informasi kependudukan. Wargi Jabar juga dapat menemukan informasi terkini seputar  Kepadatan dan Laju Pertumbuhan di Jawa Barat melalui dashboard kependudukan di link berikut: https://dashboard.jabarprov.go.id/id/topic/kependudukan\n\nApabila Wargi Jabar memiliki pertanyaan lain seputar kependudukan, silakan hubungi Layanan Hotline SIDATUK  di nomor 081320180121 atau klik https://wa.me/6281320180121\n\nApa saja yang ingin Wargi Jabar ketahui seputar Layanan Kependudukan?"
+}
+
+
