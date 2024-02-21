@@ -1,0 +1,25 @@
+{
+  "private": false,
+  "content_attributes": {
+    "items": [
+      {
+        "title": "Cara Bayar Pajak",
+        "value": "Cara Bayar Pajak"
+      },
+      {
+        "title": "Kanal SAMBARA",
+        "value": "Kanal SAMBARA"
+      },
+      {
+        "title": "Cek Status Bayar",
+        "value": "Cek Status Bayar"
+      },
+      {
+        "title": "Pengesahan STNK",
+        "value": "Pengesahan STNK"
+      }
+    ]
+  },
+  "content": "Pembayaran pajak kendaraan bermotor dengan aplikasi Sapawarga sangat praktis, tinggal klik layar semua beres. Dengan menggunakan fitur Sambara, Wargi Jabar dapat langsung membayar pajak kendaraan melalui aplikasi.\n\nSilakan pilih salah satu opsi di bawah :",
+  "content_type": "input_select"
+}
