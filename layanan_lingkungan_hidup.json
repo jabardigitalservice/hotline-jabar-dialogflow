@@ -1,0 +1,21 @@
+{
+  "private": false,
+  "content_attributes": {
+    "items": [
+      {
+        "title": "ECIS DLH",
+        "value": "ECIS DLH"
+      },
+      {
+        "title": "Citarum Harum",
+        "value": "Citarum Harum"
+      },
+      {
+        "title": "Aduan/Pertanyaan",
+        "value": "Aduan/Pertanyaan"
+      }
+    ]
+  },
+  "content": "Apa saja yang ingin Wargi Jabar ketahui seputar Layanan Lingkungan Hidup?",
+  "content_type": "input_select"
+}

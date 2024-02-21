@@ -1,0 +1,25 @@
+{
+  "private": false,
+  "content_attributes": {
+    "items": [
+      {
+        "title": "Cek Informasi Pajak",
+        "value": "Cek Informasi Pajak"
+      },
+      {
+        "title": "Pembayaran Pajak",
+        "value": "Pembayaran Pajak"
+      },
+      {
+        "title": "Cara Lepas Kepemilikan",
+        "value": "Cara Lepas Kepemilikan"
+      },
+      {
+        "title": "Aduan/Pertanyaan",
+        "value": "Aduan/Pertanyaan"
+      }
+    ]
+  },
+  "content": "Apa saja yang ingin Wargi Jabar ketahui seputar *Sambara–Samsat Mobile Jawa Barat?*",
+  "content_type": "input_select"
+}

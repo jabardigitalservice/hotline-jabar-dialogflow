@@ -1,0 +1,25 @@
+{
+  "private": false,
+  "content_attributes": {
+    "items": [
+      {
+        "title": "Hotline SAPA 129",
+        "value": "Hotline SAPA 129"
+      },
+      {
+        "title": "Layanan Kasus Sosial",
+        "value": "Layanan Kasus Sosial"
+      },
+      {
+        "title": "Rumah Singgah Humanis",
+        "value": "Rumah Singgah Humanis"
+      },
+      {
+        "title": "Aduan/Pertanyaan",
+        "value": "Aduan/Pertanyaan"
+      }
+    ]
+  },
+  "content": "Apa saja yang ingin Wargi Jabar ketahui seputar Layanan Sosial?",
+  "content_type": "input_select"
+}
