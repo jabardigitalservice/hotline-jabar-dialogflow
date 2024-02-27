@@ -1,0 +1,28 @@
+[
+  {
+    "id": "794eb96d-28f8-4775-a315-fafaa001644e",
+    "data": [
+      {
+        "text": "lingkungan hidup",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "7cf7d3a4-f703-43bf-936f-747075e1c902",
+    "data": [
+      {
+        "text": "layanan lingkungan hidup",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

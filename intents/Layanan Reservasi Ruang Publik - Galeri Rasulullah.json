@@ -1,0 +1,39 @@
+{
+  "id": "7493caa9-8814-4fc6-b4d5-f245ed5fb4ce",
+  "parentId": "9f81b4d8-10a5-4cdf-b6a7-da1d8a3839c9",
+  "rootParentId": "9f81b4d8-10a5-4cdf-b6a7-da1d8a3839c9",
+  "name": "Layanan Reservasi Ruang Publik - Galeri Rasulullah",
+  "auto": true,
+  "contexts": [
+    "LayananReservasiRuangPublik-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananReservasiRuangPublik.LayananReservasiRuangPublik-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Melalui Sistem E-Ticketing Galeri Rasulullah, Wargi Jabar dapat memesan tiket masuk ke Galeri Rasulullah yang berada di kawasan Masjid Raya Al-Jabbar secara online.\n\nBerikut tata cara pemesanan tiket Galeri Rasulullah melalui Sapawarga:\n1. Mengunduh aplikasi Sapawarga selengkapnya di  http//s.id/jabarsuperapps (dengan memilih Sapawarga Android atau IOS)\n2. Klik menu “Masjid Al-Jabbar”\n3. Lalu klik menu “Tiket Galeri Rasulullah”, user perlu memiliki akun dan login\n4. Selanjutnya user memilih tanggal kunjungan, sesi kunjungan dan jumlah pemesan\n5. Sebelum klik “Lanjutkan”, pastikan Syarat Ketentuan dibaca dan dicentang\n6. Setelah dicentang, klik “Lanjutkan”\n7. Muncul Detail Pembayaran. Apabila pemesanan sudah sesuai klik “Beli Tiket”\n8. Tiket berbentuk QR code berhasil terbit. Unduh / perlihatkan tiket kepada petugas ketika di lokasi\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

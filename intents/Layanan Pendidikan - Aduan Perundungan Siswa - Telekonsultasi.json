@@ -1,0 +1,58 @@
+{
+  "id": "90c4b1ca-571e-44fd-993d-acc1a29c2dd0",
+  "parentId": "c3eae6dc-2220-420f-aec0-637ab6de915d",
+  "rootParentId": "ff15d6f0-06b1-4fcf-8bc4-ce344b76d662",
+  "name": "Layanan Pendidikan - Aduan Perundungan Siswa - Telekonsultasi",
+  "auto": true,
+  "contexts": [
+    "LayananPendidikan-AduanPerundunganSiswa-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananPendidikan.LayananPendidikan-Aduan-Perundungan-Siswa.LayananPendidikan-AduanPerundunganSiswa-custom",
+      "affectedContexts": [
+        {
+          "name": "LayananPendidikan-AduanPerundunganSiswa-Telekonsultasi-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "content": "Apakah Wargi/kerabat yang dilaporkan adalah siswa/i yang berasal dari SMA, SMK, atau SLB di Jawa Barat?",
+            "private": false,
+            "content_type": "input_select",
+            "content_attributes": {
+              "items": [
+                {
+                  "value": "Ya",
+                  "title": "Ya"
+                },
+                {
+                  "value": "Tidak",
+                  "title": "Tidak"
+                }
+              ]
+            }
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

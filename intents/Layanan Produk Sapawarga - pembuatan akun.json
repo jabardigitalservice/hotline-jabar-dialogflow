@@ -1,0 +1,40 @@
+{
+  "id": "06f54ef7-93c2-4c62-804f-f0a52a89b8ec",
+  "parentId": "f85b1da1-20c6-41a9-af8e-cb7cd984bc41",
+  "rootParentId": "f85b1da1-20c6-41a9-af8e-cb7cd984bc41",
+  "name": "Layanan Produk Sapawarga - pembuatan akun",
+  "auto": true,
+  "contexts": [
+    "InformasidanAduanWarga-followup",
+    "LayananProdukSapawarga-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananProdukSapawarga.LayananProdukSapawarga-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Cara pembuatan akun *Sapawarga* menggunakan SSO:\n1. Klik menu profile di kanan bawah\n2. Klik link \"Buat akun Sapawarga\" \u003e pilih \"Dengan Google\"\n3. Klik alamat email yang akan dipakai untuk buat akun\n4. Wargi Jabar sudah berhasil masuk di halaman profile, klik \"Ubah profile\" \u003e lengkapi identitas diri dan alamat\n5. Simpan data\n\nHatur Nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

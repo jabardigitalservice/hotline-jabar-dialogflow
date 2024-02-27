@@ -1,0 +1,89 @@
+{
+  "id": "c707c1f4-9459-4729-ac32-2d42d81b0c78",
+  "parentId": "d89dff82-e503-4b74-b0fe-0e0a604469a2",
+  "rootParentId": "d89dff82-e503-4b74-b0fe-0e0a604469a2",
+  "name": "Kegawatdaruratan",
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "LayananKegawatdaruratan-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "content_attributes": {
+              "items": [
+                {
+                  "value": "Provinsi Jawa Barat",
+                  "title": "Provinsi Jawa Barat"
+                },
+                {
+                  "title": "Kota Bandung",
+                  "value": "Kota Bandung"
+                },
+                {
+                  "value": "Kota Banjar",
+                  "title": "Kota Banjar"
+                },
+                {
+                  "value": "Kota Bekasi",
+                  "title": "Kota Bekasi"
+                },
+                {
+                  "value": "Kota Bogor",
+                  "title": "Kota Bogor"
+                },
+                {
+                  "title": "Kota Cirebon",
+                  "value": "Kota Cirebon"
+                },
+                {
+                  "value": "Kota Cimahi",
+                  "title": "Kota Cimahi"
+                },
+                {
+                  "value": "Kota Depok",
+                  "title": "Kota Depok"
+                },
+                {
+                  "title": "Kota Sukabumi",
+                  "value": "Kota Sukabumi"
+                },
+                {
+                  "value": "Kota/ Kab Lainnya",
+                  "title": "Kota/ Kab Lainnya"
+                }
+              ]
+            },
+            "content": "Sampurasun, Wargi Jabar!\n*Layanan Kegawatdaruratan* untuk kota dan kabupaten di Provinsi Jawa Barat.\n\nUntuk memulai, silakan pilih salah satu opsi di bawah ini:",
+            "private": false,
+            "content_type": "input_select"
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

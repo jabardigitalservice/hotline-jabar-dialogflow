@@ -1,0 +1,28 @@
+[
+  {
+    "id": "89e10900-399a-4569-ae0a-aff43f39b6b0",
+    "data": [
+      {
+        "text": "pendidikan",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "cdf46b92-b7c5-4fcc-886c-937eb3c21533",
+    "data": [
+      {
+        "text": "Layanan Pendidikan",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

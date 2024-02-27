@@ -1,0 +1,78 @@
+{
+  "id": "ff15d6f0-06b1-4fcf-8bc4-ce344b76d662",
+  "name": "Layanan Pendidikan",
+  "auto": true,
+  "contexts": [
+    "InformasidanAduanWarga-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "InformasidanAduanWarga-followup",
+          "lifespan": 5
+        },
+        {
+          "name": "LayananPendidikan-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Melalui fitur Layanan Pendidikan, Wargi Jabar kini dapat menikmati kemudahan dalam mengakses informasi pendidikan. Wargi Jabar juga dapat menemukan informasi terkini seputar dunia pendidikan di Jawa Barat melalui dashboard pendidikan di link berikut: https://dashboard.jabarprov.go.id/id/dashboard?topic\u003dpendidikan"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "content_attributes": {
+              "items": [
+                {
+                  "title": "JFLS",
+                  "value": "JFLS"
+                },
+                {
+                  "value": "PPDB",
+                  "title": "PPDB"
+                },
+                {
+                  "value": "Aduan Perundungan Siswa",
+                  "title": "Aduan Perundungan Siswa"
+                },
+                {
+                  "title": "Aduan/Pertanyaan",
+                  "value": "Aduan/Pertanyaan"
+                }
+              ]
+            },
+            "content_type": "input_select",
+            "private": false,
+            "content": "Apa saja yang ingin Wargi Jabar ketahui seputar Layanan Pendidikan?"
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

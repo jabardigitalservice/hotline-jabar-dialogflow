@@ -1,0 +1,39 @@
+{
+  "id": "7fae38f1-6a1b-4944-9299-ba031ea67fc3",
+  "parentId": "5ea69e84-30e9-4d79-912c-9f15122b1bc5",
+  "rootParentId": "5ea69e84-30e9-4d79-912c-9f15122b1bc5",
+  "name": "Layanan Usaha/Bisnis - Perizinan DSDA",
+  "auto": true,
+  "contexts": [
+    "LayananUsahaBisnis-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananUsahaBisnis.LayananUsahaBisnis-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Layanan ini memverifikasi persyaratan izin pendayagunaan sumber daya air untuk kebutuhan berusaha dan non-berusaha. Informasi lebih lanjut bisa diakses melalui link berikut: https://jabarprov.go.id/layanan/layanan-persetujuan-persyaratan-izin-pengusahaan-sumber-daya-air \n\nHubungi Nomor :  08970271325 atau klik https://wa.me/628970271325\n\nCall Center di atas adalah Layanan Persetujuan Persyaratan Izin Pendayagunaan Sumber Daya Air dari Dinas Sumber Daya Air Jawa Barat.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "value": "Agent",
+    "synonyms": [
+      "Agent"
+    ]
+  },
+  {
+    "value": "Aduan/Pertanyaan Lain",
+    "synonyms": [
+      "Aduan/Pertanyaan Lain"
+    ]
+  },
+  {
+    "value": "Live Agent",
+    "synonyms": [
+      "Live Agent"
+    ]
+  },
+  {
+    "value": "Live Chat Agent",
+    "synonyms": [
+      "Live Chat Agent"
+    ]
+  },
+  {
+    "value": "Pertanyaan Lain",
+    "synonyms": [
+      "Pertanyaan Lain"
+    ]
+  },
+  {
+    "value": "Aduan",
+    "synonyms": [
+      "Aduan"
+    ]
+  },
+  {
+    "value": "Aduan Lain",
+    "synonyms": [
+      "Aduan Lain"
+    ]
+  }
+]

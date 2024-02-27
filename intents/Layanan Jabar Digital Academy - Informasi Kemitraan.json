@@ -1,0 +1,40 @@
+{
+  "id": "82b3911c-e0ba-46af-a1ae-2f0da1d5c3d0",
+  "parentId": "bbdff96f-6c9c-4c4f-824c-f80a9b1d287c",
+  "rootParentId": "bbdff96f-6c9c-4c4f-824c-f80a9b1d287c",
+  "name": "Layanan Jabar Digital Academy - Informasi Kemitraan",
+  "auto": true,
+  "contexts": [
+    "InformasidanAduanWarga-followup",
+    "LayananJabarDigitalAcademy-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananJabarDigitalAcademy.LayananJabarDigitalAcademy-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Untuk informasi lebih lanjut tentang program kemitraan, termasuk manfaat, proses pendaftaran, kolaborasi program, dukungan teknis, pelatihan, dan aspek-aspek lain dari Jabar Digital Academy, silakan kontak kami melalui email resmi: digital.service@jabarprov.go.id \n\nHatur Nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,59 @@
+{
+  "id": "52aa82ec-3b19-4d4e-b7d2-7d6ff9728817",
+  "parentId": "849871b0-8f12-4754-a74c-5c7e33c23a66",
+  "rootParentId": "849871b0-8f12-4754-a74c-5c7e33c23a66",
+  "name": "Layanan Pajak Kendaraan Bermotor - Cek Informasi Pajak",
+  "auto": true,
+  "contexts": [
+    "InformasidanAduanWarga-followup",
+    "LayananPajakKendaraanBermotor-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananPajakKendaraanBermotor.LayananPajakKendaraanBermotor-custom",
+      "affectedContexts": [
+        {
+          "name": "LayananPajakKendaraanBermotor-CekInformasiPajak-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "content_attributes": {
+              "items": [
+                {
+                  "value": "Cek Milik Saya",
+                  "title": "Cek Milik Saya"
+                },
+                {
+                  "title": "Cek Milik Orang Lain",
+                  "value": "Cek Milik Orang Lain"
+                }
+              ]
+            },
+            "content_type": "input_select",
+            "private": false,
+            "content": "Cek informasi pajak kendaraan bermotor dengan praktis dan mudah hanya dengan masuk ke aplikasi Sapawarga. Semua kendaraan bermotor yang terdaftar sesuai KTP Wargi Jabar akan muncul secara otomatis.\n\n*Silakan pilih salah satu opsi di bawah:*"
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

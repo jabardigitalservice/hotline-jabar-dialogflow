@@ -1,0 +1,32 @@
+[
+  {
+    "id": "7ec46ed3-1972-4a9f-b430-efb89f10fccd",
+    "data": [
+      {
+        "text": "Koperasi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "6870f6a1-5ddc-48d8-89cb-363a1886ea29",
+    "data": [
+      {
+        "text": "layanan ",
+        "userDefined": false
+      },
+      {
+        "text": "Koperasi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

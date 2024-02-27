@@ -1,0 +1,92 @@
+{
+  "id": "5ea69e84-30e9-4d79-912c-9f15122b1bc5",
+  "name": "Layanan Usaha/Bisnis",
+  "auto": true,
+  "contexts": [
+    "InformasidanAduanWarga-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "LayananUsahaBisnis-followup",
+          "lifespan": 2
+        },
+        {
+          "name": "InformasidanAduanWarga-followup",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "content_type": "input_select",
+            "content": "Melalui fitur layanan usaha/bisnis, Wargi Jabar kini dapat menikmati kemudahan dalam melakukan pengurusan perizinan usaha.\n\nApa saja yang ingin Wargi Jabar ketahui seputar Layanan Perizinan Usaha?",
+            "private": false,
+            "content_attributes": {
+              "items": [
+                {
+                  "title": "layanan Koperasi",
+                  "value": "layanan Koperasi"
+                },
+                {
+                  "title": "Fasilitasi Halal",
+                  "value": "Fasilitasi Halal"
+                },
+                {
+                  "title": "Perizinan DSDA",
+                  "value": "Perizinan DSDA"
+                },
+                {
+                  "title": "Perizinan Merek",
+                  "value": "Perizinan Merek"
+                },
+                {
+                  "value": "Perizinan HAKI",
+                  "title": "Perizinan HAKI"
+                },
+                {
+                  "value": "Perizinan Jelita/OSS",
+                  "title": "Perizinan Jelita/OSS"
+                },
+                {
+                  "title": "Pendampingan CSR",
+                  "value": "Pendampingan CSR"
+                },
+                {
+                  "title": "Uji Mutu Perkebunan",
+                  "value": "Uji Mutu Perkebunan"
+                },
+                {
+                  "title": "Pengaduan Konsumen",
+                  "value": "Pengaduan Konsumen"
+                },
+                {
+                  "title": "Aduan/Pertanyaan",
+                  "value": "Aduan/Pertanyaan"
+                }
+              ]
+            }
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

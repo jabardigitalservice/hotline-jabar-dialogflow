@@ -1,0 +1,39 @@
+{
+  "id": "303f8913-9746-427e-8d64-ae8af8d43736",
+  "parentId": "3eaf5a6d-b7af-4e44-9a72-486cfca9a3cc",
+  "rootParentId": "849871b0-8f12-4754-a74c-5c7e33c23a66",
+  "name": "Layanan Pajak Kendaraan Bermotor - Pembayaran Pajak - Cara Bayar Pajak",
+  "auto": true,
+  "contexts": [
+    "LayananPajakKendaraanBermotor-PembayaranPajak-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananPajakKendaraanBermotor.LayananPajakKendaraanBermotor-custom.LayananPajakKendaraanBermotor-PembayaranPajak-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Untuk melakukan pembayaran pajak kendaraan bermotor milik pribadi, Wargi Jabar dapat melakukannya dengan cara sebagai berikut:\n\n1. Login ke aplikasi Sapawarga. \n2. Klik fitur “Pajak Kendaraan Bermotor”.\n3. Pilih kendaraan Wargi Jabar yang pajaknya akan dibayarkan.\n4. Pilih metode pembayaran yang diinginkan.\n5. Lakukan pembayaran sesuai metode yang dipilih.\n6. Selanjutnya, Wargi Jabar tinggal melakukan pengesahan STNK.\n\n*Catatan:*\nUntuk melakukan pengesahan STNK, silakan datang ke Samsat terdekat dengan menunjukkan bukti pembayaran, KTP, dan e-SKKP yang telah diterbitkan.\n\nHatur Nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

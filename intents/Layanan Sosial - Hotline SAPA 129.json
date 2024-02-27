@@ -1,0 +1,40 @@
+{
+  "id": "7f8985ad-d48c-4f7c-8f1c-15bca3ecb058",
+  "parentId": "e9d2bdce-0a66-4336-ade6-184973555938",
+  "rootParentId": "e9d2bdce-0a66-4336-ade6-184973555938",
+  "name": "Layanan Sosial - Hotline SAPA 129",
+  "auto": true,
+  "contexts": [
+    "InformasidanAduanWarga-followup",
+    "LayananSosial-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananSosial.LayananSosial-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Layanan SAPA 129 diperuntukkan bagi perempuan dan anak yang mengalami permasalahan. Apabila Wargi Jabar menyaksikan, mengalami kekerasan dan/atau membutuhkan perlindungan, silakan menghubungi hotline 129 atau whatsapp 08111129129 atau klik https://wa.me/628111129129"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

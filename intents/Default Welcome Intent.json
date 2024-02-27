@@ -1,0 +1,111 @@
+{
+  "id": "d89dff82-e503-4b74-b0fe-0e0a604469a2",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [
+        {
+          "name": "DefaultWelcomeIntent-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ff86a6f0-57bc-44ff-bbf9-44d871e5e95a",
+          "name": "date-time",
+          "required": false,
+          "dataType": "@sys.date-time",
+          "value": "$date-time",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "4234d2ec-85f0-4f44-a4d7-37e365d3c41f",
+          "name": "language",
+          "required": false,
+          "dataType": "@sys.language",
+          "value": "$language",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "8e3c50a4-ddff-4414-91db-705465121221",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "private": false,
+            "content": "Sampurasun, Wargi Jabar! \n\nSelamat datang di *Layanan Hotline Jabar*. Kami hadir memberikan kemudahan bagi Wargi Jabar untuk mendapatkan informasi seputar layanan dan aduan publik milik Pemerintah Daerah Provinsi Jawa Barat dan Pemerintah Daerah Kabupaten dan Kota di Provinsi Jawa Barat.\n\nUntuk memulai, silakan pilih salah satu opsi layanan di bawah ini:",
+            "content_type": "input_select",
+            "content_attributes": {
+              "items": [
+                {
+                  "value": "Kegawatdaruratan",
+                  "title": "Kegawatdaruratan"
+                },
+                {
+                  "value": "Info dan Aduan Warga",
+                  "title": "Info dan Aduan Warga"
+                }
+              ]
+            }
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "💡 Pesan ini dijawab oleh mesin secara otomatis"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

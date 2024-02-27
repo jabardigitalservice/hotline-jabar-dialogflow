@@ -1,0 +1,54 @@
+[
+  {
+    "id": "c9b59f2b-6de6-4e4e-afbe-4d91df5e4393",
+    "data": [
+      {
+        "text": "Cara ",
+        "userDefined": false
+      },
+      {
+        "text": "Pembuatan",
+        "userDefined": false
+      },
+      {
+        "text": " Akun RW",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "763fd956-5a6b-4657-b976-1a972c758e85",
+    "data": [
+      {
+        "text": "Cara ",
+        "userDefined": false
+      },
+      {
+        "text": "Pembuatan",
+        "userDefined": false
+      },
+      {
+        "text": " Akun ",
+        "userDefined": false
+      },
+      {
+        "text": "Sapawarga",
+        "meta": "@Layanan",
+        "alias": "layanan",
+        "userDefined": false
+      },
+      {
+        "text": " RW",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

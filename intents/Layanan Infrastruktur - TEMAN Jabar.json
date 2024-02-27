@@ -1,0 +1,40 @@
+{
+  "id": "8acccbbe-9921-4fbc-b8c9-7504d2cb515c",
+  "parentId": "625b0144-6d5e-493c-ab0c-018561d949ef",
+  "rootParentId": "625b0144-6d5e-493c-ab0c-018561d949ef",
+  "name": "Layanan Infrastruktur - TEMAN Jabar",
+  "auto": true,
+  "contexts": [
+    "InformasidanAduanWarga-followup",
+    "LayananInfrastruktur-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananInfrastruktur.LayananInfrastruktur-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Teman Jabar atau Sistem Informasi Jalan dan Jembatan Jawa Barat merupakan sebuah platform resmi Dinas Bina Marga dan Penataan Ruang Provinsi Jawa Barat dalam menyediakan informasi seputar kebinamargaan secara elektronik. Pengembangan aplikasi bertujuan untuk membantu dan memudahkan Dinas Bina Marga dan Penataan Ruang dalam mengelola dan memonitoring kegiatan pembangunan hingga pemeliharaan jalan maupun jembatan pada ruas jalan provinsi.\n\nUntuk informasi lebih lanjut silakan kunjungi link berikut: https://jabarprov.go.id/layanan/jalanmulus \n\nApabila Wargi Jabar memiliki pertanyaan lain seputar Teman Jabar, silakan hubungi Layanan Call Center (022) 4231603, Email admin@temanjabar.jabarprov.go.id , website https://temanjabar.jabarprov.go.id/"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

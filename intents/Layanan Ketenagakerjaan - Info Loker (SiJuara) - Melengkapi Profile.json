@@ -1,0 +1,39 @@
+{
+  "id": "73f987fe-93a7-4509-93e5-3cd0b016914f",
+  "parentId": "4b0068ba-e554-4bd7-b636-360e9f8b7c15",
+  "rootParentId": "99d9f175-5a2a-40cc-8217-2cd7caa94675",
+  "name": "Layanan Ketenagakerjaan - Info Loker (SiJuara) - Melengkapi Profile",
+  "auto": true,
+  "contexts": [
+    "LayananKetenagakerjaan-InfoLokerSiJuara-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananKetenagakerjaan.LayananKetenagakerjaan-custom.LayananKetenagakerjaan-InfoLokerSiJuara-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Cara melengkapi profil diri:\n1. Masuk ke menu \"Akun\".\n2. Klik \"Lengkapi Profil\".\n3. Silakan untuk isi dari mulai data diri hingga kompetensi minat dan bakat.\n4. Selanjutnya, kami akan melakukan verifikasi dalam kurun waktu 2x24 jam.\n\nHatur Nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

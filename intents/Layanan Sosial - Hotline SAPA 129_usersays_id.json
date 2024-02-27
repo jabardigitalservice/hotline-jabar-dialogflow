@@ -1,0 +1,36 @@
+[
+  {
+    "id": "d9fc9343-d4b4-45da-9e4e-a90ed4b1db4b",
+    "data": [
+      {
+        "text": "SAPA ",
+        "userDefined": false
+      },
+      {
+        "text": "129",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "42d227d3-f505-46d7-80a0-db93483adc15",
+    "data": [
+      {
+        "text": "Hotline SAPA ",
+        "userDefined": false
+      },
+      {
+        "text": "129",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

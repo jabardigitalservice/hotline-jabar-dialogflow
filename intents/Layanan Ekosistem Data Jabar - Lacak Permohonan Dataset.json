@@ -1,0 +1,40 @@
+{
+  "id": "1415de1e-ef88-4173-8578-faff3c560d4f",
+  "parentId": "f6a0281d-b6ff-47ed-96f2-af3d0efe131b",
+  "rootParentId": "f6a0281d-b6ff-47ed-96f2-af3d0efe131b",
+  "name": "Layanan Ekosistem Data Jabar - Lacak Permohonan Dataset",
+  "auto": true,
+  "contexts": [
+    "InformasidanAduanWarga-followup",
+    "LayananEkosistemDataJabar-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananEkosistemDataJabar.LayananEkosistemDataJabar-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Fitur “Lacak Permohonan Dataset” memberikan kemudahan kepada pengguna yang melakukan permohonan dataset untuk mengetahui sejauh mana status proses permohonan dataset telah ditindaklanjuti. Berikut langkah - langkah mengakses fitur lacak permohonan dataset:\n1. Buka Open Data dan klik menu “Dataset” atau klik link berikut https://opendata.jabarprov.go.id/id/dataset \n2. Klik fitur “Lacak Permohonan Dataset”\n3. Silakan masukkan nomor tiket dan email pada form yang tersedia\n4. Status proses permohonan dataset akan otomatis muncul pada pop up banner \n\nHatur Nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

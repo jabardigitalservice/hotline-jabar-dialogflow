@@ -1,0 +1,40 @@
+{
+  "id": "118c052f-3cb0-4784-9963-65f49872d0f9",
+  "parentId": "e9d2bdce-0a66-4336-ade6-184973555938",
+  "rootParentId": "e9d2bdce-0a66-4336-ade6-184973555938",
+  "name": "Layanan Sosial - Layanan Kasus Sosial",
+  "auto": true,
+  "contexts": [
+    "InformasidanAduanWarga-followup",
+    "LayananSosial-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananSosial.LayananSosial-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Layanan Respon Kasus Sosial merupakan layanan tindak lanjut aduan terkait pelayanan kepada Pemerlu Pelayanan Kesejahteraan Sosial (PPKS)\n\nApabila Wargi Jabar memiliki pertanyaan lain seputar Layanan Respon Kasus Sosial, silakan hubungi hotline 085157884874 atau klik https://wa.me/6285157884874 , Email dissos@jabarprov.go.id dan website https://dinsos.jabarprov.go.id/"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

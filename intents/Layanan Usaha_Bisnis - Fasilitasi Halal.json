@@ -1,0 +1,39 @@
+{
+  "id": "a5728519-309d-4205-8873-0b2451931ce7",
+  "parentId": "5ea69e84-30e9-4d79-912c-9f15122b1bc5",
+  "rootParentId": "5ea69e84-30e9-4d79-912c-9f15122b1bc5",
+  "name": "Layanan Usaha/Bisnis - Fasilitasi Halal",
+  "auto": true,
+  "contexts": [
+    "LayananUsahaBisnis-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananUsahaBisnis.LayananUsahaBisnis-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Layanan ini memberikan fasilitasi bagi Industri Kecil Menengah (IKM) agar produknya memiliki sertifikat halal melalui tahapan pendaftaran, kurasi, sosialisasi, proses audit, hingga penerbitan sertifikat halal. Informasi lebih lanjut bisa diakses melalui link berikut: https://jabarprov.go.id/layanan/fasilitasihalal \n\nHubungi Nomor :  (022) 4230897\n\nCall Center di atas adalah Layanan Fasilitasi Halal dari Dinas Perindustrian dan Perdagangan Jawa Barat.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

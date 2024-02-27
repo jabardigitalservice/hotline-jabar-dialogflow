@@ -1,0 +1,119 @@
+[
+  {
+    "id": "0f9a54fb-1572-4f51-b508-5b70222d7726",
+    "data": [
+      {
+        "text": "tidak terima kasih",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "96271b86-210a-44e3-9881-cf4762a93e4a",
+    "data": [
+      {
+        "text": "saya tidak setuju",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "7b0c284b-696b-416c-aff5-e5fd83ae5286",
+    "data": [
+      {
+        "text": "tidak tertarik",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "09c8287b-f041-425d-956d-5f780ae10e8a",
+    "data": [
+      {
+        "text": "jangan lakukan",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "2287e5bd-f9d3-46df-bb71-401df4894b48",
+    "data": [
+      {
+        "text": "saya nggak mau",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "b72a8e7a-219f-43bb-a1c7-d431e2c6a96b",
+    "data": [
+      {
+        "text": "tidak juga",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "518c55ed-daba-404e-a912-2d61bcff5ecb",
+    "data": [
+      {
+        "text": "tidak",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "b7df2fcc-dd73-452b-801d-d7581ae5d700",
+    "data": [
+      {
+        "text": "sama sekali tidak",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "80f9e8f5-939f-4d88-8ecb-248bd91eaf0e",
+    "data": [
+      {
+        "text": "tidak mau",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "cb21f49a-fb03-43f7-ac3b-e65463f4dc7a",
+    "data": [
+      {
+        "text": "Info Aduan Warga",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "f18091f5-df62-4160-95fd-40c4e56f99ff",
+    "data": [
+      {
+        "text": "Informasi dan Aduan Warga",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "212a969f-687a-4bc6-af11-7577154e84c4",
+    "data": [
+      {
+        "text": "informasi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "fa3ff160-14d2-4d91-8528-b3120eeec1a6",
+    "data": [
+      {
+        "text": "informasi warga",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "da01cfc3-b86f-4d04-8536-d4d59c1ddbf6",
+    "data": [
+      {
+        "text": "Info dan Aduan Warga",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

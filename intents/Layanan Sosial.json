@@ -1,0 +1,78 @@
+{
+  "id": "e9d2bdce-0a66-4336-ade6-184973555938",
+  "name": "Layanan Sosial",
+  "auto": true,
+  "contexts": [
+    "InformasidanAduanWarga-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "InformasidanAduanWarga-followup",
+          "lifespan": 5
+        },
+        {
+          "name": "LayananSosial-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Melalui fitur Layanan Sosial, Wargi Jabar kini dapat menikmati kemudahan dalam mengakses informasi Layanan Sosial. Wargi Jabar juga dapat menemukan informasi terkini mengenai Kesejahteraan Sosial dan Indeks Pembangunan Manusia melalui dashboard sosial di link berikut: https://dashboard.jabarprov.go.id/id/topic/sosial/overview-sosial-2"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "private": false,
+            "content_type": "input_select",
+            "content_attributes": {
+              "items": [
+                {
+                  "value": "Hotline SAPA 129",
+                  "title": "Hotline SAPA 129"
+                },
+                {
+                  "title": "Layanan Kasus Sosial",
+                  "value": "Layanan Kasus Sosial"
+                },
+                {
+                  "title": "Rumah Singgah Humanis",
+                  "value": "Rumah Singgah Humanis"
+                },
+                {
+                  "title": "Aduan/Pertanyaan",
+                  "value": "Aduan/Pertanyaan"
+                }
+              ]
+            },
+            "content": "Apa saja yang ingin Wargi Jabar ketahui seputar Layanan Sosial?"
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

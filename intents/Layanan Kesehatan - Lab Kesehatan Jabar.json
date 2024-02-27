@@ -1,0 +1,54 @@
+{
+  "id": "f1875c0f-f22c-4c0c-9cc2-aa1288ce0a67",
+  "parentId": "6781c311-b0ab-47f6-a286-97c6373db614",
+  "rootParentId": "6781c311-b0ab-47f6-a286-97c6373db614",
+  "name": "Layanan Kesehatan - Lab Kesehatan Jabar",
+  "auto": true,
+  "contexts": [
+    "LayananKesehatan-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananKesehatan.LayananKesehatan-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "a748e39e-bd5d-4a15-b162-e45b38d8f211",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Laboratorium Kesehatan Daerah Jawa Barat\nHotline (022) 2033918\nhttps://jabarprov.go.id/layanan/konsultasi-dokter-labkesprov"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

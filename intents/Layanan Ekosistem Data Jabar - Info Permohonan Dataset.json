@@ -1,0 +1,40 @@
+{
+  "id": "9b7f723c-6f54-4d3c-a8df-03bbbfd3579f",
+  "parentId": "f6a0281d-b6ff-47ed-96f2-af3d0efe131b",
+  "rootParentId": "f6a0281d-b6ff-47ed-96f2-af3d0efe131b",
+  "name": "Layanan Ekosistem Data Jabar - Info Permohonan Dataset",
+  "auto": true,
+  "contexts": [
+    "InformasidanAduanWarga-followup",
+    "LayananEkosistemDataJabar-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananEkosistemDataJabar.LayananEkosistemDataJabar-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Open Data Jabar menyediakan beragam dataset dari Perangkat Daerah di lingkungan Pemdaprov Jawa Barat guna memenuhi kebutuhan Wargi Jabar untuk akses data dan informasi yang akurat dan akuntabel dengan cepat. Fitur “Permohonan Dataset” menyediakan kemudahan kepada pengguna untuk melakukan request dataset apabila dataset yang dibutuhkan tidak ditemukan di Open Data Jabar. Fitur tersebut dapat diakses ada laman https://opendata.jabarprov.go.id/id/dataset/request\n\nHatur Nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

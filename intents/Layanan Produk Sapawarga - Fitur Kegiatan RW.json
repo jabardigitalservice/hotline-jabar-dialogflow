@@ -1,0 +1,40 @@
+{
+  "id": "0851efef-55cc-4fe2-af30-6df1603eba4a",
+  "parentId": "f85b1da1-20c6-41a9-af8e-cb7cd984bc41",
+  "rootParentId": "f85b1da1-20c6-41a9-af8e-cb7cd984bc41",
+  "name": "Layanan Produk Sapawarga - Fitur Kegiatan RW",
+  "auto": true,
+  "contexts": [
+    "InformasidanAduanWarga-followup",
+    "LayananProdukSapawarga-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananProdukSapawarga.LayananProdukSapawarga-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Kegiatan RW adalah fitur di aplikasi Sapawarga yang diperuntukan bagi Kepala RW se-Jawa Barat untuk membagikan dokumentasi foto dan video kegiatan warga sekitar. Untuk dapat masuk ke fitur Kegiatan RW, Wargi Jabar dapat menekan tombol Kegiatan RW di halaman beranda. Setelah menekan tombol tersebut Wargi Jabar akan dialihkan ke halaman Kegiatan RW dan dapat melihat kegiatan - kegiatan RW yang telah diunggah oleh Ketua RW lainnya.\n\nSelain membagikan dokumentasi dan video, Kepala RW juga bisa melakukan: \n1. Memberikan Like, Komentar, Bagikan, dan Profil pada postingan RW lain\n2. Upload Kegiatan harian\n3. Laporkan Kegiatan dan Profile dari postingan yang kurang pantas\n\nInformasi lengkap bisa diakses melalui Manual Book Aplikasi Sapawarga melalui link berikut: http://s.id/manual-book-rw \n\nHatur Nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

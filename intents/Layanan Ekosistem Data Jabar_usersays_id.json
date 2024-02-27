@@ -1,0 +1,36 @@
+[
+  {
+    "id": "e5d3e67c-c190-4ef9-8cd8-192a8adc0328",
+    "data": [
+      {
+        "text": "Layanan Ekosistem Data ",
+        "userDefined": false
+      },
+      {
+        "text": "Jabar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "5be8f0c6-cba2-47eb-86c9-b09487e55c71",
+    "data": [
+      {
+        "text": "Ekosistem Data ",
+        "userDefined": false
+      },
+      {
+        "text": "Jabar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

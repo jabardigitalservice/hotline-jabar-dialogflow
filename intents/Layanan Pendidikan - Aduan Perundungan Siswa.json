@@ -1,0 +1,69 @@
+{
+  "id": "c3eae6dc-2220-420f-aec0-637ab6de915d",
+  "parentId": "ff15d6f0-06b1-4fcf-8bc4-ce344b76d662",
+  "rootParentId": "ff15d6f0-06b1-4fcf-8bc4-ce344b76d662",
+  "name": "Layanan Pendidikan - Aduan Perundungan Siswa",
+  "auto": true,
+  "contexts": [
+    "InformasidanAduanWarga-followup",
+    "LayananPendidikan-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananPendidikan.LayananPendidikan-Aduan-Perundungan-Siswa",
+      "affectedContexts": [
+        {
+          "name": "LayananPendidikan-AduanPerundunganSiswa-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Layanan Aduan Bullying merupakan kanal aduan untuk korban bullying atau perundungan bagi siswa di wilayah Jawa Barat. Dilengkapi dengan layanan telekonsultasi untuk korban dapat melakukan sesi konseling atau pendampingan dengan psikolog/konselor dari Dinas Pemberdayaan Perempuan Perlindungan Anak \u0026 Keluarga Jawa Barat."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "private": false,
+            "content_attributes": {
+              "items": [
+                {
+                  "title": "Laporkan Bullying",
+                  "value": "Laporkan Bullying"
+                },
+                {
+                  "value": "Telekonsultasi",
+                  "title": "Telekonsultasi"
+                }
+              ]
+            },
+            "content": "Untuk memulai, silakan pilih salah satu opsi di bawah:",
+            "content_type": "input_select"
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

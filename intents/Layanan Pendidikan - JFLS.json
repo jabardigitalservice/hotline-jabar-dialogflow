@@ -1,0 +1,40 @@
+{
+  "id": "34533991-9e1d-4682-956a-e0acb335b7c9",
+  "parentId": "ff15d6f0-06b1-4fcf-8bc4-ce344b76d662",
+  "rootParentId": "ff15d6f0-06b1-4fcf-8bc4-ce344b76d662",
+  "name": "Layanan Pendidikan - JFLS",
+  "auto": true,
+  "contexts": [
+    "InformasidanAduanWarga-followup",
+    "LayananPendidikan-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananPendidikan.LayananPendidikan-custom-2",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Jabar Future Leaders Scholarship (JFLS) merupakan program bantuan biaya pendidikan tinggi dari Pemerintah Provinsi Jawa Barat melalui Dinas Pendidikan untuk masyarakat Jawa Barat yang sedang menempuh pendidikan jenjang D3, D4, S1, S2, atau S3 yang berprestasi di bidang akademik maupun non-akademik. Pemberian beasiswa ini bertujuan untuk menyiapkan generasi muda Jawa Barat sebagai calon pemimpin di masa depan yang memiliki jiwa kepemimpinan dan kewirausahaan. Setiap mahasiswa nantinya akan menerima manfaat berupa biaya pendidikan serta program pendampingan di setiap tahunnya.\n\nApabila Wargi Jabar memiliki pertanyaan lain seputar JFLS, silakan hubungi *Layanan Call Center* (022) 4264318\n\nHatur Nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

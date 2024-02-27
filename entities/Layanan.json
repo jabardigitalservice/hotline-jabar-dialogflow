@@ -1,0 +1,9 @@
+{
+  "id": "eeeb4d79-f3f2-4bcc-9e1e-52afd953fb51",
+  "name": "Layanan",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": true,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": false
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "id": "ea28ecb8-3e77-4ae6-b9af-8c31c1dcae6c",
+    "data": [
+      {
+        "text": "dok kependudukan",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "08093541-6538-4edc-9dd4-1378629ad0c2",
+    "data": [
+      {
+        "text": "Dokumen Kependudukan",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

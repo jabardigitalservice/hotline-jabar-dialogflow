@@ -1,0 +1,36 @@
+[
+  {
+    "id": "475e6936-8a1a-42a2-952f-b66d766ff03e",
+    "data": [
+      {
+        "text": "daftar ",
+        "userDefined": false
+      },
+      {
+        "text": "JDA",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "d51ac807-af02-4ed2-bffd-3cf2bec30046",
+    "data": [
+      {
+        "text": "Cara Daftar ",
+        "userDefined": false
+      },
+      {
+        "text": "JDA",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

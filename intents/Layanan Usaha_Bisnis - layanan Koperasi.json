@@ -1,0 +1,39 @@
+{
+  "id": "7bcb5c39-5d1e-4cf8-aeb6-3272c261ad1f",
+  "parentId": "5ea69e84-30e9-4d79-912c-9f15122b1bc5",
+  "rootParentId": "5ea69e84-30e9-4d79-912c-9f15122b1bc5",
+  "name": "Layanan Usaha/Bisnis - layanan Koperasi",
+  "auto": true,
+  "contexts": [
+    "LayananUsahaBisnis-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananUsahaBisnis.LayananUsahaBisnis-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Layanan ini memberikan penyuluhan untuk pendirian koperasi dan pemahaman kepada masyarakat mengenai koperasi. Informasi lebih lanjut bisa diakses melalui link berikut: https://jabarprov.go.id/layanan/penyuluhan-koperasi \n\nHubungi Nomor :  081321717239 atau klik https://wa.me/6281321717239\n\nCall Center di atas adalah Layanan Penyuluhan Koperasi dari Dinas Koperasi dan Usaha Kecil Jawa Barat.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

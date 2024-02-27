@@ -1,0 +1,59 @@
+[
+  {
+    "id": "c8625fc3-f9ec-4ccb-82c3-9442f05db659",
+    "data": [
+      {
+        "text": "Chat ",
+        "userDefined": false
+      },
+      {
+        "text": "Agent",
+        "meta": "@Agent",
+        "alias": "Agent",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "53a1afe4-c40e-4714-b256-b467bfef5afa",
+    "data": [
+      {
+        "text": "Chat Live ",
+        "userDefined": false
+      },
+      {
+        "text": "Agent",
+        "meta": "@Agent",
+        "alias": "Agent",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "08b03eff-94bb-4ca2-bc46-8a980cb5a626",
+    "data": [
+      {
+        "text": "live",
+        "meta": "@Agent",
+        "alias": "Agent",
+        "userDefined": true
+      },
+      {
+        "text": " chat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

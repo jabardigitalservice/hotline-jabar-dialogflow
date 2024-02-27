@@ -1,0 +1,40 @@
+{
+  "id": "2758222e-42e6-4e80-8690-deac40f3df4a",
+  "parentId": "bbdff96f-6c9c-4c4f-824c-f80a9b1d287c",
+  "rootParentId": "bbdff96f-6c9c-4c4f-824c-f80a9b1d287c",
+  "name": "Layanan Jabar Digital Academy -  Info Umum Program JDA",
+  "auto": true,
+  "contexts": [
+    "InformasidanAduanWarga-followup",
+    "LayananJabarDigitalAcademy-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananJabarDigitalAcademy.LayananJabarDigitalAcademy-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Program resmi Pemerintah Daerah Provinsi Jawa Barat yang memberi kesempatan bagi Wargi Jabar untuk meningkatkan literasi dan kompetensi digital melalui, seminar, pelatihan, pengembangan komunitas, dan kegiatan lainnya di ranah digital.\nMelalui program ini, kami bantu latih potensi peserta untuk mendapatkan pekerjaan, pembinaan karir, dan menciptakan peluang bagi anak bangsa untuk menjadi pemimpin dalam perkembangan inovasi dan teknologi di masa depan.\nInformasi lengkap seputar program Jabar Digital Academy di Jawa Barat dapat diakses melalui laman: https://digitalacademy.jabarprov.go.id/ \n\nHatur Nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

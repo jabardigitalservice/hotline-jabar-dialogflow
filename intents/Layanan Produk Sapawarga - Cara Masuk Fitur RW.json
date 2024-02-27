@@ -1,0 +1,55 @@
+{
+  "id": "6ef061df-0adf-46ab-921a-8e583f0b0c97",
+  "parentId": "f85b1da1-20c6-41a9-af8e-cb7cd984bc41",
+  "rootParentId": "f85b1da1-20c6-41a9-af8e-cb7cd984bc41",
+  "name": "Layanan Produk Sapawarga - Cara Masuk Fitur RW",
+  "auto": true,
+  "contexts": [
+    "InformasidanAduanWarga-followup",
+    "LayananProdukSapawarga-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananProdukSapawarga.LayananProdukSapawarga-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "4752d7d6-c980-4e3e-b563-8a0e5bbf808d",
+          "name": "Layanan",
+          "required": false,
+          "dataType": "@Layanan",
+          "value": "$Layanan",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Ketua RW yang sudah terdaftar dapat masuk ke aplikasi Sapawarga RW dengan mengikuti langkah berikut:\n\n1. Buka aplikasi Sapawarga.\n2. Masukkan username dan password.\n3. Pilih tombol masuk.\n4. Klik fitur “Sapawarga RW”\n\nHatur Nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

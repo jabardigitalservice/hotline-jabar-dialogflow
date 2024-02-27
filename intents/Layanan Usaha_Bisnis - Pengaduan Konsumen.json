@@ -1,0 +1,39 @@
+{
+  "id": "99b696a8-1f52-47be-a584-05f35cb5ede9",
+  "parentId": "5ea69e84-30e9-4d79-912c-9f15122b1bc5",
+  "rootParentId": "5ea69e84-30e9-4d79-912c-9f15122b1bc5",
+  "name": "Layanan Usaha/Bisnis - Pengaduan Konsumen",
+  "auto": true,
+  "contexts": [
+    "LayananUsahaBisnis-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananUsahaBisnis.LayananUsahaBisnis-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Layanan ini memberikan penanganan atas laporan ketidakpuasan konsumen yang disebabkan oleh adanya kerugian dan/atau potensi kerugian materil, wajar, dan secara langsung kepada konsumen akhir. Konsumen yang dimaksud adalah setiap orang yang pemakai barang dan/atau jasa yang tersedia dalam masyarakat baik bagi kepentingan sendiri, keluarga, orang lain maupun makhluk hidup lain dan tidak untuk diperdagangkan. Informasi lebih lanjut bisa diakses melalui link berikut: https://jabarprov.go.id/layanan/pengaduankonsumen \n\nHubungi Nomor :  (022) 4230897\n\nCall Center di atas adalah Layanan Pengaduan Konsumen dari Dinas Perindustrian dan Perdagangan Jawa Barat.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,40 @@
+[
+  {
+    "id": "858f8d53-3771-4eb0-acaa-e51e171ac162",
+    "data": [
+      {
+        "text": "Lainnya ",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "dfcff3c9-ffab-4113-91a2-e78bb20a1c31",
+    "data": [
+      {
+        "text": "Kota/",
+        "userDefined": false
+      },
+      {
+        "text": " Kab Lainnya ",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

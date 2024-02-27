@@ -1,0 +1,49 @@
+[
+  {
+    "id": "6e663af5-bcb8-4f25-8965-08410e2c7638",
+    "data": [
+      {
+        "text": "Layanan Lainnya",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "0eea3567-e899-4c08-897b-4a8248ba6ff6",
+    "data": [
+      {
+        "text": "aduan ",
+        "userDefined": false
+      },
+      {
+        "text": "warga",
+        "userDefined": false
+      },
+      {
+        "text": " lainnya",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "c0ef5c51-6e36-4224-8991-2f554fc819c7",
+    "data": [
+      {
+        "text": "informasi lainnya",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

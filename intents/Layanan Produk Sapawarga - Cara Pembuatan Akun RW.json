@@ -1,0 +1,55 @@
+{
+  "id": "203a31ae-ab07-47be-877e-14e9b40cf3f3",
+  "parentId": "f85b1da1-20c6-41a9-af8e-cb7cd984bc41",
+  "rootParentId": "f85b1da1-20c6-41a9-af8e-cb7cd984bc41",
+  "name": "Layanan Produk Sapawarga - Cara Pembuatan Akun RW",
+  "auto": true,
+  "contexts": [
+    "InformasidanAduanWarga-followup",
+    "LayananProdukSapawarga-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananProdukSapawarga.LayananProdukSapawarga-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "62a096cd-7d10-4da7-be6c-dfe5c8280ea7",
+          "name": "layanan",
+          "required": false,
+          "dataType": "@Layanan",
+          "value": "$layanan",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Untuk pembuatan akun *Sapawarga*, Wargi Jabar dapat mengikuti langkah-langkah berikut:\n\n1. Buka aplikasi Sapawarga.\n2. Klik “Buat Akun” pada halaman Masuk Aplikasi.\n3. Isi email, password, dan data diri secara lengkap.\n4. Periksa kembali isian lalu klik “Simpan Data”\n5. Segera periksa pesan otomatis yang sistem kirim ke email Wargi Jabar untuk verifikasi akun.\n6. Klik tombol “Verifikasi Akun Saya” yang terdapat di badan email.\n7. Wargi Jabar akan dialihkan kembali ke aplikasi Sapawarga.\n8. Silakan masukan email dan password yang sudah berhasil diverifikasi.\n\nHatur Nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

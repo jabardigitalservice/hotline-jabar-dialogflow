@@ -1,0 +1,53 @@
+[
+  {
+    "id": "a6bfb072-9f2b-4088-ae48-0ca8313558c7",
+    "data": [
+      {
+        "text": "program ",
+        "userDefined": false
+      },
+      {
+        "text": "JDA",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "440da712-3d71-4e06-bf7a-4c4f971ef046",
+    "data": [
+      {
+        "text": "info ",
+        "userDefined": false
+      },
+      {
+        "text": "JDA",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "94d73751-71f1-47c8-9d97-bdc8ecbbb43d",
+    "data": [
+      {
+        "text": "Info Umum Program ",
+        "userDefined": false
+      },
+      {
+        "text": "JDA",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

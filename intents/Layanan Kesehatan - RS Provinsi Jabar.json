@@ -1,0 +1,54 @@
+{
+  "id": "e6fe0779-ad25-4950-8965-dc8004e2d7bf",
+  "parentId": "6781c311-b0ab-47f6-a286-97c6373db614",
+  "rootParentId": "6781c311-b0ab-47f6-a286-97c6373db614",
+  "name": "Layanan Kesehatan - RS Provinsi Jabar",
+  "auto": true,
+  "contexts": [
+    "LayananKesehatan-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananKesehatan.LayananKesehatan-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "88107d70-f24f-475e-856c-503996201c5c",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "RSUD Al Ihsan \nHotline 08112241000 atau klik https://wa.me/628112241000\nhttps://jabarprov.go.id/layanan/instalasi-gawat-darurat-rsud-al-ihsan \n\n\nRSUD Jampang Kulon\nHotline (0266) 490009\nhttps://jabarprov.go.id/layanan/instalasi-gawat-darurat-1690280665\n\n\nRSUD Pameungpeuk\nHotline 085315370355 atau klik https://wa.me/6285315370355\nhttps://jabarprov.go.id/layanan/instalasi-gawat-darurat-rsud-pameungpeuk\n\n\nRS Paru Sidawangi\nHotline 08112400747 atau klik https://wa.me/628112400747\nhttps://jabarprov.go.id/layanan/klinik-penyakit-dalam-rs-paru-sidawangi-1698670255\n\n\nRSUD Kesehatan Kerja\nHotline (022) 7798778\nhttps://jabarprov.go.id/layanan/instalasi-gawat-darurat-1688693188"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

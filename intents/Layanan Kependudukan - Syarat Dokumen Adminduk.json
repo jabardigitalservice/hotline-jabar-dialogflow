@@ -1,0 +1,39 @@
+{
+  "id": "44b414d8-efb6-4401-b6ea-84a92cf9b4a5",
+  "parentId": "4dbe4496-703a-4776-8d63-ed8e0a56f4ab",
+  "rootParentId": "4dbe4496-703a-4776-8d63-ed8e0a56f4ab",
+  "name": "Layanan Kependudukan - Syarat Dokumen Adminduk",
+  "auto": true,
+  "contexts": [
+    "LayananKependudukan-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananKependudukan.LayananKependudukan-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Dalam rangka meningkatkan kualitas pelayanan Administrasi Kependudukan yang lebih mudah, cepat, dan akurat bagi Wargi Jabar.\nInformasi Jenis Layanan, Persyaratan dan Penjelasan dalam pelayanan Pendaftaran Penduduk dan Pencatatan Sipil dapat diakses melalui link berikut: \nhttps://disdukcapil.jabarprov.go.id/persyaratan-dokumen-adminduk"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

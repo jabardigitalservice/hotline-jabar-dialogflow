@@ -1,0 +1,32 @@
+[
+  {
+    "id": "5ef894e7-1249-4494-9634-e665b57c134c",
+    "data": [
+      {
+        "text": "ketenagakerjaan",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "52e2ed34-e7da-4cc7-b8ae-9dbd162e5324",
+    "data": [
+      {
+        "text": "Layanan ",
+        "userDefined": false
+      },
+      {
+        "text": "Ketenagakerjaan",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "id": "758b8665-7ee6-49f3-9e45-f63385a8bda0",
+  "parentId": "c4f4f3ca-3caa-48cb-9b49-32f33e084268",
+  "rootParentId": "849871b0-8f12-4754-a74c-5c7e33c23a66",
+  "name": "Layanan Pajak Kendaraan Bermotor - Cara Lepas Kepemilikan - Lepas Kepemilikan",
+  "auto": true,
+  "contexts": [
+    "LayananPajakKendaraanBermotor-CaraLepasKepemilikan-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananPajakKendaraanBermotor.LayananPajakKendaraanBermotor-custom.LayananPajakKendaraanBermotor-CaraLepasKepemilikan-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Untuk melakukan lepas kepemilikan kendaraan bermotor, Wargi Jabar dapat menggunakan fitur Lepas Kepemilikan pada Sapawarga dengan cara berikut:\n\n1. Login ke aplikasi Sapawarga.\n2. Klik menu “Lepas Kepemilikan”.\n3. Wargi Jabar akan dialihkan ke form untuk mengisi data yang dibutuhkan.\n4. Pilih alasan dilakukannya lepas kepemilikan kendaraan dan lengkapi dokumen yang diminta.\n5. Setelah melakukan submit, tim akan melakukan pengecekan terkait kelengkapan data yang terlampir dan Wargi Jabar silakan cek status nopol kendaraan pada aplikasi Sapawarga.\n\n*Catatan:*\n1. Jam operasional untuk layanan lepas kepemilikan:\n      - Senin-Jumat (08.00-15.00 WIB)\n      - Sabtu (08.00-12.00 WIB)\n2. Kuota untuk lepas kepemilikan kendaraan bermotor dalam sehari adalah sebanyak 30 pemohon.\n3. Proses dilakukannya lepas kepemilikan oleh tim Samsat adalah 1x24 jam.\n\n\nHatur Nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

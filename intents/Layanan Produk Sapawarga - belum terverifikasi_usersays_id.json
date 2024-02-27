@@ -1,0 +1,41 @@
+[
+  {
+    "id": "fec5028d-91fa-403e-afac-da7a21c5beb2",
+    "data": [
+      {
+        "text": "sapawarga belum terverifikasi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "81380c00-15f5-4123-9ea4-eba0e801bde0",
+    "data": [
+      {
+        "text": "Akun sapawarga Belum Terverifikasi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "8a59b1d6-232e-44df-95c8-27124de1829b",
+    "data": [
+      {
+        "text": "Belum Terverifikasi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

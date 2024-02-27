@@ -1,0 +1,39 @@
+{
+  "id": "86c38fda-bc0e-4773-9c98-393e63bd5f05",
+  "parentId": "5ea69e84-30e9-4d79-912c-9f15122b1bc5",
+  "rootParentId": "5ea69e84-30e9-4d79-912c-9f15122b1bc5",
+  "name": "Layanan Usaha/Bisnis - Perizinan Merek",
+  "auto": true,
+  "contexts": [
+    "LayananUsahaBisnis-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananUsahaBisnis.LayananUsahaBisnis-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Layanan ini memberikan fasilitasi bagi Industri Kecil Menengah (IKM) agar produknya memiliki sertifikat merek melalui tahapan pendaftaran, kurasi, sosialisasi, verifikasi, hingga penerbitan sertifikat merek. Informasi lebih lanjut bisa diakses melalui link berikut: https://jabarprov.go.id/layanan/fasilitasimerek \n\nHubungi Nomor :  (022) 4230897\n\nCall Center di atas adalah Layanan Pendampingan Merek dari Dinas Perindustrian dan Perdagangan Jawa Barat.\n\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

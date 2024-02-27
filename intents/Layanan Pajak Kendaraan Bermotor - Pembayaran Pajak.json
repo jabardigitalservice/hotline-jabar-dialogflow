@@ -1,0 +1,67 @@
+{
+  "id": "3eaf5a6d-b7af-4e44-9a72-486cfca9a3cc",
+  "parentId": "849871b0-8f12-4754-a74c-5c7e33c23a66",
+  "rootParentId": "849871b0-8f12-4754-a74c-5c7e33c23a66",
+  "name": "Layanan Pajak Kendaraan Bermotor - Pembayaran Pajak",
+  "auto": true,
+  "contexts": [
+    "InformasidanAduanWarga-followup",
+    "LayananPajakKendaraanBermotor-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananPajakKendaraanBermotor.LayananPajakKendaraanBermotor-custom",
+      "affectedContexts": [
+        {
+          "name": "LayananPajakKendaraanBermotor-PembayaranPajak-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "content_attributes": {
+              "items": [
+                {
+                  "value": "Cara Bayar Pajak",
+                  "title": "Cara Bayar Pajak"
+                },
+                {
+                  "title": "Kanal SAMBARA",
+                  "value": "Kanal SAMBARA"
+                },
+                {
+                  "value": "Cek Status Bayar",
+                  "title": "Cek Status Bayar"
+                },
+                {
+                  "value": "Pengesahan STNK",
+                  "title": "Pengesahan STNK"
+                }
+              ]
+            },
+            "content": "Pembayaran pajak kendaraan bermotor dengan aplikasi Sapawarga sangat praktis, tinggal klik layar semua beres. Dengan menggunakan fitur Sambara, Wargi Jabar dapat langsung membayar pajak kendaraan melalui aplikasi.\n\nSilakan pilih salah satu opsi di bawah :",
+            "content_type": "input_select",
+            "private": false
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

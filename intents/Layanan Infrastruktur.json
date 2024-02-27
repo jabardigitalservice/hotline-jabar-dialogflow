@@ -1,0 +1,74 @@
+{
+  "id": "625b0144-6d5e-493c-ab0c-018561d949ef",
+  "name": "Layanan Infrastruktur",
+  "auto": true,
+  "contexts": [
+    "InformasidanAduanWarga-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "InformasidanAduanWarga-followup",
+          "lifespan": 5
+        },
+        {
+          "name": "LayananInfrastruktur-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Melalui fitur Layanan Infrastruktur, Wargi Jabar dapat dengan menikmati kemudahan mengakses info seputar perbaikan jalan dan jembatan juga penataan ruang di Jawa Barat."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "private": false,
+            "content_type": "input_select",
+            "content": "Apa saja yang ingin Wargi Jabar ketahui seputar Layanan Infrastruktur?",
+            "content_attributes": {
+              "items": [
+                {
+                  "title": "TEMAN JABAR",
+                  "value": "TEMAN JABAR"
+                },
+                {
+                  "title": "WARGI JABAR",
+                  "value": "WARGI JABAR"
+                },
+                {
+                  "title": "Aduan/ Pertanyaan",
+                  "value": "Aduan/ Pertanyaan"
+                }
+              ]
+            }
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

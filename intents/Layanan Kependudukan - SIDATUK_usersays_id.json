@@ -1,0 +1,34 @@
+[
+  {
+    "id": "5f0da9af-8823-49b9-913b-7d2b5391e4ed",
+    "data": [
+      {
+        "text": "layanan ",
+        "userDefined": false
+      },
+      {
+        "text": "SIDATUK",
+        "meta": "@sys.person",
+        "alias": "person",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "5a678766-b08f-48c2-8688-acffaf08d420",
+    "data": [
+      {
+        "text": "SIDATUK",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

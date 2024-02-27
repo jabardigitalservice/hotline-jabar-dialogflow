@@ -1,0 +1,39 @@
+{
+  "id": "59c9b98c-cb85-4708-9813-dc17b7f9e750",
+  "parentId": "5ea69e84-30e9-4d79-912c-9f15122b1bc5",
+  "rootParentId": "5ea69e84-30e9-4d79-912c-9f15122b1bc5",
+  "name": "Layanan Usaha/Bisnis - Uji Mutu Perkebunan",
+  "auto": true,
+  "contexts": [
+    "LayananUsahaBisnis-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananUsahaBisnis.LayananUsahaBisnis-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Layanan ini memberikan rekomendasi izin usaha produksi benih tanaman perkebunan untuk produsen benih. Informasi lebih lanjut bisa diakses melalui link berikut: https://jabarprov.go.id/layanan/rekomendasi-izin-usaha-produksi-benih-tanaman-perkebunan-1695363735 \n\nHubungi Nomor :  (022) 2505826\n\nCall Center di atas adalah Layanan Rekomendasi Izin Usaha Produksi Benih Tanaman Perkebunan dari Dinas Perkebunan Jawa Barat.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

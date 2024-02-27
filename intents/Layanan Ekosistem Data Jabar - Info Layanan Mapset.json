@@ -1,0 +1,40 @@
+{
+  "id": "2e0596f9-e831-4b96-81be-ad954f0d9961",
+  "parentId": "f6a0281d-b6ff-47ed-96f2-af3d0efe131b",
+  "rootParentId": "f6a0281d-b6ff-47ed-96f2-af3d0efe131b",
+  "name": "Layanan Ekosistem Data Jabar - Info Layanan Mapset",
+  "auto": true,
+  "contexts": [
+    "InformasidanAduanWarga-followup",
+    "LayananEkosistemDataJabar-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananEkosistemDataJabar.LayananEkosistemDataJabar-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Satu Peta Jabar merupakan portal transparansi data dan informasi publik untuk memberikan kemudahan bagi Perangkat Daerah dan Wargi Jabar dalam mendukung upaya pengambilan keputusan yang lebih terukur. Beragam mapset dari berbagai sektor dapat diakses dan diunduh dalam bentuk dataset, gambar, SHP, dan metadata XML. Satu Peta Jabar juga memungkinkan pengguna melakukan layering peta untuk membantu analisis spasial yang lebih komprehensif. Untuk eksplorasi beragam mapset Satu Peta Jabar dapat diakses pada laman berikut https://satupeta.jabarprov.go.id/maps\n\nHatur Nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

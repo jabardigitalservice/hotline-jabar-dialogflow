@@ -1,0 +1,39 @@
+{
+  "id": "384c8786-343c-498d-9817-12ca5e962631",
+  "parentId": "52aa82ec-3b19-4d4e-b7d2-7d6ff9728817",
+  "rootParentId": "849871b0-8f12-4754-a74c-5c7e33c23a66",
+  "name": "Layanan Pajak Kendaraan Bermotor - Cek Informasi Pajak - Cek Milik Orang Lain",
+  "auto": true,
+  "contexts": [
+    "LayananPajakKendaraanBermotor-CekInformasiPajak-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananPajakKendaraanBermotor.LayananPajakKendaraanBermotor-custom.LayananPajakKendaraanBermotor-CekInformasiPajak-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Untuk melakukan cek pajak kendaraan bermotor milik orang lain, Wargi Jabar dapat melakukannya dengan cara sebagai berikut:\n\n1. Login aplikasi Sapawarga.\n2. Masuk ke fitur “Pajak Kendaraan Bermotor”.\n3. Pilih menu “Cek Pajak Kendaraan Lain”.\n4. Masukkan nomor polisi kendaraan yang ingin dicek.\n5. Masukkan warna TNKB.\n6. Kemudian tekan \"Cari\".\n7. Rincian kendaraan akan muncul pada halaman aplikasi.\n\nHatur Nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

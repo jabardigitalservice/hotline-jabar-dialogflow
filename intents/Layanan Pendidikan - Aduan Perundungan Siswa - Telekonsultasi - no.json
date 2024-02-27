@@ -1,0 +1,39 @@
+{
+  "id": "1142c453-0542-40b3-9857-d6c40f3a6542",
+  "parentId": "90c4b1ca-571e-44fd-993d-acc1a29c2dd0",
+  "rootParentId": "ff15d6f0-06b1-4fcf-8bc4-ce344b76d662",
+  "name": "Layanan Pendidikan - Aduan Perundungan Siswa - Telekonsultasi - no",
+  "auto": true,
+  "contexts": [
+    "LayananPendidikan-AduanPerundunganSiswa-Telekonsultasi-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananPendidikan.LayananPendidikan-Aduan-Perundungan-Siswa.LayananPendidikan-AduanPerundunganSiswa-custom.LayananPendidikan-AduanPerundunganSiswa-Telekonsultasi-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Wargi Jabar masuk dalam kategori Sekolah diluar Kewenangan Dinas Pendidikan Jabar sehingga Telekonsultasi dapat dilakukan dengan Psikolog/Konselor dari DP3AKB. Wargi Jabar dapat menghubungi Psikolog/Konselor dari DP3AKB  pada Nomor Hotline UPTD PPA Provinsi Jawa Barat \n\n▶️  http://wa.me/6285222206777 \n\nHatur Nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

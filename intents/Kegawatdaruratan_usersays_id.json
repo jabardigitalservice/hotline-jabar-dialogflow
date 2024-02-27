@@ -1,0 +1,67 @@
+[
+  {
+    "id": "f9cb0105-014f-43e7-a15a-044b6ec373ac",
+    "data": [
+      {
+        "text": "darurat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "3483f4e5-3e08-4bed-a089-ecc1002ed79c",
+    "data": [
+      {
+        "text": "gawat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "fc3f327f-9b63-444c-8d3f-2fb898296513",
+    "data": [
+      {
+        "text": "gawat darurat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "7f2230ae-3a38-4aed-96b8-ba04894d6bed",
+    "data": [
+      {
+        "text": "Kegawatdaruratan",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "791890d6-fee3-4830-9d11-1f060764cb30",
+    "data": [
+      {
+        "text": "Layanan Kegawatdaruratan",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

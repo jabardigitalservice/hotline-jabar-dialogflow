@@ -1,0 +1,57 @@
+[
+  {
+    "id": "c22a5232-6343-432d-8875-76278cf0fa04",
+    "data": [
+      {
+        "text": "Kota/",
+        "userDefined": false
+      },
+      {
+        "text": " Kab Lainnya",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "a9368538-e331-44da-aa4b-0cb18a17cbd1",
+    "data": [
+      {
+        "text": "Kota/",
+        "userDefined": false
+      },
+      {
+        "text": " Kab Lainnya ",
+        "userDefined": false
+      },
+      {
+        "text": "1",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "6429737b-f752-4f0c-bf79-8845480bbdec",
+    "data": [
+      {
+        "text": "Lainnya ",
+        "userDefined": false
+      },
+      {
+        "text": "1",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

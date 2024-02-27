@@ -1,0 +1,40 @@
+{
+  "id": "68908f64-25bf-493d-92a1-48e6a3656ebc",
+  "parentId": "5d252839-12f1-4ffb-aab3-d2894dd58875",
+  "rootParentId": "5d252839-12f1-4ffb-aab3-d2894dd58875",
+  "name": "layanan lingkungan hidup - Citarum Harum",
+  "auto": true,
+  "contexts": [
+    "InformasidanAduanWarga-followup",
+    "layananlingkunganhidup-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "layananlingkunganhidup.layananlingkunganhidup-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Citarum Harum Program Citarum Harum merupakan upaya Pemerintah Provinsi Jawa Barat dalam mengatasi pencemaran air sungai. Mengusung konsep pentahelix, pemerintah berkolaborasi dengan berbagai pihak, mulai dari level pusat, daerah, dan kelembagaan lainnya. Terdapat 13 Program Rencana Aksi Citarum Harum, diantaranya mengenai penanganan limbah, sampah domestik, penegakan hukum, hingga edukasi masyarakat.\n\nApabila Wargi Jabar memiliki pertanyaan lain seputar Citarum Harum, silakan hubungi Email citarumharumch@gmail.com dan website https://citarumharum.jabarprov.go.id/"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

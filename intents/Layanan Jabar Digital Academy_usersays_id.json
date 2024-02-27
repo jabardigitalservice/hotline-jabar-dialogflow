@@ -1,0 +1,53 @@
+[
+  {
+    "id": "56ef97aa-486b-4790-80e5-d0387f3ffc08",
+    "data": [
+      {
+        "text": "JDA",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "264f524b-af88-4a3c-94a2-d80faae585df",
+    "data": [
+      {
+        "text": "Jabar Digital",
+        "userDefined": false
+      },
+      {
+        "text": " Academy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "f9d74feb-8d91-4983-862a-8768442b99c5",
+    "data": [
+      {
+        "text": "Layanan ",
+        "userDefined": false
+      },
+      {
+        "text": "Jabar Digital",
+        "userDefined": false
+      },
+      {
+        "text": " Academy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

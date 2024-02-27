@@ -1,0 +1,39 @@
+{
+  "id": "59036cef-0b83-4839-8f9f-61faf58802cc",
+  "parentId": "9f81b4d8-10a5-4cdf-b6a7-da1d8a3839c9",
+  "rootParentId": "9f81b4d8-10a5-4cdf-b6a7-da1d8a3839c9",
+  "name": "Layanan Reservasi Ruang Publik - Wahanan Public JCC",
+  "auto": true,
+  "contexts": [
+    "LayananReservasiRuangPublik-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananReservasiRuangPublik.LayananReservasiRuangPublik-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Melalui sistem ini, Wargi Jabar dapat melakukan reservasi kunjungan ke Wahana Publik Jabar Command Center secara online. Tahap pertama pembukaan Wahana Publik di Jabar Command Center diperuntukkan bagi reservasi kelompok dan bukan perseorangan. Apabila Wargi Jabar memiliki komunitas yang bergerak di bidang kewirausahaan, organisasi kemasyarakatan, akademisi, dan pemerintah lainnya, silakan reservasi kelompok atau komunitas Wargi Jabar melalui formulir di Sapawarga.\n\nBerikut tata cara pemesanan tiket Galeri Rasulullah melalui Sapawarga:\n1. Mengunduh aplikasi Sapawarga selengkapnya di  http//s.id/jabarsuperapps (dengan memilih Sapawarga Android atau IOS)\n2. Klik menu “Reservasi Wahana Publik”\n3. User perlu memiliki akun dan login\n4. Isi formulir permohonan reservasi kunjungan\n5. Setelah semua terisi, klik “Kirim”\n6. Selanjutnya tim Command Center akan melakukan verifikasi permohonan\n7. Apabila permohonan kunjungan tidak bentrok dengan agenda pimpinan, maka tim Command Center akan mengkonfirmasi dengan mengirimkan pesan melalui whatsapp, begitu pula apabila bentrok akan ada tim Command Center yang menghubungi untuk melakukan penjadwalan ulang\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

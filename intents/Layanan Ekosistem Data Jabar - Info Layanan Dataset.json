@@ -1,0 +1,40 @@
+{
+  "id": "9b46e84d-491c-4811-90fe-04f7033223d7",
+  "parentId": "f6a0281d-b6ff-47ed-96f2-af3d0efe131b",
+  "rootParentId": "f6a0281d-b6ff-47ed-96f2-af3d0efe131b",
+  "name": "Layanan Ekosistem Data Jabar - Info Layanan Dataset",
+  "auto": true,
+  "contexts": [
+    "InformasidanAduanWarga-followup",
+    "LayananEkosistemDataJabar-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananEkosistemDataJabar.LayananEkosistemDataJabar-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Open Data Jabar merupakan portal transparansi data dan informasi publik bagi Wargi Jabar. Siapa saja bisa jelajahi dan dapatan koleksi dataset terbuka dari seluruh Perangkat Daerah maupun Kabupaten/Kota di Provinsi Jawa Barat yang dapat diakses di laman \nhttps://opendata.jabarprov.go.id/id/dataset \n\nAda berbagai layanan yang dapat diakses melalui website ini, diantaranya: \n1. Akses Dataset dari seluruh Organisasi Perangkat Daerah di Provinsi Jawa Barat (https://opendata.jabarprov.go.id/id/dataset)\n2. Akses Dataset dalam bentuk Visualisasi dari seluruh Organisasi Perangkat Daerah di Provinsi Jawa Barat (https://opendata.jabarprov.go.id/id/visualisasi)\n3. Akses Dataset dalam bentuk Infografik dari seluruh Organisasi Perangkat Daerah di Provinsi Jawa Barat (https://opendata.jabarprov.go.id/id/infografik)\n\nHatur Nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

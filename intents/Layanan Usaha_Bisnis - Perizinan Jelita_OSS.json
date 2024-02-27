@@ -1,0 +1,39 @@
+{
+  "id": "910e1671-6514-483d-b047-1f1b1b583e30",
+  "parentId": "5ea69e84-30e9-4d79-912c-9f15122b1bc5",
+  "rootParentId": "5ea69e84-30e9-4d79-912c-9f15122b1bc5",
+  "name": "Layanan Usaha/Bisnis - Perizinan Jelita/OSS",
+  "auto": true,
+  "contexts": [
+    "LayananUsahaBisnis-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananUsahaBisnis.LayananUsahaBisnis-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Layanan Online ini bertujuan memberikan akses yang lebih luas kepada masyarakat dalam memperoleh informasi dan layanan publik terkait Penanaman Modal dan Perizinan. Informasi lebih lanjut bisa diakses melalui link berikut: https://dpmptsp.jabarprov.go.id/web/pages/detail/220-layanan-online/87 \n\nHubungi Nomor :  (022) 73515000\n\nCall Center di atas adalah Layanan Perizinan Usaha dari Dinas Penanaman Modal dan Pelayanan Terpadu Satu Pintu Jawa Barat.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

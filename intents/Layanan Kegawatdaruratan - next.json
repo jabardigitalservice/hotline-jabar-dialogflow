@@ -1,0 +1,90 @@
+{
+  "id": "dce4c567-676e-4835-a54c-e97b34eaa3b5",
+  "parentId": "c707c1f4-9459-4729-ac32-2d42d81b0c78",
+  "rootParentId": "d89dff82-e503-4b74-b0fe-0e0a604469a2",
+  "name": "Layanan Kegawatdaruratan - next",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "LayananKegawatdaruratan-next-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "content_attributes": {
+              "items": [
+                {
+                  "value": "Kota Tasikmalaya",
+                  "title": "Kota Tasikmalaya"
+                },
+                {
+                  "title": "Kab. Bandung",
+                  "value": "Kab. Bandung"
+                },
+                {
+                  "value": "Kab. Bandung Barat",
+                  "title": "Kab. Bandung Barat"
+                },
+                {
+                  "title": "Kab. Bekasi",
+                  "value": "Kab. Bekasi"
+                },
+                {
+                  "title": "Kab. Bogor",
+                  "value": "Kab. Bogor"
+                },
+                {
+                  "value": "Kab. Ciamis",
+                  "title": "Kab. Ciamis"
+                },
+                {
+                  "value": "Kab. Cianjur",
+                  "title": "Kab. Cianjur"
+                },
+                {
+                  "title": "Kab. Cirebon",
+                  "value": "Kab. Cirebon"
+                },
+                {
+                  "value": "Kab. Garut",
+                  "title": "Kab. Garut"
+                },
+                {
+                  "title": "Kota/ Kab Lainnya 2",
+                  "value": "Kota/ Kab Lainnya 2"
+                }
+              ]
+            },
+            "content_type": "input_select",
+            "content": "Silakan pilih salah satu opsi di bawah ini :",
+            "private": false
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

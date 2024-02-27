@@ -1,0 +1,49 @@
+{
+  "id": "6c6f7ec8-ae83-4ffb-a69c-dbd68d6a8266",
+  "parentId": "90c4b1ca-571e-44fd-993d-acc1a29c2dd0",
+  "rootParentId": "ff15d6f0-06b1-4fcf-8bc4-ce344b76d662",
+  "name": "Layanan Pendidikan - Aduan Perundungan Siswa - Telekonsultasi - yes",
+  "auto": true,
+  "contexts": [
+    "LayananPendidikan-AduanPerundunganSiswa-Telekonsultasi-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananPendidikan.LayananPendidikan-Aduan-Perundungan-Siswa.LayananPendidikan-AduanPerundunganSiswa-custom.LayananPendidikan-AduanPerundunganSiswa-Telekonsultasi-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Selamat datang di Telekonsultasi Kesehatan Mental. Layanan ini ditujukan untuk siswa yang menjadi korban bully di wilayah Jawa Barat, Anda akan segera tersambung dengan agent kami. di mohon untuk menunggu.\n\nHatur Nuhun 🙏"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "action": "handoff"
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

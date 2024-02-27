@@ -1,0 +1,74 @@
+{
+  "id": "5d252839-12f1-4ffb-aab3-d2894dd58875",
+  "name": "layanan lingkungan hidup",
+  "auto": true,
+  "contexts": [
+    "InformasidanAduanWarga-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "InformasidanAduanWarga-followup",
+          "lifespan": 5
+        },
+        {
+          "name": "layananlingkunganhidup-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Melalui fitur Layanan Lingkungan Hidup, Wargi Jabar kini dapat menikmati kemudahan dalam mengakses informasi lingkungan. Wargi Jabar juga dapat menemukan informasi terkini seputar  Indeks Kualitas Lingkungan Hidup dan Kondisi Pencemaran Air di Jawa Barat melalui dashboard lingkungan hidup di link berikut: https://dashboard.jabarprov.go.id/id/topic/lingkungan-hidup/overview-lingkungan-hidup"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "private": false,
+            "content_attributes": {
+              "items": [
+                {
+                  "value": "ECIS DLH",
+                  "title": "ECIS DLH"
+                },
+                {
+                  "title": "Citarum Harum",
+                  "value": "Citarum Harum"
+                },
+                {
+                  "title": "Aduan/Pertanyaan",
+                  "value": "Aduan/Pertanyaan"
+                }
+              ]
+            },
+            "content_type": "input_select",
+            "content": "Apa saja yang ingin Wargi Jabar ketahui seputar Layanan Lingkungan Hidup?"
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

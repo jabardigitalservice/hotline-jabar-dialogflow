@@ -1,0 +1,36 @@
+[
+  {
+    "id": "6dc11c55-541e-4c24-8514-873c800a8be5",
+    "data": [
+      {
+        "text": "Reservasi Ruang Publik",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "ae049372-eaa0-45d4-9b86-9566cb0452af",
+    "data": [
+      {
+        "text": "Layanan Reservasi ",
+        "userDefined": false
+      },
+      {
+        "text": "Ruang",
+        "userDefined": false
+      },
+      {
+        "text": " Publik",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

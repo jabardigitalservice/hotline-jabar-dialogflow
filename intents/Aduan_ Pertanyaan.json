@@ -1,0 +1,45 @@
+{
+  "id": "c76d8008-073e-4632-a5f9-958841f3469c",
+  "name": "Aduan/ Pertanyaan",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "content": "Apabila Wargi Jabar memiliki aduan atau pertanyaan lainnya, silakan disampaikan melalui link berikut: https://s.id/FormAduanWarga atau dapat menghubungi live agent Hotline Jabar dengan klik tombol dibawah ini.",
+            "content_attributes": {
+              "items": [
+                {
+                  "value": "Live Chat Agent",
+                  "title": "Live Chat Agent"
+                }
+              ]
+            },
+            "private": false,
+            "content_type": "input_select"
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

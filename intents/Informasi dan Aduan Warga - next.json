@@ -1,0 +1,65 @@
+{
+  "id": "e67a8b2a-57c5-4616-b266-4303e924eb85",
+  "parentId": "27c83072-df55-4d3a-b599-0c72d57cffb7",
+  "rootParentId": "d89dff82-e503-4b74-b0fe-0e0a604469a2",
+  "name": "Informasi dan Aduan Warga - next",
+  "auto": true,
+  "contexts": [
+    "InformasidanAduanWarga-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "content_type": "input_select",
+            "private": false,
+            "content": "Untuk Layanan Informasi dan Aduan warga lainnya, silakan pilih salah satu opsi di bawah ini:",
+            "content_attributes": {
+              "items": [
+                {
+                  "title": "Usaha/Bisnis ",
+                  "value": "Usaha/Bisnis "
+                },
+                {
+                  "title": "Infrastruktur",
+                  "value": "Infrastruktur"
+                },
+                {
+                  "value": "Lingkungan Hidup",
+                  "title": "Lingkungan Hidup"
+                },
+                {
+                  "value": "Sosial",
+                  "title": "Sosial"
+                },
+                {
+                  "title": "Reservasi Ruang Publik",
+                  "value": "Reservasi Ruang Publik"
+                }
+              ]
+            }
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

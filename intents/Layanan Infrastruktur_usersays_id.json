@@ -1,0 +1,28 @@
+[
+  {
+    "id": "2ca6758c-bb3c-4216-a4fb-938d7f57d33a",
+    "data": [
+      {
+        "text": "Infrastruktur",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "4130eae4-b948-4b7d-8d15-b1f7376183c1",
+    "data": [
+      {
+        "text": "Layanan Infrastruktur",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

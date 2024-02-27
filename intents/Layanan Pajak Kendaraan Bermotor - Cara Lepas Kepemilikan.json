@@ -1,0 +1,69 @@
+{
+  "id": "c4f4f3ca-3caa-48cb-9b49-32f33e084268",
+  "parentId": "849871b0-8f12-4754-a74c-5c7e33c23a66",
+  "rootParentId": "849871b0-8f12-4754-a74c-5c7e33c23a66",
+  "name": "Layanan Pajak Kendaraan Bermotor - Cara Lepas Kepemilikan",
+  "auto": true,
+  "contexts": [
+    "InformasidanAduanWarga-followup",
+    "LayananPajakKendaraanBermotor-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananPajakKendaraanBermotor.LayananPajakKendaraanBermotor-custom",
+      "affectedContexts": [
+        {
+          "name": "LayananPajakKendaraanBermotor-CaraLepasKepemilikan-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Lepas kepemilikan kendaraan bermotor bertujuan untuk menghindari permasalahan terkait pajak, khususnya pajak progresif dan legalitas kendaraan tersebut. Hal tersebut dapat dilakukan oleh wajib pajak dengan 5 kategori alasan yang telah diatur oleh Tim Pembina Samsat Jawa Barat seperti berikut:\n\n1. Kendaraan Bermotor Yang Telah Dijual\n2. Kendaraan Bermotor Yang Hilang\n3. Kendaraan Bermotor Yang Rusak Berat\n4. Kendaraan Bermotor Yang Ditarik Oleh Pihak Leasing\n5. Tidak Memiliki Kendaraan Tersebut"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "private": false,
+            "content_attributes": {
+              "items": [
+                {
+                  "title": "Lepas Kepemilikan",
+                  "value": "Lepas Kepemilikan"
+                },
+                {
+                  "title": "Persyaratan",
+                  "value": "Persyaratan"
+                }
+              ]
+            },
+            "content": "Silakan pilih salah satu opsi di bawah :",
+            "content_type": "input_select"
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "f8e82df3-c61c-4cef-b4d1-7cd6e9f67314",
+    "data": [
+      {
+        "text": "layanan ",
+        "userDefined": false
+      },
+      {
+        "text": "bisnis",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "30a64995-fbbb-47e9-92b0-7cde42db6f55",
+    "data": [
+      {
+        "text": "layanan ",
+        "userDefined": false
+      },
+      {
+        "text": "usaha",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "722e158e-2433-49f7-9f01-cff099d322e7",
+    "data": [
+      {
+        "text": "Bisnis",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "a3020453-d287-467b-bb94-ac3d54465ae0",
+    "data": [
+      {
+        "text": "Usaha",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "cdad7ae6-e38a-4d81-afd0-7e641fa77336",
+    "data": [
+      {
+        "text": "Usaha/Bisnis",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "1f85d25d-edea-42df-826c-3d09973a324c",
+    "data": [
+      {
+        "text": "Layanan ",
+        "userDefined": false
+      },
+      {
+        "text": "Usaha/Bisnis",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

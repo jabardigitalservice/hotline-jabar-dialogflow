@@ -1,0 +1,39 @@
+{
+  "id": "94d09673-9864-4b68-8a74-ff92c6748f91",
+  "parentId": "26f9b39b-ee05-4091-bd4c-cfc3b820c355",
+  "rootParentId": "ff15d6f0-06b1-4fcf-8bc4-ce344b76d662",
+  "name": "Layanan Pendidikan - Aduan Perundungan Siswa - Laporkan Bullying - no",
+  "auto": true,
+  "contexts": [
+    "LayananPendidikan-AduanPerundunganSiswa-LaporkanBullying-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananPendidikan.LayananPendidikan-Aduan-Perundungan-Siswa.LayananPendidikan-AduanPerundunganSiswa-custom.LayananPendidikan-AduanPerundunganSiswa-LaporkanBullying-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Selamat datang di Layanan Aduan Bullying yang berfungsi sebagai  kanal aduan untuk korban bullying atau perundungan bagi siswa di wilayah Jawa Barat.\n\nBagi siswa diluar  kewenangan Dinas Pendidikan Jawa Barat yakni Jenjang Pendidikan Selain SMA, SMK, dan SLB maka Wargi Jabar dapat membuat laporan melalui laman berikut \n\n▶️  https://bit.ly/laporbully   \n\nHatur Nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

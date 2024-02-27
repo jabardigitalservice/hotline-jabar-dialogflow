@@ -1,0 +1,40 @@
+{
+  "id": "fe839813-569e-47b6-8a49-d09c7e46b577",
+  "parentId": "bbdff96f-6c9c-4c4f-824c-f80a9b1d287c",
+  "rootParentId": "bbdff96f-6c9c-4c4f-824c-f80a9b1d287c",
+  "name": "Layanan Jabar Digital Academy - Cara Daftar JDA",
+  "auto": true,
+  "contexts": [
+    "InformasidanAduanWarga-followup",
+    "LayananJabarDigitalAcademy-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananJabarDigitalAcademy.LayananJabarDigitalAcademy-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Program pelatihan Jabar Digital Academy dilaksanakan secara gratis dan terbuka untuk semua Wargi di Jawa Barat (ber KTP Jabar/berdomisili di Jabar), tanpa melalui proses seleksi.\n\nPendaftaran dapat dilakukan melalui website http://digitalacademy.jabarprov.go.id atau aplikasi Sapawarga. Silakan kunjungi laman dan aplikasi tersebut untuk informasi lebih lanjut!\n\nHatur Nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

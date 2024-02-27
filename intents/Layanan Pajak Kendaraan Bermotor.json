@@ -1,0 +1,78 @@
+{
+  "id": "849871b0-8f12-4754-a74c-5c7e33c23a66",
+  "name": "Layanan Pajak Kendaraan Bermotor",
+  "auto": true,
+  "contexts": [
+    "InformasidanAduanWarga-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "InformasidanAduanWarga-followup",
+          "lifespan": 5
+        },
+        {
+          "name": "LayananPajakKendaraanBermotor-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "*Sambara–Samsat Mobile Jawa Barat* merupakan aplikasi mobile yang dilayani oleh Badan Pendapatan Daerah Provinsi Jawa Barat. Wargi Jabar kini dapat menikmati kemudahan dalam melakukan pembayaran pajak kendaraan bermotor melalui satu aplikasi. Melalui Sambara, Wargi Jabar dapat menikmati beragam kemudahan seperti:\n\n1. *Cek Info Pajak Kendaraan Bermotor*\n2. *Pembayaran Pajak Kendaraan Bermotor*\n3. *Lepas Kepemilikan Kendaraan Bermotor*\n\nApabila Wargi Jabar memiliki pertanyaan lain seputar Samsat Jabar, silakan hubungi \n*Layanan Call Center* 150410 (Berbayar), *Email* sambara@bapenda.jabarprov.go.id, atau *Layanan WhatsApp* 081122301818 (https://s.id/hotline-sambara)"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "content": "Apa saja yang ingin Wargi Jabar ketahui seputar *Sambara–Samsat Mobile Jawa Barat?*",
+            "private": false,
+            "content_type": "input_select",
+            "content_attributes": {
+              "items": [
+                {
+                  "value": "Cek Informasi Pajak",
+                  "title": "Cek Informasi Pajak"
+                },
+                {
+                  "title": "Pembayaran Pajak",
+                  "value": "Pembayaran Pajak"
+                },
+                {
+                  "value": "Cara Lepas Kepemilikan",
+                  "title": "Cara Lepas Kepemilikan"
+                },
+                {
+                  "value": "Aduan/Pertanyaan",
+                  "title": "Aduan/Pertanyaan"
+                }
+              ]
+            }
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

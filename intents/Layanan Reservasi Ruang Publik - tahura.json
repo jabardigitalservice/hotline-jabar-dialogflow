@@ -1,0 +1,39 @@
+{
+  "id": "61af9fd8-e104-4c45-abe7-ca409c826c82",
+  "parentId": "9f81b4d8-10a5-4cdf-b6a7-da1d8a3839c9",
+  "rootParentId": "9f81b4d8-10a5-4cdf-b6a7-da1d8a3839c9",
+  "name": "Layanan Reservasi Ruang Publik - tahura",
+  "auto": true,
+  "contexts": [
+    "LayananReservasiRuangPublik-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananReservasiRuangPublik.LayananReservasiRuangPublik-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Melalui Sistem E-Ticketing Tahura, Wargi Jabar dapat memesan tiket masuk area kawasan wisata Taman Hutan Raya Ir. H. Juwanda Jabar secara online sehingga dapat menghindari antrean panjang pembelian tiket di loket secara langsung.\n\nBerikut tata cara pemesanan tiket Tahura melalui Sapawarga:\n1. Mengunduh aplikasi Sapawarga selengkapnya di  http//s.id/jabarsuperapps (dengan memilih Sapawarga Android atau IOS)\n2. Klik menu “Tahura Ir. H. Juwanda Jabar”\n3. Lalu klik menu “Tiket Masuk Tahura”, user perlu memiliki akun dan login\n4. Selanjutnya user memilih tanggal kunjungan dan jumlah pemesan\n5. Sebelum klik “Lanjutkan”, pastikan Syarat Ketentuan dibaca dan dicentang\n6. Lalu akan muncul Detail Pembayaran. Apabila pemesanan sudah sesuai maka masuk ke pemilihan metode pembayaran.\n7. Terdapat 2 metode pembayaran, yaitu QRIS Dynamic BJB dan Virtual Account BJB.\n8. User melakukan pembayaran\n9. Apabila user sudah melakukan pembayaran, maka muncul pesan pembayaran berhasil\n10. E-ticket diterbitkan\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

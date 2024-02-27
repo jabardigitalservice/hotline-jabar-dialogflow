@@ -1,0 +1,84 @@
+{
+  "id": "f85b1da1-20c6-41a9-af8e-cb7cd984bc41",
+  "name": "Layanan Produk Sapawarga",
+  "auto": true,
+  "contexts": [
+    "InformasidanAduanWarga-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "InformasidanAduanWarga-followup",
+          "lifespan": 5
+        },
+        {
+          "name": "LayananProdukSapawarga-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "content_attributes": {
+              "items": [
+                {
+                  "value": "Pembuatan Akun",
+                  "title": "Pembuatan Akun"
+                },
+                {
+                  "value": "Belum Terverifikasi",
+                  "title": "Belum Terverifikasi"
+                },
+                {
+                  "value": "Lupa Password",
+                  "title": "Lupa Password"
+                },
+                {
+                  "title": "Cara Pembuatan Akun RW",
+                  "value": "Cara Pembuatan Akun RW"
+                },
+                {
+                  "title": "Cara Masuk Fitur RW",
+                  "value": "Cara Masuk Fitur RW"
+                },
+                {
+                  "title": "Klaim Akun Ketua RW",
+                  "value": "Klaim Akun Ketua RW"
+                },
+                {
+                  "title": "Fitur Kegiatan RW",
+                  "value": "Fitur Kegiatan RW"
+                },
+                {
+                  "value": "Aduan/Pertanyaan",
+                  "title": "Aduan/Pertanyaan"
+                }
+              ]
+            },
+            "private": false,
+            "content_type": "input_select",
+            "content": "Berikut adalah opsi pada *layanan produk sapawarga*, silahkan pilih opsi dibawah ini :"
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

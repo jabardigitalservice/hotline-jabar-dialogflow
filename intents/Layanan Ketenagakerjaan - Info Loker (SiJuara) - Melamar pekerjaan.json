@@ -1,0 +1,39 @@
+{
+  "id": "1280545e-5941-453d-b2db-2277b4bcaca4",
+  "parentId": "4b0068ba-e554-4bd7-b636-360e9f8b7c15",
+  "rootParentId": "99d9f175-5a2a-40cc-8217-2cd7caa94675",
+  "name": "Layanan Ketenagakerjaan - Info Loker (SiJuara) - Melamar pekerjaan",
+  "auto": true,
+  "contexts": [
+    "LayananKetenagakerjaan-InfoLokerSiJuara-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananKetenagakerjaan.LayananKetenagakerjaan-custom.LayananKetenagakerjaan-InfoLokerSiJuara-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Untuk mencari lowongan pekerjaan silakan untuk ikuti langkah-langkah berikut:\n1. Klik menu \"Pasar Kerja\" yang ada pada halaman utama.\n2. Klik \"Cari peluang kerja\" lalu pilih ikon “Filter” seperti pada gambar.\n3. Setelah itu akan muncul lowongan pekerjaan yang tersedia dan sudah dipublikasikan oleh perusahaan.\n\n*Catatan:*\nLowongan pekerjaan akan ter-update secara berkala sesuai dengan lowongan yang akan diinputkan oleh perusahaan\n\n\nHatur Nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

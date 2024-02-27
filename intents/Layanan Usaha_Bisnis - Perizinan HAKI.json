@@ -1,0 +1,39 @@
+{
+  "id": "a3260fdb-080b-48af-a5c1-152141bfa91a",
+  "parentId": "5ea69e84-30e9-4d79-912c-9f15122b1bc5",
+  "rootParentId": "5ea69e84-30e9-4d79-912c-9f15122b1bc5",
+  "name": "Layanan Usaha/Bisnis - Perizinan HAKI",
+  "auto": true,
+  "contexts": [
+    "LayananUsahaBisnis-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananUsahaBisnis.LayananUsahaBisnis-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Melalui layanan ini, Wargi Jabar dapat mendapatkan pendampingan pengurusan Hak Kekayaan Intelektual bagi para pelaku ekonomi kreatif Jawa Barat. Informasi lebih lanjut bisa diakses melalui link berikut: https://jabarprov.go.id/layanan/pendampingan-pengurusan-hak-kekayaan-intelektual-bagi-pelaku-ekraf-jabar \n\nHubungi Nomor :  (022) 7273209\n\nCall Center di atas adalah Layanan Pendampingan HAKI dari Dinas Pariwisata dan Kebudayaan Jawa Barat.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

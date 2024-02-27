@@ -1,0 +1,55 @@
+{
+  "id": "17bed09a-6939-4c80-b91d-4d4738f268e2",
+  "parentId": "f85b1da1-20c6-41a9-af8e-cb7cd984bc41",
+  "rootParentId": "f85b1da1-20c6-41a9-af8e-cb7cd984bc41",
+  "name": "Layanan Produk Sapawarga - Klaim Akun Ketua RW",
+  "auto": true,
+  "contexts": [
+    "InformasidanAduanWarga-followup",
+    "LayananProdukSapawarga-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananProdukSapawarga.LayananProdukSapawarga-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "c263b11d-9ca3-43fe-b578-45577697b0c9",
+          "name": "Layanan",
+          "required": false,
+          "dataType": "@Layanan",
+          "value": "$Layanan",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Sapawarga versi terbaru memberikan akses yang lebih luas sehingga dapat dinikmati oleh publik dan Ketua RW. Jika Wargi Jabar adalah Ketua RW yang sudah memiliki akun Sapawarga dan ingin mengakses fitur Sapawarga RW, maka Wargi Jabar dapat melakukan klaim akun RW dengan cara berikut:\n\n1. Login ke aplikasi Sapawarga. \n2. Klik tombol “Klaim Akun RW Saya” pada menu berWargi Jabar.\n3. Lengkapi data diri jika Wargi Jabar belum melengkapinya.\n3. Upload SK Ketua RW yang berlaku.\n4. Setelah proses verifikasi berhasil, maka Wargi Jabar dapat mengakses fitur Sapawarga RW.\n\nHatur Nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

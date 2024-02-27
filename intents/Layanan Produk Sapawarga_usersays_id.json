@@ -1,0 +1,41 @@
+[
+  {
+    "id": "7d2d0a0a-68ce-4c98-8c19-a231f6e8ec62",
+    "data": [
+      {
+        "text": "Produk Sapawarga",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "63d08b8b-f505-43f7-9fad-64f959f03bea",
+    "data": [
+      {
+        "text": "Sapawarga",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "4cf96fd8-8a8a-4498-b24a-5c3b7f444b46",
+    "data": [
+      {
+        "text": "Layanan Produk Sapawarga",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

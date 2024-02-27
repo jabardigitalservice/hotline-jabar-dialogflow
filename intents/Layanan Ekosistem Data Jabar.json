@@ -1,0 +1,72 @@
+{
+  "id": "f6a0281d-b6ff-47ed-96f2-af3d0efe131b",
+  "name": "Layanan Ekosistem Data Jabar",
+  "auto": true,
+  "contexts": [
+    "InformasidanAduanWarga-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "InformasidanAduanWarga-followup",
+          "lifespan": 5
+        },
+        {
+          "name": "LayananEkosistemDataJabar-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "content_type": "input_select",
+            "content_attributes": {
+              "items": [
+                {
+                  "title": "Info Layanan Dataset",
+                  "value": "Info Layanan Dataset"
+                },
+                {
+                  "title": "Info Layanan Mapset",
+                  "value": "Info Layanan Mapset"
+                },
+                {
+                  "title": "Info Permohonan Dataset",
+                  "value": "Info Permohonan Dataset"
+                },
+                {
+                  "title": "Lacak Permohonan Dataset",
+                  "value": "Lacak Permohonan Dataset"
+                },
+                {
+                  "title": "Aduan/Pertanyaan Lain",
+                  "value": "Aduan/Pertanyaan Lain"
+                }
+              ]
+            },
+            "content": "*Layanan Ekosistem Data Jawa Barat* merupakan platform komponen Sistem Manajemen Data di lingkungan Pemerintah Daerah Provinsi Jawa Barat yang saling terhubung satu sama lain.\n\nApa saja yang ingin Wargi ketahui seputar *Layanan Ekosistem Data Jawa Barat* ?\n\nSilakan pilih salah satu opsi di bawah:",
+            "private": false
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

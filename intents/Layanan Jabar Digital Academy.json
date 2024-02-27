@@ -1,0 +1,68 @@
+{
+  "id": "bbdff96f-6c9c-4c4f-824c-f80a9b1d287c",
+  "name": "Layanan Jabar Digital Academy",
+  "auto": true,
+  "contexts": [
+    "InformasidanAduanWarga-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "InformasidanAduanWarga-followup",
+          "lifespan": 5
+        },
+        {
+          "name": "LayananJabarDigitalAcademy-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "content": "Silakan pilih salah satu opsi di bawah:",
+            "content_attributes": {
+              "items": [
+                {
+                  "title": "Info Umum program JDA",
+                  "value": "Info Umum program JDA"
+                },
+                {
+                  "title": "Cara Daftar JDA",
+                  "value": "Cara Daftar JDA"
+                },
+                {
+                  "title": "Informasi Kemitraan",
+                  "value": "Informasi Kemitraan"
+                },
+                {
+                  "title": "Aduan/Pertanyaan Lain",
+                  "value": "Aduan/Pertanyaan Lain"
+                }
+              ]
+            },
+            "content_type": "input_select",
+            "private": false
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

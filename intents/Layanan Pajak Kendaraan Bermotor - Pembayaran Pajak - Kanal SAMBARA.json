@@ -1,0 +1,39 @@
+{
+  "id": "52b8a73a-dc18-4e26-a138-a90f426b547d",
+  "parentId": "3eaf5a6d-b7af-4e44-9a72-486cfca9a3cc",
+  "rootParentId": "849871b0-8f12-4754-a74c-5c7e33c23a66",
+  "name": "Layanan Pajak Kendaraan Bermotor - Pembayaran Pajak - Kanal SAMBARA",
+  "auto": true,
+  "contexts": [
+    "LayananPajakKendaraanBermotor-PembayaranPajak-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananPajakKendaraanBermotor.LayananPajakKendaraanBermotor-custom.LayananPajakKendaraanBermotor-PembayaranPajak-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Wargi Jabar dapat melakukan pembayaran pajak bermotor melalui Sapawarga dengan menggunakan metode yang tersedia seperti:\n\n1. Gerai Minimarket Modern (Alfamart, Alfamidi, Indomaret)\n2. Marketplace (Bukalapak, Tokopedia, Kaspro)\n3. Mesin ATM (BJB, BCA, BNI)\n4. Virtual Account (ATM BJB, BJB Mobile, BJB Net, bank lain yang mendukung pembayaran VA)\n5. QRIS (BJB Mobile, BJB DigiCash, aplikasi lain yang mendukung pembayaran QRIS)\n\nHatur Nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

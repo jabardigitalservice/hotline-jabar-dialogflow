@@ -1,0 +1,36 @@
+[
+  {
+    "id": "5f740fd8-43b9-43cc-8235-4c097703aff8",
+    "data": [
+      {
+        "text": "layanan aduan ",
+        "userDefined": false
+      },
+      {
+        "text": "warga",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "b2f0dd42-d7c8-4ca0-be89-31db04dd104c",
+    "data": [
+      {
+        "text": "Aduan ",
+        "userDefined": false
+      },
+      {
+        "text": "Warga",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "id": "a2e7ae98-feab-4eee-987d-43838030cc66",
+    "data": [
+      {
+        "text": "Sosial",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "1a6505a3-3df0-4fc4-ac0f-c5dc41226224",
+    "data": [
+      {
+        "text": "Layanan Sosial",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

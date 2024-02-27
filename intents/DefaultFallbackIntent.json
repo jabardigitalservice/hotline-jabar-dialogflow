@@ -1,0 +1,35 @@
+{
+  "id": "ed984b51-c437-4173-9dcb-dc036902578e",
+  "name": "DefaultFallbackIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Sepertinya saya tidak mengerti pilihan Anda.\nBolehkah saya tahu apakah pilihan Anda? atau ketikan \"*_Halo Jabar_*\" untuk memulai kembali"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "838918ca-bc24-425c-940c-6158b67bafc3",
+  "parentId": "c4f4f3ca-3caa-48cb-9b49-32f33e084268",
+  "rootParentId": "849871b0-8f12-4754-a74c-5c7e33c23a66",
+  "name": "Layanan Pajak Kendaraan Bermotor - Cara Lepas Kepemilikan - Persyaratan",
+  "auto": true,
+  "contexts": [
+    "LayananPajakKendaraanBermotor-CaraLepasKepemilikan-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananPajakKendaraanBermotor.LayananPajakKendaraanBermotor-custom.LayananPajakKendaraanBermotor-CaraLepasKepemilikan-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Apabila Wargi Jabar ingin melakukan lepas kepemilikan kendaraan bermotor berdasarkan 5 kategori alasan yang sudah diatur oleh Tim Pembina Samsat Jabar, terdapat beberapa dokumen yang harus dilampirkan sesuai dengan alasan pengajuan:\n\n1. Kendaraan Bermotor Yang Telah Dijual\n     - Input 5 digit terakhir nomor rangka kendaraan pada form pengajuan\n     - Foto KTP dan foto diri (selfie)\n     - Surat pernyataan kendaraan telah dijual bermaterai\n     - Input tanda tangan pada form pengajuan\n2. Kendaraan Bermotor Yang Hilang\n     - Foto KTP dan foto diri (selfie)\n     - STNK kendaraan\n     - Surat kehilangan kendaraan dari pihak kepolisian\n    - Input tanda tangan pada form pengajuan\n3. Kendaraan Bermotor Yang Rusak Berat\n    - Foto KTP dan foto diri (selfie)\n    - STNK kendaraan\n    - Surat kehilangan kendaraan dari pihak kepolisian\n    - Input tanda tangan pada form pengajuan\n4. Kendaraan Bermotor Yang Ditarik oleh Pihak Leasing\n    -  Foto KTP dan foto diri (selfie)\n    - STNK kendaraan\n    - Input tanda tangan pada form pengajuan\n5. Tidak Memiliki Kendaraan Tersebut\n    - Foto KTP dan foto diri (selfie)\n    - Input tanda tangan pada form pengajuan\n\n\nHatur Nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

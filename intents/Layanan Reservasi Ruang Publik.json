@@ -1,0 +1,72 @@
+{
+  "id": "9f81b4d8-10a5-4cdf-b6a7-da1d8a3839c9",
+  "name": "Layanan Reservasi Ruang Publik",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "LayananReservasiRuangPublik-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Melalui fitur Layanan *Reservasi Ruang Publik*, Wargi Jabar kini dapat menikmati kemudahan dalam melakukan reservasi ke beberapa ruang publik, seperti: Taman Hutan Raya, Galeri Rasulullah Masjid Al-Jabbar, serta Wahana Publik Jabar Command Centre."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "private": false,
+            "content": "Apa saja yang ingin Wargi Jabar ketahui seputar Layanan Reservasi Ruang Publik?",
+            "content_attributes": {
+              "items": [
+                {
+                  "value": "Tahura",
+                  "title": "Tahura"
+                },
+                {
+                  "value": "Galeri Rasulullah",
+                  "title": "Galeri Rasulullah"
+                },
+                {
+                  "title": "Wahanan Public JCC",
+                  "value": "Wahanan Public JCC"
+                },
+                {
+                  "title": "Aduan/Pertanyaan",
+                  "value": "Aduan/Pertanyaan"
+                }
+              ]
+            },
+            "content_type": "input_select"
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

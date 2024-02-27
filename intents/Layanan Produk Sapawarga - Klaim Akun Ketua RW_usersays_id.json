@@ -1,0 +1,54 @@
+[
+  {
+    "id": "b2371a88-e2b8-4572-acb3-293eeff05636",
+    "data": [
+      {
+        "text": "Klaim Akun ",
+        "userDefined": false
+      },
+      {
+        "text": "sapawarga",
+        "meta": "@Layanan",
+        "alias": "Layanan",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Ketua",
+        "userDefined": false
+      },
+      {
+        "text": " RW",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "0de88bd4-63b0-4a94-b96e-bc8e6b4b5fa7",
+    "data": [
+      {
+        "text": "Klaim Akun ",
+        "userDefined": false
+      },
+      {
+        "text": "Ketua",
+        "userDefined": false
+      },
+      {
+        "text": " RW",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

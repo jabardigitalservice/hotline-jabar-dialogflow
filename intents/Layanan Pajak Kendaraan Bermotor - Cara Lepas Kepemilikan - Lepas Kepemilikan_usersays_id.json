@@ -1,0 +1,28 @@
+[
+  {
+    "id": "1613dc72-2662-4aab-b56f-427231d5600d",
+    "data": [
+      {
+        "text": "Cara Lepas Kepemilikan",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "86d0102e-6b84-47d3-b444-90dd98d436b8",
+    "data": [
+      {
+        "text": "Lepas Kepemilikan",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

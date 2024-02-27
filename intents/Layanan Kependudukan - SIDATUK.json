@@ -1,0 +1,54 @@
+{
+  "id": "a5100408-9d1b-4c08-bddf-d63646591d82",
+  "parentId": "4dbe4496-703a-4776-8d63-ed8e0a56f4ab",
+  "rootParentId": "4dbe4496-703a-4776-8d63-ed8e0a56f4ab",
+  "name": "Layanan Kependudukan - SIDATUK",
+  "auto": true,
+  "contexts": [
+    "LayananKependudukan-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananKependudukan.LayananKependudukan-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "03b023c5-d848-446e-8aba-8931b62d013c",
+          "name": "person",
+          "required": false,
+          "dataType": "@sys.person",
+          "value": "$person",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Sistem Informasi Data Kependudukan (SIDATUK) merupakan fasilitas untuk mempermudah Wargi Jabar  dalam menyampaikan aduan data administrasi kependudukan secara digital. Informasi selengkapnya mengenai layanan SIDATUK dapat diakses melalui link berikut: https://jabarprov.go.id/layanan/sidatuk"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

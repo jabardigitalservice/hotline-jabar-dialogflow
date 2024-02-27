@@ -1,0 +1,39 @@
+{
+  "id": "b8387d15-7519-4820-b143-b471cf6ae456",
+  "parentId": "3eaf5a6d-b7af-4e44-9a72-486cfca9a3cc",
+  "rootParentId": "849871b0-8f12-4754-a74c-5c7e33c23a66",
+  "name": "Layanan Pajak Kendaraan Bermotor - Pembayaran Pajak - Cek Status Bayar",
+  "auto": true,
+  "contexts": [
+    "LayananPajakKendaraanBermotor-PembayaranPajak-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananPajakKendaraanBermotor.LayananPajakKendaraanBermotor-custom.LayananPajakKendaraanBermotor-PembayaranPajak-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Apabila tanggal jatuh tempo pembayaran pajak tahunan telah ter-update ke tahun berikutnya, maka pembayaran telah berhasil diterima dan e-SKKP yang diterbitkan menjadi dokumen pembayaran yang sah dan Wargi Jabar sudah menjadi warga yang taat pajak.\n\nHatur Nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

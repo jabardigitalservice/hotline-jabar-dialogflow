@@ -1,0 +1,70 @@
+{
+  "id": "99d9f175-5a2a-40cc-8217-2cd7caa94675",
+  "name": "Layanan Ketenagakerjaan",
+  "auto": true,
+  "contexts": [
+    "InformasidanAduanWarga-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "LayananKetenagakerjaan-followup",
+          "lifespan": 2
+        },
+        {
+          "name": "InformasidanAduanWarga-followup",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Melalui fitur Layanan Ketenagakerjaan, Wargi Jabar dapat dengan menikmati kemudahan mengakses info seputar dunia Ketenagakerjaan.\n\nApabila Wargi Jabar memiliki pertanyaan lain seputar Si Juara silakan hubungi hotline ‪08112121444‬ atau klik https://wa.me/628112121444  atau bisa juga melalui website  https://sijuara.jabarprov.go.id/"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "private": false,
+            "content_type": "input_select",
+            "content": "Apa saja yang ingin Wargi Jabar ketahui seputar Layanan Ketenagakerjaan?",
+            "content_attributes": {
+              "items": [
+                {
+                  "title": "Info Loker (SiJuara)",
+                  "value": "Info Loker (SiJuara)"
+                },
+                {
+                  "title": "Aduan/Pertanyaan",
+                  "value": "Aduan/Pertanyaan"
+                }
+              ]
+            }
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

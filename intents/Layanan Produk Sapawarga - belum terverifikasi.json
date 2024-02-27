@@ -1,0 +1,40 @@
+{
+  "id": "072a6b49-db01-4542-8ce8-30578adc358e",
+  "parentId": "f85b1da1-20c6-41a9-af8e-cb7cd984bc41",
+  "rootParentId": "f85b1da1-20c6-41a9-af8e-cb7cd984bc41",
+  "name": "Layanan Produk Sapawarga - belum terverifikasi",
+  "auto": true,
+  "contexts": [
+    "InformasidanAduanWarga-followup",
+    "LayananProdukSapawarga-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananProdukSapawarga.LayananProdukSapawarga-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Apabila Wargi Jabar sudah mendaftarkan akun akan tetapi belum dapat mengakses fitur, kemungkinan akun Wargi Jabar belum terverifikasi. Terdapat beberapa kemungkinan akun belum terverifikasi sebagai berikut:\n1. Belum menerima email verifikasi\n2. Belum melakukan klik “Verifikasi Email”\n\nApabila belum menerima email verifikasi, Wargi Jabar dapat mengikuti langkah berikut:\n1. Ketika berada di halaman Proses Verifikasi Email, klik “Kirim Ulang”.\n2. Cek inbox pada email yang sudah didaftarkan sebelumnya (estimasi menunggu 2 menit. Apabila email 3. verifikasi belum masuk dapat dilakukan request ulang).\n3. Klik “Verifikasi Email”.\n4. Akun berhasil terverifikasi.\n\nApabila sudah menerima email verifikasi akan tetapi belum melakukan klik “Verifikasi Email” dapat mengikuti langkah berikut:\n1. Cek inbox pada email yang sudah didaftarkan sebelumnya (estimasi menunggu 2 menit. Apabila email verifikasi belum masuk dapat dilakukan request ulang).\n2. Klik “Verifikasi Akun Saya”.\n3. Akun berhasil terverifikasi.\n\nHatur Nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1c4dd778-5cd5-490f-af44-325410420d9e",
+    "data": [
+      {
+        "text": "kesehatan",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "9d4201b5-a886-460b-a1b5-cc6b218dfad6",
+    "data": [
+      {
+        "text": "Layanan ",
+        "userDefined": false
+      },
+      {
+        "text": "Kesehatan",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

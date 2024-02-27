@@ -1,0 +1,39 @@
+{
+  "id": "2372dc57-d2d2-4d25-9e5d-cd57d5de0d66",
+  "parentId": "3eaf5a6d-b7af-4e44-9a72-486cfca9a3cc",
+  "rootParentId": "849871b0-8f12-4754-a74c-5c7e33c23a66",
+  "name": "Layanan Pajak Kendaraan Bermotor - Pembayaran Pajak - Pengesahan STNK",
+  "auto": true,
+  "contexts": [
+    "LayananPajakKendaraanBermotor-PembayaranPajak-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananPajakKendaraanBermotor.LayananPajakKendaraanBermotor-custom.LayananPajakKendaraanBermotor-PembayaranPajak-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Untuk saat ini jika Wargi Jabar membutuhkan pengesahan STNK maka Wargi Jabar masih perlu melakukan pengesahan di Kantor Samsat terdekat dengan menunjukkan bukti pembayaran, KTP, dan e-SKKP yang diterbitkan. Pengesahan online (e-Sah) maupun pengiriman STNK fisik yang sudah disahkan ke rumah Wargi Jabar dalam rangka uji coba untuk wilayah Kota Bandung masih dalam tahap pengerjaan. Secepatnya fitur akan segera dirilis sehingga kedepannya warga tidak perlu lagi melakukan pengesahan offline ke kantor Samsat terdekat.\n\nHatur Nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

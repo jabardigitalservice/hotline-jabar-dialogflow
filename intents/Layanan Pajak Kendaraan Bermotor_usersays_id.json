@@ -1,0 +1,49 @@
+[
+  {
+    "id": "2f381ac1-cb74-4145-9570-136774000c84",
+    "data": [
+      {
+        "text": "Pajak Kendaraan",
+        "userDefined": false
+      },
+      {
+        "text": " Bermotor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "ba1fde5d-78f0-4059-8874-022e8a002e3c",
+    "data": [
+      {
+        "text": "Pajak Kendaraan",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "36a5f0a8-e398-4b2f-987e-e7e78b67abb7",
+    "data": [
+      {
+        "text": "Layanan ",
+        "userDefined": false
+      },
+      {
+        "text": "Pajak",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

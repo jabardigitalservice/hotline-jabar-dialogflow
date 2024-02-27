@@ -1,0 +1,45 @@
+[
+  {
+    "id": "c4269882-e58f-4e3b-bc7e-59c9f0d2b93b",
+    "data": [
+      {
+        "text": "perundungan siswa",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "a017e79c-d23b-4225-8e74-ccd83c1c2bdb",
+    "data": [
+      {
+        "text": "layanan perundungan siswa",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "361cbb77-c033-4ce3-87de-9c9c5aac049b",
+    "data": [
+      {
+        "text": "Aduan",
+        "userDefined": false
+      },
+      {
+        "text": " Perundungan Siswa",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "id",
+    "updated": 0
+  }
+]

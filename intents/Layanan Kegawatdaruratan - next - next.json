@@ -1,0 +1,85 @@
+{
+  "id": "ab531972-b94d-43c3-aec9-c12c7209a5af",
+  "parentId": "dce4c567-676e-4835-a54c-e97b34eaa3b5",
+  "rootParentId": "d89dff82-e503-4b74-b0fe-0e0a604469a2",
+  "name": "Layanan Kegawatdaruratan - next - next",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-next-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom.LayananKegawatdaruratan-next.LayananKegawatdaruratan-next-next",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "content_type": "input_select",
+            "content_attributes": {
+              "items": [
+                {
+                  "value": "Kab. Indramayu",
+                  "title": "Kab. Indramayu"
+                },
+                {
+                  "value": "Kab. Karawang",
+                  "title": "Kab. Karawang"
+                },
+                {
+                  "title": "Kab. Kuningan",
+                  "value": "Kab. Kuningan"
+                },
+                {
+                  "title": "Kab. Majalengka",
+                  "value": "Kab. Majalengka"
+                },
+                {
+                  "title": "Kab. Pangandaran",
+                  "value": "Kab. Pangandaran"
+                },
+                {
+                  "value": "Kab. Purwakarta",
+                  "title": "Kab. Purwakarta"
+                },
+                {
+                  "title": "Kab. Subang",
+                  "value": "Kab. Subang"
+                },
+                {
+                  "title": "Kab. Sukabumi",
+                  "value": "Kab. Sukabumi"
+                },
+                {
+                  "title": "Kab. Sumedang",
+                  "value": "Kab. Sumedang"
+                },
+                {
+                  "value": "Kab. Tasikmalaya",
+                  "title": "Kab. Tasikmalaya"
+                }
+              ]
+            },
+            "private": false,
+            "content": "Silakan pilih salah satu opsi di bawah ini :"
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

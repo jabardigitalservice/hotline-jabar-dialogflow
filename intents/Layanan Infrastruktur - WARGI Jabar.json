@@ -1,0 +1,40 @@
+{
+  "id": "cb2ebf8c-780a-433e-a61e-a9a264a5ca3c",
+  "parentId": "625b0144-6d5e-493c-ab0c-018561d949ef",
+  "rootParentId": "625b0144-6d5e-493c-ab0c-018561d949ef",
+  "name": "Layanan Infrastruktur - WARGI Jabar",
+  "auto": true,
+  "contexts": [
+    "InformasidanAduanWarga-followup",
+    "LayananInfrastruktur-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananInfrastruktur.LayananInfrastruktur-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Wargi Jabar merupakan media sistem informasi dan komunikasi penataan ruang oleh Dinas Bina Marga dan Penataan Ruang Provinsi Jawa Barat. Wargi Jabar dibangun untuk menunjang penyelenggaraan penataan ruang di Provinsi Jawa Barat yang meliputi sinkronisasi database penataan ruang, pembinaan sistem informasi dan komunikasi penataan ruang, pelaksanaan kesesuaian kegiatan pemanfaatan ruang kewenangan provinsi, serta pelaksanaan pengendalian dan pengawasan pemanfaatan ruang. \n\nApabila Wargi Jabar memiliki pertanyaan lain seputar Wargi Jabar, silakan hubungi Email info@dbmtr.jabarprov.go.id"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

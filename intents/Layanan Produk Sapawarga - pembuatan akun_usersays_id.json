@@ -1,0 +1,49 @@
+[
+  {
+    "id": "f7e0c92b-92fb-4859-9a4e-83386b0b9d2f",
+    "data": [
+      {
+        "text": "buat akun sapawarga",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "f48c9fc1-092c-4fcc-9b2f-54c0f3588a0c",
+    "data": [
+      {
+        "text": "Pembuatan",
+        "userDefined": false
+      },
+      {
+        "text": " Akun sapawarga",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "e95328ab-4981-45ed-8aed-fb0e56c280f6",
+    "data": [
+      {
+        "text": "Pembuatan",
+        "userDefined": false
+      },
+      {
+        "text": " Akun",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

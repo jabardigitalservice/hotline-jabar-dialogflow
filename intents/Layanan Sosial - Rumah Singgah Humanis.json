@@ -1,0 +1,40 @@
+{
+  "id": "5ddf4f7c-ff8c-4dc6-bc27-9a9a2222e397",
+  "parentId": "e9d2bdce-0a66-4336-ade6-184973555938",
+  "rootParentId": "e9d2bdce-0a66-4336-ade6-184973555938",
+  "name": "Layanan Sosial - Rumah Singgah Humanis",
+  "auto": true,
+  "contexts": [
+    "InformasidanAduanWarga-followup",
+    "LayananSosial-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananSosial.LayananSosial-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Layanan Rumah Singgah Humanis (Rangganis) merupakan layanan penyediaan tempat tinggal sementara bagi masyarakat miskin yang sedang melakukan pengobatan di rumah sakit sekitar Kota Bandung.\n\nApabila Wargi Jabar memiliki pertanyaan lain seputar Layanan Respon Kasus Sosial, silakan hubungi hotline 0895385579979 atau klik https://wa.me/62895385579979 , Email rrangganisjabar@gmail.com dan website https://dinsos.jabarprov.go.id/"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

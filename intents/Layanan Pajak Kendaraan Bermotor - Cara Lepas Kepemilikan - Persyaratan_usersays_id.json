@@ -1,0 +1,28 @@
+[
+  {
+    "id": "204a2aed-0066-4393-bd84-a47b225d2f6c",
+    "data": [
+      {
+        "text": "Persyaratan Lepas Kepemilikan",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "68e06703-c7a1-4e6d-a203-90b7be143363",
+    "data": [
+      {
+        "text": "Persyaratan",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

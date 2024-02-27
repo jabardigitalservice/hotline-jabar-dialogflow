@@ -1,0 +1,72 @@
+{
+  "id": "4b0068ba-e554-4bd7-b636-360e9f8b7c15",
+  "parentId": "99d9f175-5a2a-40cc-8217-2cd7caa94675",
+  "rootParentId": "99d9f175-5a2a-40cc-8217-2cd7caa94675",
+  "name": "Layanan Ketenagakerjaan - Info Loker (SiJuara)",
+  "auto": true,
+  "contexts": [
+    "LayananKetenagakerjaan-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananKetenagakerjaan.LayananKetenagakerjaan-custom",
+      "affectedContexts": [
+        {
+          "name": "LayananKetenagakerjaan-InfoLokerSiJuara-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "*Si Juara* (Sistem Informasi Jaringan Warga Jabar Sejahtera) merupakan aplikasi ketenagakerjaan bagi Wargi Jabar dalam memperoleh informasi lapangan pekerjaan. \n\nFitur Aplikasi Si Juara :\n1. *Matchmaking* - dapat memudahkan pencari kerja dalam menemukan lapangan pekerjaan sesuai dengan kompetensi yang dimiliki.\n2. *Perlindungan Perekrutan* - pencari kerja dan perusahaan diberikan perlindungan dalam proses rekrutmen.\n3. *Perlindungan Selama Bekerja* - fitur aduan dan laporan situasi darurat. Ketika pekerja mengalami masalah dan situasi darurat.\n4. *Informasi Pekerjaan Dalam dan Luar negeri* - pengguna sebagai pencari kerja dapat memilih pekerjaan berdasarkan lokasi (dalam/luar negeri).\n5. *Informasi Pelatihan* - tenaga kerja yang kurang memiliki skill dan kompetensi dapat mengikuti pelatihan yang sesuai dengan minat."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "private": false,
+            "content_type": "input_select",
+            "content_attributes": {
+              "items": [
+                {
+                  "value": "Melengkapi Profil",
+                  "title": "Melengkapi Profil"
+                },
+                {
+                  "value": "Melamar Pekerjaan",
+                  "title": "Melamar Pekerjaan"
+                },
+                {
+                  "value": "Aduan/Pertanyaan",
+                  "title": "Aduan/Pertanyaan"
+                }
+              ]
+            },
+            "content": "Apa saja yang ingin Wargi Jabar ketahui seputar *Si Juara - Pencarian Lowongan Kerja*?"
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

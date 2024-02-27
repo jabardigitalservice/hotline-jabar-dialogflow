@@ -1,0 +1,39 @@
+{
+  "id": "c4da6b09-f097-461f-a553-e95de0dcf2c8",
+  "parentId": "4dbe4496-703a-4776-8d63-ed8e0a56f4ab",
+  "rootParentId": "4dbe4496-703a-4776-8d63-ed8e0a56f4ab",
+  "name": "Layanan Kependudukan - Dokumen Kependudukan",
+  "auto": true,
+  "contexts": [
+    "LayananKependudukan-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananKependudukan.LayananKependudukan-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Layanan Dokumen Administrasi Kependudukan merupakan layanan pengurusan administrasi kependudukan seperti akta kelahiran, akta perkawinan, akta kematian, dan dokumen kependudukan lainnya."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "id": "2e4465bf-ba95-46a0-9372-519feb1b85fd",
+    "data": [
+      {
+        "text": "Kasus Sosial",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "1bd841b3-56b2-4da1-b278-a3ee4a03f9f7",
+    "data": [
+      {
+        "text": "Layanan Kasus Sosial",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

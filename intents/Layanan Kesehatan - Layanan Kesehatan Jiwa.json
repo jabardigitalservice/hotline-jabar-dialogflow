@@ -1,0 +1,54 @@
+{
+  "id": "2197b657-5706-4319-87be-6e97ced1bc9d",
+  "parentId": "6781c311-b0ab-47f6-a286-97c6373db614",
+  "rootParentId": "6781c311-b0ab-47f6-a286-97c6373db614",
+  "name": "Layanan Kesehatan - Layanan Kesehatan Jiwa",
+  "auto": true,
+  "contexts": [
+    "LayananKesehatan-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananKesehatan.LayananKesehatan-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "a7f1d7b9-8cfe-4b4b-947e-7158c439d77b",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "RS Jiwa\nHotline (022) 2700909\nhttps://jabarprov.go.id/layanan/instalasi-gawat-darurat-rs-jiwa-1687832762 \n\n\nKJOL (Konseling Jiwa Online)\nHotline 081221292020 atau klik https://wa.me/6281221292020\nhttps://jabarprov.go.id/layanan/skrining-dan-konsultasi-jiwa-online-rs-jiwa-1687838264"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

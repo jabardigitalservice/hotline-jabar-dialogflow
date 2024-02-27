@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1cb9b7a8-12e0-4bc0-839b-ba52a993a930",
+    "data": [
+      {
+        "text": "RS Jabar",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "f96dad8d-1238-4e5f-b2f4-9c984bd12237",
+    "data": [
+      {
+        "text": "RS Provinsi Jabar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

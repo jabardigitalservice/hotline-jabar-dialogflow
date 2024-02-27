@@ -1,0 +1,40 @@
+{
+  "id": "c791c3d0-ddb5-42fa-b909-307de8632bec",
+  "parentId": "5d252839-12f1-4ffb-aab3-d2894dd58875",
+  "rootParentId": "5d252839-12f1-4ffb-aab3-d2894dd58875",
+  "name": "layanan lingkungan hidup - ECIS DLH",
+  "auto": true,
+  "contexts": [
+    "InformasidanAduanWarga-followup",
+    "layananlingkunganhidup-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "layananlingkunganhidup.layananlingkunganhidup-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Melalui aplikasi ini Wargi Jabar dapat ikut serta dan berperan aktif dalam rangka melaporkan berbagai tindak dugaan pencemaran dan kerusakan lingkungan yang ditemui di sekitarnya. \n\nApabila Wargi Jabar memiliki pertanyaan lain seputar ECIS, silakan hubungi hotline 08112230606 atau klik https://wa.me/628112230606, Email: pengaduanlingkunganhidup@jabarprov.go.id, dan website https://dlh.jabarprov.go.id/"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

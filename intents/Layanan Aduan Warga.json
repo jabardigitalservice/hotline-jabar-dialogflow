@@ -1,0 +1,62 @@
+{
+  "id": "f622517a-e167-4516-a09e-0db719787b7e",
+  "name": "Layanan Aduan Warga",
+  "auto": true,
+  "contexts": [
+    "InformasidanAduanWarga-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "InformasidanAduanWarga-followup",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Aduan warga merupakan sarana bagi Wargi Jabar untuk menyampaikan keluhan, masukan, atau laporan terkait berbagai masalah di Jawa Barat melalui Sapawarga. Dengan fitur ini, Wargi Jabar dapat dengan mudah menyampaikan permasalahan yang dihadapi, meliputi infrastruktur, layanan kesehatan, lingkungan, dan lain-lain."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "content_attributes": {
+              "items": [
+                {
+                  "value": "Chat Live Agent",
+                  "title": "Chat Live Agent"
+                }
+              ]
+            },
+            "content_type": "input_select",
+            "private": false,
+            "content": "Fitur yang terdapat pada Aduan Warga adalah:\n\n1. Form Aduan: Formulir khusus yang dirancang untuk menyampaikan keluhan, masukan, atau laporan terkait berbagai masalah. Silakan untuk Wargi akses di sini:  https://s.id/FormAduanWarga\n\n2. Tracking Aduan: Fitur yang memfasilitasi warga untuk melacak perkembangan atau status dari aduan yang disampaikan. Wargi Jabar dapat mengaksesnya melalui link berikut:  https://s.id/CariAduan\n\nApabila Wargi Jabar mengalami kendala dalam mengakses link diatas, silakan Wargi Jabar dapat menghubungi live agent dengan klik Dibawah ini."
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,40 @@
+{
+  "id": "5fff1e88-ecc5-4175-be78-3a94cc57434d",
+  "parentId": "ff15d6f0-06b1-4fcf-8bc4-ce344b76d662",
+  "rootParentId": "ff15d6f0-06b1-4fcf-8bc4-ce344b76d662",
+  "name": "Layanan Pendidikan - PPDB",
+  "auto": true,
+  "contexts": [
+    "InformasidanAduanWarga-followup",
+    "LayananPendidikan-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LayananPendidikan.LayananPendidikan-ppdb",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "PPDB merupakan rangkaian kegiatan sistematik yang dirancang untuk mengatur penyelenggaraan penerimaan peserta didik baru mulai dari pendaftaran, proses seleksi, pengumuman hingga daftar ulang. Penyelenggaraan PPDB dilaksanakan setiap tahunnya oleh Dinas Pendidikan Provinsi Jawa Barat untuk jenjang SMA, SMK, dan SLB di daerah Provinsi Jawa Barat.\n\nPenyelenggaraan PPDB dilaksanakan secara objektif, transparan, dan akuntabel, dilaksanakan pada setiap tahun, dimulai pada awal bulan Mei. Waktu penyelenggaraan PPDB dapat berubah jika terjadi kondisi darurat yang ditetapkan Pemerintah Pusat dan/atau Pemerintah Daerah Provinsi.\n\nUntuk informasi terbaru terkait PPDB tahun 2024, silakan cek secara berkala di tautan berikut: https://jabarprov.go.id/layanan/ppdb2023\n\nHatur Nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
