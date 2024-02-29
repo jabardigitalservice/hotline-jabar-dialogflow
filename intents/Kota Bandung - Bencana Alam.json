@@ -1,0 +1,55 @@
+{
+  "id": "222a1b35-00f6-4799-a76a-648b108c8945",
+  "parentId": "c6145559-0a1a-45f0-8622-042d33f83a21",
+  "rootParentId": "c6145559-0a1a-45f0-8622-042d33f83a21",
+  "name": "Kota Bandung - Bencana Alam",
+  "auto": true,
+  "contexts": [
+    "KotaBandung-followup",
+    "LayananKegawatdaruratan-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KotaBandung.KotaBandung-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "f738ac86-7b17-414a-bbb9-3fda2c393e0e",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  *112* atau *113*\n\nCall Center di atas adalah Layanan Bencana Alam dari Pemerintah Kota Bandung yang dikelola oleh Dinas Pemadam Kebakaran dan Penanggulangan  Bencana Kota Bandung.\n\nBagi Wargi Kota Bandung, segera hubungi nomor di atas untuk menghubungi Layanan Bencana Alam apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  tanah longsor, bantuan gempa bumi dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "id": "0c429b1d-cd60-4fd6-aaad-7ac2d70fa751",
+    "data": [
+      {
+        "text": "Kontak Ambulan ",
+        "userDefined": false
+      },
+      {
+        "text": "Kota Bandung",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "6b76423e-7d4f-4c83-aa59-6d9fdb7b77a9",
+    "data": [
+      {
+        "text": "Ambulan ",
+        "userDefined": false
+      },
+      {
+        "text": "Kota Bandung",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "b0151106-bc54-4d2f-a09f-ef96438e9bbc",
+    "data": [
+      {
+        "text": "Ambulan",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "id": "307b0a1a-fcda-44c0-9650-f21419bcf118",
+  "parentId": "d80020ab-cc9c-4b87-b746-86273272a670",
+  "rootParentId": "a9afb883-6830-45c7-bdc0-2afc3df923b0",
+  "name": "Provinsi Jawa Barat - BAZNAS Jabar - Mobil Sehat",
+  "auto": true,
+  "contexts": [
+    "ProvinsiJawaBarat-BAZNASJabar-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ProvinsiJawaBarat.ProvinsiJawaBarat-custom.ProvinsiJawaBarat-BAZNASJabar-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor: 082218000881 atau klik https://wa.me/6282218000881\n\nBaznas Jabar menyediakan mobil ambulans untuk kebutuhan kedaruratan, khususnya untuk Wilayah Bandung Raya. Silakan hubungi nomor diatas untuk mendapatkan informasi lengkap dan melakukan pendaftaran pada layanan Mobil Sehat Baznas Jabar.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

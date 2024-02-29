@@ -1,0 +1,55 @@
+{
+  "id": "25ae4a74-d3b1-4a53-abb2-9b8e17b6ff3f",
+  "parentId": "c6145559-0a1a-45f0-8622-042d33f83a21",
+  "rootParentId": "c6145559-0a1a-45f0-8622-042d33f83a21",
+  "name": "Kota Bandung - PLN",
+  "auto": true,
+  "contexts": [
+    "KotaBandung-followup",
+    "LayananKegawatdaruratan-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KotaBandung.KotaBandung-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "b8853e3a-03f6-46a6-a1ca-facd3389e5f3",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  *123*\n\nCall Center di atas adalah Layanan Perusahaan Listrik Negara dari Pemerintah Kota Bandung yang dikelola oleh Perusahaan Listrik Negara Kota Bandung.\n\nBagi Wargi Kota Bandung, segera hubungi nomor di atas untuk menghubungi Perusahaan Listrik Negara apabila terjadi situasi Gangguan Listrik.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "6f191eda-9ec7-42cc-88c0-bd375aa7d037",
+  "parentId": "d80020ab-cc9c-4b87-b746-86273272a670",
+  "rootParentId": "a9afb883-6830-45c7-bdc0-2afc3df923b0",
+  "name": "Provinsi Jawa Barat - BAZNAS Jabar - Rumah Singgah Baznas",
+  "auto": true,
+  "contexts": [
+    "ProvinsiJawaBarat-BAZNASJabar-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ProvinsiJawaBarat.ProvinsiJawaBarat-custom.ProvinsiJawaBarat-BAZNASJabar-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor: 081234502407 atau klik https://wa.me/6281234502407\n\nBagi Wargi Jabar yang sedang melakukan rawat jalan dan membutuhkan tempat tinggal sementara, Rumah Singgah siap memfasilitasi. Silakan hubungi nomor diatas untuk mendapatkan info lengkap dan pendaftaran Rumah Singgah Baznas Jabar."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

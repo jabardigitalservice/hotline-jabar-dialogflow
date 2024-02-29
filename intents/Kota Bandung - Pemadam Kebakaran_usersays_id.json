@@ -1,0 +1,51 @@
+[
+  {
+    "id": "c8cd8887-d31a-4829-8e91-c2339a387fdb",
+    "data": [
+      {
+        "text": "kontak ",
+        "userDefined": false
+      },
+      {
+        "text": "Pemadam Kebakaran Kota Bandung",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "8e495f83-e94f-4b41-a237-e54a994ab859",
+    "data": [
+      {
+        "text": "Pemadam Kebakaran Kota Bandung",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "b88084bc-e6a3-48da-81f3-86daae42e73c",
+    "data": [
+      {
+        "text": "Pemadam Kebakaran",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

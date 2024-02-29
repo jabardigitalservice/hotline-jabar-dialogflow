@@ -1,0 +1,55 @@
+{
+  "id": "81f01e31-89dc-46c7-8f4c-00b17cfc0dad",
+  "parentId": "c6145559-0a1a-45f0-8622-042d33f83a21",
+  "rootParentId": "c6145559-0a1a-45f0-8622-042d33f83a21",
+  "name": "Kota Bandung - Polisi",
+  "auto": true,
+  "contexts": [
+    "KotaBandung-followup",
+    "LayananKegawatdaruratan-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KotaBandung.KotaBandung-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "6dc6c0e4-ba6b-47d7-b1d7-4f0a5b7eaecf",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  *112*\n\nCall Center di atas adalah layanan Polisi dari Kota Bandung yang dikelola oleh Dinas Komunikasi dan Informatika.\n\nBagi Wargi Kota Bandung, segera hubungi nomor di atas  untuk menghubungi polisi apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti kecelakaan, seperti pencurian, seperti tawuran dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

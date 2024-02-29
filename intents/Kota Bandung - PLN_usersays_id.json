@@ -1,0 +1,49 @@
+[
+  {
+    "id": "90478de6-d7f6-4486-85eb-59bd44edd5c0",
+    "data": [
+      {
+        "text": "kontak ",
+        "userDefined": false
+      },
+      {
+        "text": "PLN kota bandung",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "43476977-053b-49d6-bded-b95ca3d923e4",
+    "data": [
+      {
+        "text": "PLN kota bandung",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "f81675aa-7cbc-4855-aaa9-d2f08d0098cf",
+    "data": [
+      {
+        "text": "PLN",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

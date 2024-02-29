@@ -1,0 +1,49 @@
+[
+  {
+    "id": "85ad29a1-1710-49b1-9a2a-0b796d8a34df",
+    "data": [
+      {
+        "text": "Polisi kota bandung",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "7d28186b-6b85-4de1-956c-e7f9a2f9aede",
+    "data": [
+      {
+        "text": "kontak ",
+        "userDefined": false
+      },
+      {
+        "text": "Polisi kota bandung",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "f2c26c4d-cf45-4d12-88ae-74ffbb463905",
+    "data": [
+      {
+        "text": "Polisi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

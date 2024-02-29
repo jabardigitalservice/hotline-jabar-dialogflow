@@ -1,0 +1,74 @@
+{
+  "id": "a9afb883-6830-45c7-bdc0-2afc3df923b0",
+  "name": "Provinsi Jawa Barat",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "LayananKegawatdaruratan-followup",
+          "lifespan": 5
+        },
+        {
+          "name": "ProvinsiJawaBarat-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Sampurasun, Wargi Jawa Barat!\nBerikut Layanan Kegawatdaruratan yang dikelola oleh Badan Penanggulangan Bencana Daerah (BPBD) Provinsi Jawa Barat, BAZNAS Jabar, dan PMI Jabar"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "content": "Untuk memulai, silakan pilih salah satu opsi di bawah ini :",
+            "private": false,
+            "content_type": "input_select",
+            "content_attributes": {
+              "items": [
+                {
+                  "title": "BPBD Jabar",
+                  "value": "BPBD Jabar"
+                },
+                {
+                  "value": "BAZNAS Jabar",
+                  "title": "BAZNAS Jabar"
+                },
+                {
+                  "value": "PMI Jabar",
+                  "title": "PMI Jabar"
+                }
+              ]
+            }
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

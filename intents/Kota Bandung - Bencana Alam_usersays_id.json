@@ -1,0 +1,73 @@
+[
+  {
+    "id": "94600c36-eea5-45b6-a412-103f95a129cf",
+    "data": [
+      {
+        "text": "Bencana ",
+        "userDefined": false
+      },
+      {
+        "text": "Alam",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Kota Bandung",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "c331a011-d013-4837-a1d5-3e20353ca40b",
+    "data": [
+      {
+        "text": "Bencana ",
+        "userDefined": false
+      },
+      {
+        "text": "Alam",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "93dfbdc6-ee6e-447b-a6ef-4682e2361348",
+    "data": [
+      {
+        "text": "Kontak Bencana ",
+        "userDefined": false
+      },
+      {
+        "text": "Alam",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Kota Bandung",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

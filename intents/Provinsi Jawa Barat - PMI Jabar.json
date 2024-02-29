@@ -1,0 +1,40 @@
+{
+  "id": "d52a1195-879f-48bc-840c-42a0ac7cede5",
+  "parentId": "a9afb883-6830-45c7-bdc0-2afc3df923b0",
+  "rootParentId": "a9afb883-6830-45c7-bdc0-2afc3df923b0",
+  "name": "Provinsi Jawa Barat - PMI Jabar",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup",
+    "ProvinsiJawaBarat-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ProvinsiJawaBarat.ProvinsiJawaBarat-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  *(022) 2500095*\n\nApabila menghadapi kondisi darurat di bidang sosial kemanusiaan, terutama tugas kepalangmerahan, PMI Jabar mengimbau Wargi Jabar untuk menghubungi PMI Jabar pada nomor diatas.\n\nWargi juga bisa secara langsung menghubungi melalui email:\nhalo@pmijabar.or.id\nhumaspmijabar@gmail.com\nposko_jawabarat@pmi.or.id\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

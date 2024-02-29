@@ -1,0 +1,54 @@
+{
+  "id": "150955a3-7a79-4028-a48e-aadf8390f17c",
+  "parentId": "c6145559-0a1a-45f0-8622-042d33f83a21",
+  "rootParentId": "c6145559-0a1a-45f0-8622-042d33f83a21",
+  "name": "Kota Bandung - Ambulan",
+  "auto": true,
+  "contexts": [
+    "KotaBandung-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KotaBandung.KotaBandung-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e52ed8a1-eca8-4659-bd3d-812b9bbebc5a",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  *112* atau *119*\n\nCall Center di atas adalah layanan Ambulans dari Pemerintah Kota Bandung yang dikelola oleh Dinas Kesehatan Kota Bandung.\n\nBagi Wargi Kota Bandung, segera hubungi nomor di atas untuk menghubungi ambulans apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  kecelakaan, bantuan kesehatan dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,59 @@
+{
+  "id": "d80020ab-cc9c-4b87-b746-86273272a670",
+  "parentId": "a9afb883-6830-45c7-bdc0-2afc3df923b0",
+  "rootParentId": "a9afb883-6830-45c7-bdc0-2afc3df923b0",
+  "name": "Provinsi Jawa Barat - BAZNAS Jabar",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup",
+    "ProvinsiJawaBarat-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ProvinsiJawaBarat.ProvinsiJawaBarat-custom",
+      "affectedContexts": [
+        {
+          "name": "ProvinsiJawaBarat-BAZNASJabar-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "content": "Badan Amil Zakat Nasional (BAZNAS) Provinsi Jawa Barat menyediakan layanan untuk membantu Wargi Jabar memenuhi kebutuhan yang bersifat urgensi.\n\nBerikut layanan Baznas Provinsi Jawa Barat:",
+            "private": false,
+            "content_attributes": {
+              "items": [
+                {
+                  "value": "Mobil Sehat",
+                  "title": "Mobil Sehat"
+                },
+                {
+                  "value": "Rumah Singgah Baznas",
+                  "title": "Rumah Singgah Baznas"
+                }
+              ]
+            },
+            "content_type": "input_select"
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

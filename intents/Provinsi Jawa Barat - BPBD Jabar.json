@@ -1,0 +1,40 @@
+{
+  "id": "85ec35cf-acb3-408f-9afb-663c006fec9d",
+  "parentId": "a9afb883-6830-45c7-bdc0-2afc3df923b0",
+  "rootParentId": "a9afb883-6830-45c7-bdc0-2afc3df923b0",
+  "name": "Provinsi Jawa Barat - BPBD Jabar",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup",
+    "ProvinsiJawaBarat-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ProvinsiJawaBarat.ProvinsiJawaBarat-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  *082317012056* atau klik https://wa.me/6282317012056\n\nApabila menghadapi kondisi darurat, BPBD Jabar mengimbau Wargi Jabar untuk menghubungi hotline BPBD pada nomor diatas.\n\nWargi juga bisa secara langsung menghubungi nomor BPBD atau Damkar di Kabupaten/Kota masing-masing yang tertera dalam pilihan menu sebelumnya di Hotline Jabar ini.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

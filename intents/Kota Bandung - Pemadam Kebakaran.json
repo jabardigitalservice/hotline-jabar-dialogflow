@@ -1,0 +1,55 @@
+{
+  "id": "8dff35a3-95a5-4ebb-9bcf-f83742fd6fcd",
+  "parentId": "c6145559-0a1a-45f0-8622-042d33f83a21",
+  "rootParentId": "c6145559-0a1a-45f0-8622-042d33f83a21",
+  "name": "Kota Bandung - Pemadam Kebakaran",
+  "auto": true,
+  "contexts": [
+    "KotaBandung-followup",
+    "LayananKegawatdaruratan-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KotaBandung.KotaBandung-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "41beb5bb-59e2-4142-9534-e9bf1b4b34d4",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  *112* atau *113*\n\nCall Center di atas adalah Layanan Pemadam Kebakaran dari Pemerintah Kota Bandung yang dikelola oleh Dinas Pemadam Kebakaran dan Penanggulangan Bencana Kota Bandung.\n\nBagi Wargi Kota Bandung, segera hubungi nomor di atas untuk menghubungi Pemadam Kebakaran apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti panyelamatan dan pertolongan pertama dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
