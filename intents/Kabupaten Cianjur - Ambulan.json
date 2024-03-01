@@ -1,0 +1,54 @@
+{
+  "id": "0cfc7d2c-c666-42e4-8b12-5ea9e1206595",
+  "parentId": "587904a7-0d22-46ed-b730-6a7f24fb015a",
+  "rootParentId": "587904a7-0d22-46ed-b730-6a7f24fb015a",
+  "name": "Kabupaten Cianjur - Ambulan",
+  "auto": true,
+  "contexts": [
+    "KabupatenCianjur-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenCianjur.KabupatenCianjur-custom-3",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e6860b54-78ee-4df5-b450-f682728095b9",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi nomor:\n(0263) 261026 atau (0263) 266100 RSUD Sayang\n(0263) 261565 PMI Cianjur\n\nWhatsapp: \n08112465888 RSUD Cimacan atau klik https://wa.me/628112465888 \n08112292275 RSUD Sayang atau klik https://wa.me/628112292275 \n08112292321 RSUD Sayang atau klik https://wa.me/628112292321 \n\nBagi Wargi Kabupaten Cianjur, segera hubungi nomor di atas untuk menghubungi ambulans apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  kecelakaan, bantuan kesehatan dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

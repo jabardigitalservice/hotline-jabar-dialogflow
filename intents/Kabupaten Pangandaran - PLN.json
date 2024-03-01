@@ -1,0 +1,55 @@
+{
+  "id": "79977935-b17e-4268-84d4-4cc5b600f561",
+  "parentId": "58abc9aa-baa9-4381-8fef-973292a3e384",
+  "rootParentId": "58abc9aa-baa9-4381-8fef-973292a3e384",
+  "name": "Kabupaten Pangandaran - PLN",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup",
+    "KabupatenPangandaran-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenPangandaran.KabupatenPangandaran-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "0c625a00-89ba-4fdf-951d-63b223aad70c",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi nomor : 123\n\nCall Center di atas adalah Layanan Perusahaan Listrik Negara dari Perusahaan Listrik Negara Kabupaten Pangandaran.\n\nBagi Wargi Kabupaten Pangandaran, segera hubungi nomor di atas untuk menghubungi Perusahaan Listrik Negara apabila terjadi situasi Gangguan Listrik.\n\nHatur Nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

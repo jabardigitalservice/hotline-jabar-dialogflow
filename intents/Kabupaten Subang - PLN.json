@@ -1,0 +1,54 @@
+{
+  "id": "e3e34b33-f9bd-4f45-b739-9bd9f4167251",
+  "parentId": "39c071f8-86c1-4752-a674-f41dac971737",
+  "rootParentId": "39c071f8-86c1-4752-a674-f41dac971737",
+  "name": "Kabupaten Subang - PLN",
+  "auto": true,
+  "contexts": [
+    "KabupatenSubang-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenSubang.KabupatenSubang-custom-5",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "67b8c708-a70b-40d9-950b-ebb6aada8716",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  123\n\nCall Center di atas adalah Layanan Perusahaan Listrik Negara dari Perusahaan Listrik Negara Kabupaten Subang.\n\nBagi Wargi Kabupaten Subang, segera hubungi nomor di atas untuk menghubungi Perusahaan Listrik Negara apabila terjadi situasi Gangguan Listrik.\n\nHatur nuhun"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

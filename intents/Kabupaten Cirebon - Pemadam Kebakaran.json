@@ -1,0 +1,54 @@
+{
+  "id": "8012daf1-6b77-4088-ab42-c0652a3db2e1",
+  "parentId": "f7d7dad8-f71a-4298-bbfa-dd200c79bfef",
+  "rootParentId": "f7d7dad8-f71a-4298-bbfa-dd200c79bfef",
+  "name": "Kabupaten Cirebon - Pemadam Kebakaran",
+  "auto": true,
+  "contexts": [
+    "KabupatenCirebon-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenCirebon.KabupatenCirebon-custom-2",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "ae1d8578-699f-414f-9c6d-b738b8cf1bc4",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Berikut nomor Pemadam Kebakaran:\n(0231) 321113 - Weru\n(0231) 8330660 - Sumber\n(0231) 343850 - Palimanan\n(0231) 358645 - Arjawinangun\n(0231) 8227275 - Gunungjati\n(0231) 663300 - Cikulak\n(0231) 661500 - Cileduk\n(0231) 831001 - Losari\n(0231) 8513448 - Pangenan \n\nBagi Wargi Kabupaten Cirebon, segera hubungi nomor di atas untuk menghubungi Pemadam Kebakaran apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  penyelamatan dan pertolongan pertama dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

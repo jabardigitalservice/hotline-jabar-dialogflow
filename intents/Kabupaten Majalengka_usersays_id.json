@@ -1,0 +1,32 @@
+[
+  {
+    "id": "2c8b823b-a7bb-42e1-8213-2564a49bf8cc",
+    "data": [
+      {
+        "text": "Kab Majalengka",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "51db1ef6-1664-4d3d-94b1-edee86cbf69d",
+    "data": [
+      {
+        "text": "Kabupaten Majalengka",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

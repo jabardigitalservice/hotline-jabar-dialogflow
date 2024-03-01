@@ -1,0 +1,53 @@
+[
+  {
+    "id": "1c43938d-628c-4d30-9fd3-ad205c1cd7bd",
+    "data": [
+      {
+        "text": "kontak Ambulan ",
+        "userDefined": false
+      },
+      {
+        "text": "kota cirebon",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "b8c7f252-6779-42d0-bccd-53a1ba850244",
+    "data": [
+      {
+        "text": "Ambulan",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "2707ce63-c315-48a4-b09e-9c0c07ca42a5",
+    "data": [
+      {
+        "text": "Ambulan ",
+        "userDefined": false
+      },
+      {
+        "text": "kota cirebon",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "id": "2cc39f89-60ea-4a9d-8e33-32659052b6d8",
+  "parentId": "3b0c6771-ae72-4eb0-9a40-44574da3c3da",
+  "rootParentId": "3b0c6771-ae72-4eb0-9a40-44574da3c3da",
+  "name": "Kabupaten Karawang - Ambulan",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup",
+    "KabupatenKarawang-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenKarawang.KabupatenKarawang-custom-2",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "b50f0bde-e805-4ec5-98f5-ec8a88571e87",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor : 119 \nWhatsapp \t: 081295199315 Portal Pengaduan TANGKAR (Tanggap Karawang) atau klik https://wa.me/6281295199315\n\nCall Center di atas adalah layanan Ambulans dari Dinas Kesehatan Kabupaten Karawang, atau nomor diatas melalui Portal Pengaduan TANGKAR (Tanggap Karawang).\n\nBagi Wargi Kabupaten Karawang, segera hubungi nomor di atas untuk menghubungi ambulans apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  kecelakaan, bantuan kesehatan dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

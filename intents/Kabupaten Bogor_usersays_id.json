@@ -1,0 +1,32 @@
+[
+  {
+    "id": "958f5b83-0f61-4c71-8ab6-9263d497f326",
+    "data": [
+      {
+        "text": "Kab Bogor",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "0b28e0db-bc97-4140-b6c7-5dc7e7790d2f",
+    "data": [
+      {
+        "text": "Kabupaten Bogor",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "id": "c7e091a9-8abe-4ec6-8e8c-5a37c7a84f0c",
+    "data": [
+      {
+        "text": "kontak ",
+        "userDefined": false
+      },
+      {
+        "text": "PLN Kota Cimahi",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "dde9f3fc-db9f-4c16-84cd-6b322bac7d0d",
+    "data": [
+      {
+        "text": "PLN Kota Cimahi",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "2a0ed212-1e32-4937-8719-0e7a6fe0ab63",
+    "data": [
+      {
+        "text": "PLN",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

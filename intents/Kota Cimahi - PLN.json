@@ -1,0 +1,54 @@
+{
+  "id": "86914121-884d-4b8b-828f-2b4acb34b890",
+  "parentId": "854184f4-c455-416d-a226-6c7f14420aa8",
+  "rootParentId": "854184f4-c455-416d-a226-6c7f14420aa8",
+  "name": "Kota Cimahi - PLN",
+  "auto": true,
+  "contexts": [
+    "KotaCimahi-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KotaCimahi.KotaCimahi-custom-5",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "60dc46b8-547b-4f1f-a8b9-bbb804b75880",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  123 atau (022) 6045725\n\nCall Center di atas adalah Layanan Perusahaan Listrik Negara dari Perusahaan Listrik Negara Kota Cimahi.\n\nBagi Wargi Kota Cimahi, segera hubungi nomor di atas untuk menghubungi Perusahaan Listrik Negara jika terjadi situasi Gangguan Listrik.\n\n💡 Ketik angka 9 untuk kembali ke menu sebelumnya\n💡 Ketik angka 0 untuk kembali ke halaman utama\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,85 @@
+[
+  {
+    "id": "25f14aea-b88a-46bc-a181-36aaae0f470c",
+    "data": [
+      {
+        "text": "kontak ",
+        "userDefined": false
+      },
+      {
+        "text": "Pemadam Kebakaran kabupaten cianjur",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "e7047dba-989a-427a-9b74-29820814153c",
+    "data": [
+      {
+        "text": "kontak ",
+        "userDefined": false
+      },
+      {
+        "text": "Pemadam Kebakaran kab cianjur",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "474a4324-cde9-47ec-8fe3-7ab6aadadcda",
+    "data": [
+      {
+        "text": "Pemadam Kebakaran kabupaten cianjur",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "1db55460-d241-4b16-ad41-fa598943a641",
+    "data": [
+      {
+        "text": "Pemadam Kebakaran kab cianjur",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "9bde2b04-eef8-4c74-aa0f-716849046716",
+    "data": [
+      {
+        "text": "Pemadam Kebakaran",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

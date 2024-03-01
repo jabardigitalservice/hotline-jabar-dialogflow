@@ -1,0 +1,85 @@
+[
+  {
+    "id": "ce23872b-0339-4a54-b8e8-a089f9623cca",
+    "data": [
+      {
+        "text": "kontak ",
+        "userDefined": false
+      },
+      {
+        "text": "Pemadam Kebakaran kabupaten cirebon",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "791e4136-2029-498e-9791-841e51d63230",
+    "data": [
+      {
+        "text": "Pemadam Kebakaran kabupaten cirebon",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "c47804a7-8a61-4afb-ad1e-a4d140c15b1f",
+    "data": [
+      {
+        "text": "kontak ",
+        "userDefined": false
+      },
+      {
+        "text": "Pemadam Kebakaran kab cirebon",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "20ce79bd-e9ec-4e72-80d8-7f94052ec5e0",
+    "data": [
+      {
+        "text": "Pemadam Kebakaran kab cirebon",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "9c2e0f5e-367e-4baf-af9d-4f6323cb637a",
+    "data": [
+      {
+        "text": "Pemadam Kebakaran",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

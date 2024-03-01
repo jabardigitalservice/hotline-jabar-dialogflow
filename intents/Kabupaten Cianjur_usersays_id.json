@@ -1,0 +1,32 @@
+[
+  {
+    "id": "98d2b0c3-fe37-484a-a299-f7dbb7eb677b",
+    "data": [
+      {
+        "text": "Kab Cianjur",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "a4500091-30ec-498b-a306-be21ec1c9cf3",
+    "data": [
+      {
+        "text": "Kabupaten Cianjur",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "id": "16086459-44fc-4490-9726-e9c09cf57f13",
+  "parentId": "d2901c9e-c1bb-4233-b0ef-32d0d667e500",
+  "rootParentId": "d2901c9e-c1bb-4233-b0ef-32d0d667e500",
+  "name": "Kabupaten Bogor - Ambulan",
+  "auto": true,
+  "contexts": [
+    "KabupatenBogor-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenBogor.KabupatenBogor-custom-4",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "932f4849-38f3-478b-a7a9-d744b8e643bb",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  119\n\nCall Center di atas adalah layanan Ambulans dari Dinas Kesehatan Kabupaten Bogor\n\nBagi Wargi Kabupaten Bogor, segera hubungi nomor di atas untuk menghubungi ambulans apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  kecelakaan, bantuan kesehatan dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

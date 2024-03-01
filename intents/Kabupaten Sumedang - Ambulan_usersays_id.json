@@ -1,0 +1,91 @@
+[
+  {
+    "id": "45cbbeca-96a5-4040-ba29-caa427210111",
+    "data": [
+      {
+        "text": "kontak Ambulan ",
+        "userDefined": false
+      },
+      {
+        "text": "kabupaten sumedang",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "56d55ad2-440e-4c40-91c7-92d98e4e8334",
+    "data": [
+      {
+        "text": "Ambulan ",
+        "userDefined": false
+      },
+      {
+        "text": "kabupaten sumedang",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "186f6098-28a2-4097-84b1-ed83819d2c8b",
+    "data": [
+      {
+        "text": "kontak Ambulan ",
+        "userDefined": false
+      },
+      {
+        "text": "kab sumedang",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "69c5e0d4-009c-4d7c-a888-9e37a0fdd59a",
+    "data": [
+      {
+        "text": "Ambulan ",
+        "userDefined": false
+      },
+      {
+        "text": "kab sumedang",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "ee82e3b3-6eaa-43cd-b577-c5df22d53085",
+    "data": [
+      {
+        "text": "Ambulan",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

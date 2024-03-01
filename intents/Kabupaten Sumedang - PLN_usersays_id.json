@@ -1,0 +1,83 @@
+[
+  {
+    "id": "cbf37554-1992-48d1-90ca-5e6ff191add8",
+    "data": [
+      {
+        "text": "PLN kabupaten sumedang",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "728c9cae-0834-4764-a831-1d9b7222baec",
+    "data": [
+      {
+        "text": "kontak ",
+        "userDefined": false
+      },
+      {
+        "text": "PLN kabupaten sumedang",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "2a91d0b7-dd1f-4da0-a161-93150a911db9",
+    "data": [
+      {
+        "text": "kontak ",
+        "userDefined": false
+      },
+      {
+        "text": "PLN kab sumedang",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "5340fa99-dba1-464b-b08d-4b07fdb38634",
+    "data": [
+      {
+        "text": "PLN kab sumedang",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "76d8b511-1d6d-4e94-b3a1-1d35a12b9ef0",
+    "data": [
+      {
+        "text": "PLN",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "id": "47b75440-f353-4529-94dc-127c055314fd",
+    "data": [
+      {
+        "text": "kontak ",
+        "userDefined": false
+      },
+      {
+        "text": "PLN kota sukabumi",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "f3ab28e1-eb54-42fb-9650-68a7f76f25af",
+    "data": [
+      {
+        "text": "PLN kota sukabumi",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "b17f6ae6-9c34-4229-8b81-efc4de30349e",
+    "data": [
+      {
+        "text": "PLN",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

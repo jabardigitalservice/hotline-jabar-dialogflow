@@ -1,0 +1,17 @@
+[
+  {
+    "id": "2149f946-66b2-476c-bb83-bdbd6cc92e90",
+    "data": [
+      {
+        "text": "Kota Tasikmalaya",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

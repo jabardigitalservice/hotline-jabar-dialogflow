@@ -1,0 +1,55 @@
+{
+  "id": "5ee88ed6-6b0d-4b8f-90d3-14e5db8ba7d0",
+  "parentId": "58abc9aa-baa9-4381-8fef-973292a3e384",
+  "rootParentId": "58abc9aa-baa9-4381-8fef-973292a3e384",
+  "name": "Kabupaten Pangandaran - Pemadam Kebakaran",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup",
+    "KabupatenPangandaran-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenPangandaran.KabupatenPangandaran-custom-3",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "35c16486-c8cb-4807-9e17-b74edfb51401",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor : 082211124545 atau klik https://wa.me/6282211124545\n\nCall Center di atas adalah Layanan Pemadam Kebakaran Kabupaten Pangandaran.\n\nBagi Wargi Kabupaten Pangandaran, segera hubungi nomor di atas untuk menghubungi Pemadam Kebakaran apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  panyelamatan dan pertolongan pertama dan keadaan darurat lainnya.\n\n\nHatur Nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

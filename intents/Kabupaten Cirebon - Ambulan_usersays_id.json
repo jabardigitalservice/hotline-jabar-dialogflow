@@ -1,0 +1,91 @@
+[
+  {
+    "id": "1057e057-1095-42a9-bcf9-baa371a0b841",
+    "data": [
+      {
+        "text": "kontak Ambulan ",
+        "userDefined": false
+      },
+      {
+        "text": "kabupaten cirebon",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "7598e1a4-092d-4cec-8bf5-ca948bd23429",
+    "data": [
+      {
+        "text": "Ambulan ",
+        "userDefined": false
+      },
+      {
+        "text": "kabupaten cirebon",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "27d4bb06-757a-4841-ae55-08e065e23602",
+    "data": [
+      {
+        "text": "kontak Ambulan ",
+        "userDefined": false
+      },
+      {
+        "text": "kab cirebon",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "3285e241-e148-47a6-b835-68c3551094b8",
+    "data": [
+      {
+        "text": "Ambulan ",
+        "userDefined": false
+      },
+      {
+        "text": "kab cirebon",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "710c971e-3aa9-4ddf-9f1a-ad8a0b5e643b",
+    "data": [
+      {
+        "text": "Ambulan",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

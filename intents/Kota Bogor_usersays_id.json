@@ -1,0 +1,17 @@
+[
+  {
+    "id": "c4001364-b2e6-4e19-863f-a4767e3e7a6d",
+    "data": [
+      {
+        "text": "Kota Bogor",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

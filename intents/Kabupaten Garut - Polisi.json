@@ -1,0 +1,54 @@
+{
+  "id": "b6ea330d-17d5-4595-9278-49bc772f13d2",
+  "parentId": "80ca572b-0338-41e9-b16a-2d8ceb29fba3",
+  "rootParentId": "80ca572b-0338-41e9-b16a-2d8ceb29fba3",
+  "name": "Kabupaten Garut - Polisi",
+  "auto": true,
+  "contexts": [
+    "KabupatenGarut-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenGarut.KabupatenGarut-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "c894d179-f3f3-4f12-a93b-b84d062a302f",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  110 \nWhatsapp\t:  081113404040 atau klik https://wa.me/6281113404040\n \nCall Center di atas  adalah layanan Polisi dari Polres Kabupaten Garut. \n\nBagi Wargi Kabupaten Garut, segera hubungi nomor di atas untuk menghubungi polisi apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  kecelakaan, seperti pencurian, seperti tawuran dan keadaan darurat lainnya.\n\nHatur Nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

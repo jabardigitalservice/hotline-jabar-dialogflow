@@ -1,0 +1,54 @@
+{
+  "id": "af1cd4bf-53e5-4be8-ae9d-8ba11fbeadae",
+  "parentId": "1e164a8b-1634-4f5a-af75-bef573342820",
+  "rootParentId": "1e164a8b-1634-4f5a-af75-bef573342820",
+  "name": "Kota Bekasi - PLN",
+  "auto": true,
+  "contexts": [
+    "KotaBekasi-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KotaBekasi.KotaBekasi-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e912c861-468a-44e0-aa0a-bf284d998aab",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  123\n\nCall Center di atas adalah Layanan Perusahaan Listrik Negara dari Perusahaan Listrik Negara Kota Bekasi.\n\nBagi Wargi Kota Bekasi, segera hubungi nomor di atas untuk menghubungi Perusahaan Listrik Negara apabila terjadi situasi Gangguan Listrik.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

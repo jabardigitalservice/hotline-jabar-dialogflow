@@ -1,0 +1,54 @@
+{
+  "id": "36d885cd-fecd-4ee9-ac20-55adb63eae8a",
+  "parentId": "587904a7-0d22-46ed-b730-6a7f24fb015a",
+  "rootParentId": "587904a7-0d22-46ed-b730-6a7f24fb015a",
+  "name": "Kabupaten Cianjur - Bencana Alam",
+  "auto": true,
+  "contexts": [
+    "KabupatenCianjur-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenCianjur.KabupatenCianjur-custom-5",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "2c7a4318-a222-43dc-8a96-ee42f29af99c",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  081295250593 atau klik https://wa.me/6281295250593\n\nCall Center di atas adalah Layanan Bencana Alam dari Badan Penanggulangan Bencana Daerah Kabupaten Cianjur.\n\nBagi Wargi Kabupaten Cianjur, segera hubungi nomor di atas untuk menghubungi Layanan Bencana Alam apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  tanah longsor, bantuan banjir, bantuan gempa bumi dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

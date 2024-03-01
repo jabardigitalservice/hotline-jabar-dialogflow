@@ -1,0 +1,127 @@
+[
+  {
+    "id": "246533a6-5329-4d02-8baa-be987ec35050",
+    "data": [
+      {
+        "text": "Bencana ",
+        "userDefined": false
+      },
+      {
+        "text": "Alam",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Kab Bandung",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "5f4052e6-11cd-43c4-936a-aecf5d10c786",
+    "data": [
+      {
+        "text": "Bencana ",
+        "userDefined": false
+      },
+      {
+        "text": "Alam",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Kabupaten Bandung",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "0a80b69b-d5d8-45b0-890e-3bbbc010ed9d",
+    "data": [
+      {
+        "text": "kontak Bencana ",
+        "userDefined": false
+      },
+      {
+        "text": "Alam",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Kab Bandung",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "5b7d3794-3320-4c5e-8b90-a253da5f1dd6",
+    "data": [
+      {
+        "text": "kontak Bencana ",
+        "userDefined": false
+      },
+      {
+        "text": "Alam",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Kabupaten Bandung",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "606ef182-4375-477b-98b5-7a27ddee53bb",
+    "data": [
+      {
+        "text": "Bencana ",
+        "userDefined": false
+      },
+      {
+        "text": "Alam",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

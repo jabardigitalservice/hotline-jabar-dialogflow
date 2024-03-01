@@ -1,0 +1,51 @@
+[
+  {
+    "id": "619e41ab-7683-495a-b53a-a087d360fab7",
+    "data": [
+      {
+        "text": "kontak ",
+        "userDefined": false
+      },
+      {
+        "text": "PLN kota cirebon",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "39f7124b-8975-4015-b364-353519f1b4d3",
+    "data": [
+      {
+        "text": "PLN kota cirebon",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "bb911137-f678-4f40-a76c-ca12eaac5823",
+    "data": [
+      {
+        "text": "PLN",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

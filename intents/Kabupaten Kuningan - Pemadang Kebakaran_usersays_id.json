@@ -1,0 +1,91 @@
+[
+  {
+    "id": "cf9ad88e-490a-4a88-b9a6-6ac8e5ace540",
+    "data": [
+      {
+        "text": "kontak Pemadang Kebakaran ",
+        "userDefined": false
+      },
+      {
+        "text": "kabupaten kuningan",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "1d51f36c-7a7f-4b2d-bfbd-fcdda287e3cf",
+    "data": [
+      {
+        "text": "Pemadang Kebakaran ",
+        "userDefined": false
+      },
+      {
+        "text": "kabupaten kuningan",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "8d875dcb-cc41-4755-bc0f-0ad0a10bff6b",
+    "data": [
+      {
+        "text": "kontak Pemadang Kebakaran ",
+        "userDefined": false
+      },
+      {
+        "text": "kab kuningan",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "534235b3-0c21-4db4-9ba6-27864a8829bc",
+    "data": [
+      {
+        "text": "Pemadang Kebakaran ",
+        "userDefined": false
+      },
+      {
+        "text": "kab kuningan",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "85531202-b90f-4a0e-9204-0c8c651a0ba5",
+    "data": [
+      {
+        "text": "Pemadang Kebakaran",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

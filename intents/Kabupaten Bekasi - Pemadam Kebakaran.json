@@ -1,0 +1,54 @@
+{
+  "id": "343a0d63-4dd2-44f3-be45-73ff0c0b67fb",
+  "parentId": "1a32f4b9-3869-4886-aa9a-ca1fe64f920e",
+  "rootParentId": "1a32f4b9-3869-4886-aa9a-ca1fe64f920e",
+  "name": "Kabupaten Bekasi - Pemadam Kebakaran",
+  "auto": true,
+  "contexts": [
+    "KabupatenBekasi-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenBekasi.KabupatenBekasi-custom-5",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "aaa16f15-0ea6-4ba9-b509-432b37b29b3e",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  113\n\nCall Center di atas adalah Layanan Pemadam Kebakaran dari Dinas Pemadam Kebakaran Kabupaten Bandung.\n\nBagi Wargi Kabupaten Bekasi, segera hubungi nomor di atas untuk menghubungi Pemadam Kebakaran apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  penyelamatan dan pertolongan pertama dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

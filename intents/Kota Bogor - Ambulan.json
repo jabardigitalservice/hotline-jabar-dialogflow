@@ -1,0 +1,54 @@
+{
+  "id": "367b86ed-d46f-46a2-8c62-ccd4ae06fe3c",
+  "parentId": "187e686e-c34f-4fbe-bf43-298c29219bf2",
+  "rootParentId": "187e686e-c34f-4fbe-bf43-298c29219bf2",
+  "name": "Kota Bogor - Ambulan",
+  "auto": true,
+  "contexts": [
+    "KotaBogor-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KotaBogor.KotaBogor-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d1dc200c-6b43-40c8-b41b-0c9792c281ad",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  119\n\nCall Center di atas adalah layanan Ambulans dari Dinas Kesehatan Kota Bogor.\n\nBagi Wargi Kota Bogor, segera hubungi nomor di atas untuk menghubungi ambulans apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  kecelakaan, bantuan kesehatan dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

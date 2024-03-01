@@ -1,0 +1,49 @@
+[
+  {
+    "id": "eada10b2-8c8b-4dc6-8dac-9b58dd006168",
+    "data": [
+      {
+        "text": "kontak ",
+        "userDefined": false
+      },
+      {
+        "text": "polisi kota depok",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "76c08af7-f22f-4c8e-8d31-71e26c85042a",
+    "data": [
+      {
+        "text": "polisi kota depok",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "d2e3cff3-eb86-470c-9d14-bd98e7d5a340",
+    "data": [
+      {
+        "text": "polisi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

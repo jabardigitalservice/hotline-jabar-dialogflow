@@ -1,0 +1,54 @@
+{
+  "id": "a4b6e8fb-b9b1-4e90-a6f7-2b26e83692c8",
+  "parentId": "b9ca6f51-e1e9-4b30-813c-a09ee8bbb596",
+  "rootParentId": "b9ca6f51-e1e9-4b30-813c-a09ee8bbb596",
+  "name": "Kabupaten Kuningan - Pemadang Kebakaran",
+  "auto": true,
+  "contexts": [
+    "KabupatenKuningan-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenKuningan.KabupatenKuningan-custom-2",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "caaec23a-87cd-4b8d-9bc6-3ce09df69357",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  (0232) 871113\n\nCall Center  di atas adalah Layanan Pemadam Kebakaran dari Dinas Pemadam Kebakaran Kabupaten Kuningan.\n\nBagi Wargi Kabupaten Kuningan, segera hubungi nomor di atas untuk menghubungi Pemadam Kebakaran apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  penyelamatan dan pertolongan pertama dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

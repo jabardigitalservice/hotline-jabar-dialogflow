@@ -1,0 +1,83 @@
+[
+  {
+    "id": "90d99431-15b4-49b6-a34b-86b75e1209ae",
+    "data": [
+      {
+        "text": "kontak ",
+        "userDefined": false
+      },
+      {
+        "text": "PLN Kabupaten Bogor",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "39975c37-3722-42e3-abe4-a5856bfec94d",
+    "data": [
+      {
+        "text": "PLN Kabupaten Bogor",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "43f80734-4b4b-4d6c-87c1-0ae681c037bf",
+    "data": [
+      {
+        "text": "kontak ",
+        "userDefined": false
+      },
+      {
+        "text": "PLN Kab Bogor",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "36c00f52-36e1-4ef4-b4ba-43fa270fa2a0",
+    "data": [
+      {
+        "text": "PLN Kab Bogor",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "7529211f-ce76-4a00-9aa9-42792786f618",
+    "data": [
+      {
+        "text": "PLN",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "id": "cd72773e-bf2e-4563-ad72-08d31f977c61",
+  "parentId": "1a32f4b9-3869-4886-aa9a-ca1fe64f920e",
+  "rootParentId": "1a32f4b9-3869-4886-aa9a-ca1fe64f920e",
+  "name": "Kabupaten Bekasi - Polisi",
+  "auto": true,
+  "contexts": [
+    "KabupatenBekasi-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenBekasi.KabupatenBekasi-custom-2",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "77264442-29ae-40f4-8ecb-957aca53e869",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  110 \n\nCall Center di atas adalah layanan Polisi dari Polresta Kabupaten Bekasi\n\nBagi Wargi Kabupaten Bekasi, segera hubungi nomor di atas untuk menghubungi polisi apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  kecelakaan, seperti pencurian, seperti tawuran dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

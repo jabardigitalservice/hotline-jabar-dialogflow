@@ -1,0 +1,94 @@
+{
+  "id": "f1de4901-430b-4121-b7cc-cd9796942e95",
+  "name": "Kabupaten Bandung",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "KabupatenBandung-followup",
+          "lifespan": 2
+        },
+        {
+          "name": "LayananKegawatdaruratan-followup",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "f3330b08-7dd7-4ca5-942f-9a0b0cf91ef8",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "private": false,
+            "content": "Sampurasun, Wargi Jabar!\nBerikut ini adalah kontak Layanan Kegawatdaruratan untuk Kabupaten Bandung.\n\nUntuk memulai, silakan pilih salah satu opsi di bawah ini:",
+            "content_attributes": {
+              "items": [
+                {
+                  "value": "Ambulan",
+                  "title": "Ambulan"
+                },
+                {
+                  "title": "Bencana Alam",
+                  "value": "Bencana Alam"
+                },
+                {
+                  "value": "Pemadam Kebakaran",
+                  "title": "Pemadam Kebakaran"
+                },
+                {
+                  "title": "PLN",
+                  "value": "PLN"
+                },
+                {
+                  "value": "Polisi",
+                  "title": "Polisi"
+                }
+              ]
+            },
+            "content_type": "input_select"
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

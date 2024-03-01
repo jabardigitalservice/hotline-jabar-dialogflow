@@ -1,0 +1,127 @@
+[
+  {
+    "id": "87b967fe-dd28-4356-8860-15bd84eea7db",
+    "data": [
+      {
+        "text": "kontak Bencana ",
+        "userDefined": false
+      },
+      {
+        "text": "Alam",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "kabupaten majalengka",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "33f97152-df9e-4a1c-a8d5-6fbafd54c0c2",
+    "data": [
+      {
+        "text": "Bencana ",
+        "userDefined": false
+      },
+      {
+        "text": "Alam",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "kabupaten majalengka",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "03520ffd-3344-4644-a95f-2eb2e0344ef0",
+    "data": [
+      {
+        "text": "kontak Bencana ",
+        "userDefined": false
+      },
+      {
+        "text": "Alam",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "kab majalengka",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "c5cce4e6-4db4-40ad-9acb-637e1ab9339e",
+    "data": [
+      {
+        "text": "Bencana ",
+        "userDefined": false
+      },
+      {
+        "text": "Alam",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "kab majalengka",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "a3977b21-ae23-4aa5-87ee-dd5b9f426493",
+    "data": [
+      {
+        "text": "Bencana ",
+        "userDefined": false
+      },
+      {
+        "text": "Alam",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

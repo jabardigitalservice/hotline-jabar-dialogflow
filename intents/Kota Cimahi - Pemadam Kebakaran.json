@@ -1,0 +1,54 @@
+{
+  "id": "6ece030d-d6aa-43e9-9041-60cbb90e581e",
+  "parentId": "854184f4-c455-416d-a226-6c7f14420aa8",
+  "rootParentId": "854184f4-c455-416d-a226-6c7f14420aa8",
+  "name": "Kota Cimahi - Pemadam Kebakaran",
+  "auto": true,
+  "contexts": [
+    "KotaCimahi-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KotaCimahi.KotaCimahi-custom-3",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "3ff25e3b-cdb3-4982-9cfe-b4b9942b64d9",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor : (022) 6658113 \nWhatsapp\t: 085186658113 atau klik https://wa.me/6285186658113\n \nCall Center di atas adalah Layanan Pemadam Kebakaran dari Dinas Kebakaran Kota Cimahi dan Satpol PP Kota Cimahi.\n\nBagi Wargi Kota Cimahi, segera hubungi nomor di atas untuk menghubungi Pemadam Kebakaran jika terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  penyelamatan dan pertolongan pertama dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

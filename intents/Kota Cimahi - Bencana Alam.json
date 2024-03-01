@@ -1,0 +1,54 @@
+{
+  "id": "4d833e11-0093-46fd-96c8-af0d504704be",
+  "parentId": "854184f4-c455-416d-a226-6c7f14420aa8",
+  "rootParentId": "854184f4-c455-416d-a226-6c7f14420aa8",
+  "name": "Kota Cimahi - Bencana Alam",
+  "auto": true,
+  "contexts": [
+    "KotaCimahi-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KotaCimahi.KotaCimahi-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "dd72f8ac-28bc-4bdd-9b34-b926f8398fbb",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  (022) 20661899\n\nCall Center di atas adalah Layanan Bencana Alam dari Badan Penanggulangan Bencana Daerah Kota Cimahi.\n\nBagi Wargi Kota Cimahi, segera hubungi nomor di atas untuk menghubungi Layanan Bencana Alam apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  tanah longsor, bantuan banjir, bantuan gempa bumi dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,85 @@
+[
+  {
+    "id": "ca3dcc13-1fd9-4c3c-a5a6-893b99643bb6",
+    "data": [
+      {
+        "text": "kontak ",
+        "userDefined": false
+      },
+      {
+        "text": "Pemadam Kebakaran kabupaten ciamis",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "aa4c9489-f0a6-4b2b-b112-4fbc7eaa92aa",
+    "data": [
+      {
+        "text": "Pemadam Kebakaran kabupaten ciamis",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "3d08a020-5f06-40ed-ad77-d767a0a19510",
+    "data": [
+      {
+        "text": "kontak ",
+        "userDefined": false
+      },
+      {
+        "text": "Pemadam Kebakaran kab ciamis",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "f39a9140-f547-4284-af30-b85c3f940808",
+    "data": [
+      {
+        "text": "Pemadam Kebakaran kab ciamis",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "25a380b9-1700-4adf-9698-94af4547f069",
+    "data": [
+      {
+        "text": "Pemadam Kebakaran",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

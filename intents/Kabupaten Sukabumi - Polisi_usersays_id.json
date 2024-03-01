@@ -1,0 +1,83 @@
+[
+  {
+    "id": "9846f8fb-b307-43cf-bdc6-97a4c193da39",
+    "data": [
+      {
+        "text": "kontak ",
+        "userDefined": false
+      },
+      {
+        "text": "Polisi kabupaten sukabumi",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "0c244ab5-ff2b-49a6-a238-56951c12f04b",
+    "data": [
+      {
+        "text": "Polisi kabupaten sukabumi",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "b7d34175-f699-4548-8a08-4351ab4f212c",
+    "data": [
+      {
+        "text": "kontak ",
+        "userDefined": false
+      },
+      {
+        "text": "Polisi kab sukabumi",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "952fce40-3dca-4d58-8aac-291c57f615cc",
+    "data": [
+      {
+        "text": "Polisi kab sukabumi",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "1445d8e4-c636-4050-bd4d-061bec6e76cc",
+    "data": [
+      {
+        "text": "Polisi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

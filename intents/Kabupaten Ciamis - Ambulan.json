@@ -1,0 +1,54 @@
+{
+  "id": "0f3f0d5b-35d5-40f4-85d0-d85c34d697b1",
+  "parentId": "bfce12cb-9335-4154-9964-a06db0b2557a",
+  "rootParentId": "bfce12cb-9335-4154-9964-a06db0b2557a",
+  "name": "Kabupaten Ciamis - Ambulan",
+  "auto": true,
+  "contexts": [
+    "KabupatenCiamis-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenCiamis.KabupatenCiamis-custom-4",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "aba30b38-6868-48ef-a340-53b99a4ac416",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor : (0265) 771405\nWhatsapp \t: 082126630366 atau klik https://wa.me/6282126630366 \n\nCall Center di atas adalah layanan Ambulans dari Dinas Kesehatan Kabupaten Ciamis.\n\nBagi Wargi Kabupaten Ciamis, segera hubungi nomor di atas untuk menghubungi ambulans apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  kecelakaan, bantuan kesehatan dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

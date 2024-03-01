@@ -1,0 +1,49 @@
+[
+  {
+    "id": "c7c1214a-c7ea-4149-981f-da857322d07f",
+    "data": [
+      {
+        "text": "kontak ",
+        "userDefined": false
+      },
+      {
+        "text": "Polisi kota banjar",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "edf2ba3e-ff12-46a2-aa32-43fe670200b0",
+    "data": [
+      {
+        "text": "Polisi kota banjar",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "3dedd33f-9a09-4dd1-b16b-22a16967b5ed",
+    "data": [
+      {
+        "text": "Polisi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

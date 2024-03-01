@@ -1,0 +1,85 @@
+[
+  {
+    "id": "b7281ded-1dac-449f-b75d-3c2b4a876a0a",
+    "data": [
+      {
+        "text": "kontak ",
+        "userDefined": false
+      },
+      {
+        "text": "PLN kab ciajur",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "12f1dc66-79fb-44d1-b834-c8fffab7fe6e",
+    "data": [
+      {
+        "text": "kontak ",
+        "userDefined": false
+      },
+      {
+        "text": "PLN kabupaten ciajur",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "972d3931-9fe5-48aa-bb99-a11916e3fe25",
+    "data": [
+      {
+        "text": "PLN kabupaten ciajur",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "64969f2b-bdb7-4e7d-a8b2-b23161babf96",
+    "data": [
+      {
+        "text": "PLN kab ciajur",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "d7527f06-6b1a-4584-b9e7-a7517a4f312c",
+    "data": [
+      {
+        "text": "PLN",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

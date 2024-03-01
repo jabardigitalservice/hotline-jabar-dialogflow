@@ -1,0 +1,85 @@
+[
+  {
+    "id": "5a8cf233-364e-4a06-ae0d-09af012bdf5a",
+    "data": [
+      {
+        "text": "kontak ",
+        "userDefined": false
+      },
+      {
+        "text": "Pemadam Kebakaran kabupaten garut",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "3f6499bb-92db-43f9-86a1-56f271449965",
+    "data": [
+      {
+        "text": "Pemadam Kebakaran kabupaten garut",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "e58bb395-ba03-4736-8a10-db8a5cf8b8b0",
+    "data": [
+      {
+        "text": "kontak ",
+        "userDefined": false
+      },
+      {
+        "text": "Pemadam Kebakaran kab garut",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "1b0fe9bf-e20c-4301-9290-eef072c16b3b",
+    "data": [
+      {
+        "text": "Pemadam Kebakaran kab garut",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "504d2be3-b7f8-46b7-8b8a-6f85c726cd46",
+    "data": [
+      {
+        "text": "Pemadam Kebakaran",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

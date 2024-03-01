@@ -1,0 +1,98 @@
+[
+  {
+    "id": "aee0d27a-cd80-4819-be97-26cbc331ef06",
+    "data": [
+      {
+        "text": "kontak ",
+        "userDefined": false
+      },
+      {
+        "text": "Polisi Kabupaten Bandung Barat",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "03212060-5c1f-4e9b-8091-cf0568fff041",
+    "data": [
+      {
+        "text": "Polisi Kabupaten Bandung Barat",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "55e6a500-ad0f-4ad3-a860-0da35b55c64d",
+    "data": [
+      {
+        "text": "kontak ",
+        "userDefined": false
+      },
+      {
+        "text": "Polisi Kab Bandung Barat",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "1d9775c7-3154-4420-bf08-652d2c13aae3",
+    "data": [
+      {
+        "text": "Polisi Kab Bandung Barat",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "26a1cd36-372a-46e9-98ed-53e468183bef",
+    "data": [
+      {
+        "text": "Polisi KBB",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "08234520-9dc0-420c-a3e0-171601802073",
+    "data": [
+      {
+        "text": "Polisi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

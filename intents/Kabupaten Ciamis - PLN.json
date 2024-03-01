@@ -1,0 +1,54 @@
+{
+  "id": "98d9210b-3dd7-462f-aecc-e20735b05756",
+  "parentId": "bfce12cb-9335-4154-9964-a06db0b2557a",
+  "rootParentId": "bfce12cb-9335-4154-9964-a06db0b2557a",
+  "name": "Kabupaten Ciamis - PLN",
+  "auto": true,
+  "contexts": [
+    "KabupatenCiamis-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenCiamis.KabupatenCiamis-custom-5",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "b6eaa08c-16c6-424d-91d5-c0edaeab70d7",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  123\n\nCall Center di atas adalah Layanan Perusahaan Listrik Negara dari Perusahaan Listrik Negara Kota Bekasi.\n\nBagi Wargi Kabupaten Ciamis, segera hubungi nomor di atas untuk menghubungi Perusahaan Listrik Negara apabila terjadi situasi Gangguan Listrik.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

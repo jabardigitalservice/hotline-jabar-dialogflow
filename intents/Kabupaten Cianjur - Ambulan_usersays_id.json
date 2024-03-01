@@ -1,0 +1,91 @@
+[
+  {
+    "id": "f8dc8d18-ba4a-4e62-be89-a5f98440aa42",
+    "data": [
+      {
+        "text": "kontak Ambulan ",
+        "userDefined": false
+      },
+      {
+        "text": "kabupaten cianjur",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "8fdca1eb-731f-4007-a723-a7d55bb414ee",
+    "data": [
+      {
+        "text": "Ambulan ",
+        "userDefined": false
+      },
+      {
+        "text": "kabupaten cianjur",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "8cbc66f6-9937-4efc-b926-1e779e166a74",
+    "data": [
+      {
+        "text": "kontak Ambulan ",
+        "userDefined": false
+      },
+      {
+        "text": "kab cianjur",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "9684afaf-217f-4ba0-bb87-a045750023f0",
+    "data": [
+      {
+        "text": "Ambulan ",
+        "userDefined": false
+      },
+      {
+        "text": "kab cianjur",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "773f739b-38b9-451f-a568-94c8ff1871b7",
+    "data": [
+      {
+        "text": "Ambulan",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

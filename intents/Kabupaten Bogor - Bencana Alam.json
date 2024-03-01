@@ -1,0 +1,54 @@
+{
+  "id": "279c9120-4cc8-4c15-9ad5-d5c02c280e61",
+  "parentId": "d2901c9e-c1bb-4233-b0ef-32d0d667e500",
+  "rootParentId": "d2901c9e-c1bb-4233-b0ef-32d0d667e500",
+  "name": "Kabupaten Bogor - Bencana Alam",
+  "auto": true,
+  "contexts": [
+    "KabupatenBogor-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenBogor.KabupatenBogor-custom-5",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "622c2c7f-fdae-45e0-8874-3f8949b2d957",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  (021) 87914800\n\nCall Center di atas adalah Layanan Bencana Alam dari Badan Penanggulangan Bencana Daerah Kabupaten Bogor.\n\nBagi Wargi Kabupaten Bogor, segera hubungi nomor di atas untuk menghubungi Layanan Bencana Alam apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  tanah longsor, bantuan banjir, bantuan gempa bumi dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "5c946fd6-a07f-473c-b300-021a9d65c713",
+  "parentId": "f8463666-625f-42c9-8044-e5451743b5a4",
+  "rootParentId": "f8463666-625f-42c9-8044-e5451743b5a4",
+  "name": "Kabupaten Sukabumi - Pemadam Kebakaran",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup",
+    "KabupatenSukabumi-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenSukabumi.KabupatenSukabumi-custom-2",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e7deee8b-a90b-49b7-99f4-2ac94bccf9c6",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :0811844113 atau klik https://wa.me/62811844113\n\nCall Center di atas adalah Layanan Pemadam Kebakaran dari Dinas Kebakaran Kabupaten Sukabumi.\n\nBagi Wargi Kabupaten Sukabumi, segera hubungi nomor di atas untuk menghubungi Pemadam Kebakaran apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  panyelamatan dan pertolongan pertama dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

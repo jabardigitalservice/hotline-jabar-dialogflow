@@ -1,0 +1,54 @@
+{
+  "id": "4c67b1c2-a2b1-447b-9fde-83d4e63525a7",
+  "parentId": "854184f4-c455-416d-a226-6c7f14420aa8",
+  "rootParentId": "854184f4-c455-416d-a226-6c7f14420aa8",
+  "name": "Kota Cimahi - Ambulan",
+  "auto": true,
+  "contexts": [
+    "KotaCimahi-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KotaCimahi.KotaCimahi-custom-2",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "40a86728-5bb0-4453-aa9b-9ee547a41640",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  119\n\nCall Center di atas adalah layanan Ambulans dari Dinas Kesehatan Kota Cimahi.\n\nBagi Wargi Kota Cimahi, segera hubungi nomor di atas untuk menghubungi ambulans apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  kecelakaan, bantuan kesehatan dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

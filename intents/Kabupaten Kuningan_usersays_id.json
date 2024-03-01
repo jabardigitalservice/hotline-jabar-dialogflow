@@ -1,0 +1,32 @@
+[
+  {
+    "id": "9a738ecb-6a55-441b-82f5-ed8caa379bf1",
+    "data": [
+      {
+        "text": "Kab Kuningan",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "ecc24fee-b12d-4208-b2cf-dbcf272ca9b5",
+    "data": [
+      {
+        "text": "Kabupaten Kuningan",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

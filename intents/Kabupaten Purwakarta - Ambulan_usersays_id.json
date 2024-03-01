@@ -1,0 +1,91 @@
+[
+  {
+    "id": "3f89eb5c-14fa-461f-8c60-bde9d23f23eb",
+    "data": [
+      {
+        "text": "kontak Ambulan ",
+        "userDefined": false
+      },
+      {
+        "text": "kabupaten purwakarta",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "6d9498ea-8f62-4dab-8da7-99168434da54",
+    "data": [
+      {
+        "text": "Ambulan ",
+        "userDefined": false
+      },
+      {
+        "text": "kabupaten purwakarta",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "0a934053-466d-4836-a121-54d4f7b6d1e5",
+    "data": [
+      {
+        "text": "kontak Ambulan ",
+        "userDefined": false
+      },
+      {
+        "text": "kab purwakarta",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "c5f70484-186c-4914-9fb2-987e44ce1754",
+    "data": [
+      {
+        "text": "Ambulan ",
+        "userDefined": false
+      },
+      {
+        "text": "kab purwakarta",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "0fe67c59-ed15-4d75-adbf-2395130805eb",
+    "data": [
+      {
+        "text": "Ambulan",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

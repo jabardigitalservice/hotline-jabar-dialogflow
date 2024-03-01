@@ -1,0 +1,87 @@
+{
+  "id": "dac77be0-a536-41f6-9663-51f675270ab6",
+  "name": "Kota Banjar",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "KotaBanjar-followup",
+          "lifespan": 2
+        },
+        {
+          "name": "LayananKegawatdaruratan-followup",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "1461642c-be3c-4bfd-9234-03975b3c2e17",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "content_type": "input_select",
+            "private": false,
+            "content_attributes": {
+              "items": [
+                {
+                  "title": "Ambulan",
+                  "value": "Ambulan"
+                },
+                {
+                  "title": "Bencana Alam",
+                  "value": "Bencana Alam"
+                },
+                {
+                  "value": "Pemadam Kebakaran",
+                  "title": "Pemadam Kebakaran"
+                },
+                {
+                  "value": "PLN",
+                  "title": "PLN"
+                },
+                {
+                  "title": "Polisi",
+                  "value": "Polisi"
+                }
+              ]
+            },
+            "content": "Sampurasun, Wargi Jabar!\nBerikut ini adalah kontak Layanan Kegawatdaruratan untuk Kota Banjar.\n\nUntuk memulai, silakan pilih salah satu opsi di bawah ini:"
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

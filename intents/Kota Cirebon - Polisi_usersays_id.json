@@ -1,0 +1,49 @@
+[
+  {
+    "id": "4ededc1b-e94b-46e2-990c-84775c9f9ba6",
+    "data": [
+      {
+        "text": "kontak ",
+        "userDefined": false
+      },
+      {
+        "text": "polisi kota cirebon",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "2d4ea2be-a5a0-4d78-a26d-01c9d10709d4",
+    "data": [
+      {
+        "text": "polisi kota cirebon",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "875bc495-6218-483f-be12-54cf02bc04a7",
+    "data": [
+      {
+        "text": "polisi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

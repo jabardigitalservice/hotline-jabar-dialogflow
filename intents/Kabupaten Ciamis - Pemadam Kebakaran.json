@@ -1,0 +1,54 @@
+{
+  "id": "459c04f7-a05f-40f5-87fd-27640e2ab68a",
+  "parentId": "bfce12cb-9335-4154-9964-a06db0b2557a",
+  "rootParentId": "bfce12cb-9335-4154-9964-a06db0b2557a",
+  "name": "Kabupaten Ciamis - Pemadam Kebakaran",
+  "auto": true,
+  "contexts": [
+    "KabupatenCiamis-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenCiamis.KabupatenCiamis-custom-3",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "9acbf6ee-50e8-497f-a52b-60ceb5f1ad7d",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  (0265) 772993 atau 113\n\nCall Center di atas adalah Layanan Pemadam Kebakaran dari Satpol PP Kabupaten Ciamis.\n\nBagi Wargi Kabupaten Ciamis, segera hubungi nomor di atas untuk menghubungi Pemadam Kebakaran apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  penyelamatan dan pertolongan pertama dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

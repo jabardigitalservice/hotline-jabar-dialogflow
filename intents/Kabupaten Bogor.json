@@ -1,0 +1,94 @@
+{
+  "id": "d2901c9e-c1bb-4233-b0ef-32d0d667e500",
+  "name": "Kabupaten Bogor",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "KabupatenBogor-followup",
+          "lifespan": 2
+        },
+        {
+          "name": "LayananKegawatdaruratan-followup",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "8912dc84-da58-4866-a8a6-42a02adef54e",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "private": false,
+            "content_type": "input_select",
+            "content_attributes": {
+              "items": [
+                {
+                  "title": "Ambulan",
+                  "value": "Ambulan"
+                },
+                {
+                  "value": "Bencana Alam",
+                  "title": "Bencana Alam"
+                },
+                {
+                  "title": "Pemadam Kebakaran",
+                  "value": "Pemadam Kebakaran"
+                },
+                {
+                  "value": "PLN",
+                  "title": "PLN"
+                },
+                {
+                  "value": "Polisi",
+                  "title": "Polisi"
+                }
+              ]
+            },
+            "content": "Sampurasun, Wargi Jabar!\nBerikut ini adalah kontak Layanan Kegawatdaruratan untuk Kabupaten Bogor.\n\nUntuk memulai, silakan pilih salah satu opsi di bawah ini:"
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

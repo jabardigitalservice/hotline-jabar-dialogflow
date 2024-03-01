@@ -1,0 +1,54 @@
+{
+  "id": "548e501c-1339-4f79-bafc-fe6eb404d120",
+  "parentId": "c6681d4b-a9fb-4240-865a-13ee38b1d232",
+  "rootParentId": "c6681d4b-a9fb-4240-865a-13ee38b1d232",
+  "name": "Kabupaten Bandung Barat - Pemadam Kebakaran",
+  "auto": true,
+  "contexts": [
+    "KabupatenBandungBarat-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenBandungBarat.KabupatenBandungBarat-custom-2",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "147069cc-f57f-4eb3-a826-ca6433e4262c",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  \n(022) 87782113 - Padalarang\n(022) 6940113 - Cililin\n(022) 86866113 - Cikalong\n(022) 2788292 - Lembang\n\nBagi Wargi Kabupaten Bandung Barat, segera hubungi nomor di atas untuk menghubungi Pemadam Kebakaran apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti penyelamatan dan pertolongan pertama dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

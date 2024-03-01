@@ -1,0 +1,49 @@
+[
+  {
+    "id": "fa857a3c-b2cd-403a-bc3e-3cd80ebb1ce5",
+    "data": [
+      {
+        "text": "kontak ",
+        "userDefined": false
+      },
+      {
+        "text": "Polisi kota cimahi",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "86effb75-69a8-4580-a37f-7393655710a3",
+    "data": [
+      {
+        "text": "Polisi kota cimahi",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "369aac4b-89c8-4e1d-a32e-b512f13a2a34",
+    "data": [
+      {
+        "text": "Polisi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

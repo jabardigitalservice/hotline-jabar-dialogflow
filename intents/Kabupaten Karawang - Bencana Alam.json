@@ -1,0 +1,55 @@
+{
+  "id": "9f95cc3f-6358-41d1-b972-1b2660e56a87",
+  "parentId": "3b0c6771-ae72-4eb0-9a40-44574da3c3da",
+  "rootParentId": "3b0c6771-ae72-4eb0-9a40-44574da3c3da",
+  "name": "Kabupaten Karawang - Bencana Alam",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup",
+    "KabupatenKarawang-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenKarawang.KabupatenKarawang-custom-3",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "844536af-30d2-4186-b5b2-78823785556d",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  081295199315 Portal Pengaduan TANGKAR (Tanggap Karawang) atau klik https://wa.me/6281295199315\n\nBagi Wargi Kabupaten Karawang, segera hubungi nomor di atas untuk menghubungi Layanan Bencana Alam apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  tanah longsor, bantuan banjir, bantuan gempa bumi dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

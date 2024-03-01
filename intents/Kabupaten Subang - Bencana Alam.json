@@ -1,0 +1,54 @@
+{
+  "id": "17036e54-9531-4922-ab21-5a41262eb4c1",
+  "parentId": "39c071f8-86c1-4752-a674-f41dac971737",
+  "rootParentId": "39c071f8-86c1-4752-a674-f41dac971737",
+  "name": "Kabupaten Subang - Bencana Alam",
+  "auto": true,
+  "contexts": [
+    "KabupatenSubang-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenSubang.KabupatenSubang-custom-3",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "5604d57d-ba5b-484d-b15a-2a1933c61007",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor : 081224334343 atau klik https://wa.me/6281224334343\n\nCall Center di atas adalah Layanan Bencana Alam dari Badan Penanggulangan Bencana Daerah Kabupaten Subang.\n\nBagi Wargi Kabupaten Subang, segera hubungi nomor di atas untuk menghubungi Layanan Bencana Alam apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  tanah longsor, bantuan banjir, bantuan gempa bumi dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

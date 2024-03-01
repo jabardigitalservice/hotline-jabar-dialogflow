@@ -1,0 +1,55 @@
+{
+  "id": "1d3ff1b5-655f-420b-88f8-9c4e1223238e",
+  "parentId": "f8463666-625f-42c9-8044-e5451743b5a4",
+  "rootParentId": "f8463666-625f-42c9-8044-e5451743b5a4",
+  "name": "Kabupaten Sukabumi - Bencana Alam",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup",
+    "KabupatenSukabumi-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenSukabumi.KabupatenSukabumi-custom-3",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "72d3df4f-ee7a-4908-b55c-c29f1460c86f",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor : (0266) 6323717 \n\nCall Center di atas adalah Layanan Bencana Alam dari Badan Penanggulangan Bencana Daerah Kabupaten Sukabumi\n\nBagi Wargi Kabupaten Sukabumi, segera hubungi nomor di atas untuk menghubungi Layanan Bencana Alam apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  tanah longsor, bantuan banjir, bantuan gempa bumi dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

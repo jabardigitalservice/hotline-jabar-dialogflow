@@ -1,0 +1,49 @@
+[
+  {
+    "id": "8ecc6951-db6e-43c9-bc03-e193210f2f76",
+    "data": [
+      {
+        "text": "kontak ",
+        "userDefined": false
+      },
+      {
+        "text": "Polisi kota bogor",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "2d40b95a-b63a-4be5-af34-e2758a181007",
+    "data": [
+      {
+        "text": "Polisi kota bogor",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "538fb4e9-cb4d-4f85-a423-489faf12f6fb",
+    "data": [
+      {
+        "text": "polisi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

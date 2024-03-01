@@ -1,0 +1,54 @@
+{
+  "id": "282569f2-791f-4fec-9ea5-c6800289370d",
+  "parentId": "dac77be0-a536-41f6-9663-51f675270ab6",
+  "rootParentId": "dac77be0-a536-41f6-9663-51f675270ab6",
+  "name": "Kota Banjar - Bencana Alam",
+  "auto": true,
+  "contexts": [
+    "KotaBanjar-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KotaBanjar.KotaBanjar-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "4b69e14a-d4b5-40c6-8916-10e9c2559d0f",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  081222196008  atau klik https://wa.me/6281222196008\n\nCall Center di atas adalah Layanan Bencana Alam dari Badan Penanggulangan Bencana Daerah Kota Banjar.\n\nBagi Wargi Kota Banjar, segera hubungi nomor di atas untuk menghubungi Layanan Bencana Alam apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti tanah longsor,  bantuan banjir, bantuan gempa bumi dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

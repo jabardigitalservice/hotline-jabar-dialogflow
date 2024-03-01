@@ -1,0 +1,54 @@
+{
+  "id": "92057c77-3fee-4549-9ead-2703adfbf0f7",
+  "parentId": "80ca572b-0338-41e9-b16a-2d8ceb29fba3",
+  "rootParentId": "80ca572b-0338-41e9-b16a-2d8ceb29fba3",
+  "name": "Kabupaten Garut - Pemadam Kebakaran",
+  "auto": true,
+  "contexts": [
+    "KabupatenGarut-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenGarut.KabupatenGarut-custom-3",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "fd0af14c-5e8e-4aad-9a08-084a7e8b7e7b",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor : 113\n\nCall Center di atas adalah Layanan Pemadam Kebakaran dari Dinas Pemadam Kebakaran Kabupaten Garut..\n\nBagi Wargi Kabupaten Garut, segera hubungi nomor di atas untuk menghubungi Pemadam Kebakaran apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  penyelamatan dan pertolongan pertama dan keadaan darurat lainnya.\n\n\nHatur Nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

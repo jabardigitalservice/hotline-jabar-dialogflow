@@ -1,0 +1,87 @@
+{
+  "id": "1ee7b540-8256-44c7-a357-f88accc0aceb",
+  "name": "Kota Tasikmalaya",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "KotaTasikmalaya-followup",
+          "lifespan": 2
+        },
+        {
+          "name": "LayananKegawatdaruratan-followup",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "8ca931a0-594b-449a-846a-29a53444ce97",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "content_type": "input_select",
+            "content": "Sampurasun, Wargi Jabar!\nBerikut ini adalah kontak Layanan Kegawatdaruratan untuk Kota Tasikmalaya.\n\nUntuk memulai, silakan pilih salah satu opsi di bawah ini:",
+            "content_attributes": {
+              "items": [
+                {
+                  "title": "Ambulan",
+                  "value": "Ambulan"
+                },
+                {
+                  "value": "Bencana Alam",
+                  "title": "Bencana Alam"
+                },
+                {
+                  "title": "Pemadam Kebakaran",
+                  "value": "Pemadam Kebakaran"
+                },
+                {
+                  "value": "PLN",
+                  "title": "PLN"
+                },
+                {
+                  "title": "Polisi",
+                  "value": "Polisi"
+                }
+              ]
+            },
+            "private": false
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

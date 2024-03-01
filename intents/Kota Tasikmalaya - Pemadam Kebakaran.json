@@ -1,0 +1,54 @@
+{
+  "id": "78e3e10b-3f9e-407e-a2e3-a6740af603b2",
+  "parentId": "1ee7b540-8256-44c7-a357-f88accc0aceb",
+  "rootParentId": "1ee7b540-8256-44c7-a357-f88accc0aceb",
+  "name": "Kota Tasikmalaya - Pemadam Kebakaran",
+  "auto": true,
+  "contexts": [
+    "KotaTasikmalaya-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KotaTasikmalaya.KotaTasikmalaya-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "3978f379-3c52-44d7-8e68-a6a2b67a23e9",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor : 08112073113 atau klik https://wa.me/628112073113\n\nCall Center di atas adalah Layanan Pemadam Kebakaran dari Badan Penanggulangan Bencana Daerah Kota Tasikmalaya.\n\nBagi Wargi Kota Tasikmalaya, segera hubungi nomor di atas untuk menghubungi Pemadam Kebakaran apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  penyelamatan dan pertolongan pertama dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

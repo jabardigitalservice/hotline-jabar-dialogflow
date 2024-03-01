@@ -1,0 +1,55 @@
+{
+  "id": "96c5708c-e5df-414d-988f-6de16dff0330",
+  "parentId": "edc9946f-d40e-4d41-bfd4-eb9144957a27",
+  "rootParentId": "edc9946f-d40e-4d41-bfd4-eb9144957a27",
+  "name": "Kabupaten Purwakarta - Polisi",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup",
+    "KabupatenPurwakarta-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenPurwakarta.KabupatenPurwakarta-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "06f392d5-2011-41a3-aed8-726755e21c1e",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor : 112 atau 110 \nWhatsapp \t:  087860142543 atau klik https://wa.me/6287860142543\n\nCall Center di atas adalah layanan Polisi dari Polres Kabupaten Purwakarta, Whatsapp Center di atas adalah layanan yang disediakan oleh Dinas komunikasi dan informasi kabupaten Purwakarta.\n\nBagi Wargi Kabupaten Purwakarta, segera hubungi nomor di atas untuk menghubungi polisi apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  kecelakaan, seperti pencurian, seperti tawuran dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

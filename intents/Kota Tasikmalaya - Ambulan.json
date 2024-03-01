@@ -1,0 +1,54 @@
+{
+  "id": "5b9540cb-3846-4ebf-9e4e-ff3a940d19ef",
+  "parentId": "1ee7b540-8256-44c7-a357-f88accc0aceb",
+  "rootParentId": "1ee7b540-8256-44c7-a357-f88accc0aceb",
+  "name": "Kota Tasikmalaya - Ambulan",
+  "auto": true,
+  "contexts": [
+    "KotaTasikmalaya-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KotaTasikmalaya.KotaTasikmalaya-custom-2",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "bd4edf6b-01d9-4852-abc5-e5273b2ea541",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  119\n\nCall Center di atas adalah layanan Ambulans dari Dinas Kesehatan Kota Tasikmalaya.\n\nBagi Wargi Kota Tasikmalaya, segera hubungi nomor di atas untuk menghubungi ambulans apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  kecelakaan, bantuan kesehatan dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

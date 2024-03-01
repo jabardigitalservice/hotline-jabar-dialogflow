@@ -1,0 +1,55 @@
+{
+  "id": "ed88a1f3-7667-40be-9209-d21061628acf",
+  "parentId": "3b0c6771-ae72-4eb0-9a40-44574da3c3da",
+  "rootParentId": "3b0c6771-ae72-4eb0-9a40-44574da3c3da",
+  "name": "Kabupaten Karawang - Polisi",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup",
+    "KabupatenKarawang-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenKarawang.KabupatenKarawang-custom-5",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "73e11b2a-2c33-4e52-acd7-9f888991a27e",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor : 110\nWhatsapp\t: 082211272003 atau klik https://wa.me/6282211272003\n\nCall Center di atas adalah layanan Polisi dari Polres Kabupaten Karawang. \n\nBagi Wargi Kabupaten Karawang, segera hubungi nomor di atas untuk menghubungi polisi apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  kecelakaan, seperti pencurian, seperti tawuran dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

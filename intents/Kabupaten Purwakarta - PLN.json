@@ -1,0 +1,55 @@
+{
+  "id": "7ed33c46-a0e7-4926-a3fd-cf678caea6c5",
+  "parentId": "edc9946f-d40e-4d41-bfd4-eb9144957a27",
+  "rootParentId": "edc9946f-d40e-4d41-bfd4-eb9144957a27",
+  "name": "Kabupaten Purwakarta - PLN",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup",
+    "KabupatenPurwakarta-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenPurwakarta.KabupatenPurwakarta-custom-4",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "13099625-dcf3-40d7-ba41-770d1007c216",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  112 atau 123 \nWhatsapp\t :  087860142543 atau klik https://wa.me/6287860142543\n\nCall Center di atas adalah Layanan Perusahaan Listrik Negara dari Perusahaan Listrik Negara Kabupaten Purwakarta, Whatsapp Center di atas adalah layanan yang disediakan oleh Dinas komunikasi dan informasi kabupaten Purwakarta.\n\nBagi Wargi Kabupaten Purwakarta, segera hubungi nomor di atas untuk menghubungi Perusahaan Listrik Negara apabila terjadi situasi Gangguan Listrik.\n\nHatur nuhun"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,54 @@
+{
+  "id": "0d9fa0e5-f300-4ea4-bb2e-96df5e5ce00e",
+  "parentId": "1a32f4b9-3869-4886-aa9a-ca1fe64f920e",
+  "rootParentId": "1a32f4b9-3869-4886-aa9a-ca1fe64f920e",
+  "name": "Kabupaten Bekasi - Bencana Alam",
+  "auto": true,
+  "contexts": [
+    "KabupatenBekasi-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenBekasi.KabupatenBekasi-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "df317221-a19d-4fe4-a3e9-965da0f348c8",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  081219071900 atau klik https://wa.me/6281219071900\n\nCall Center di atas adalah Layanan Bencana Alam dari Badan Penanggulangan Bencana Daerah Kabupaten Bekasi.\n\nBagi Wargi Kabupaten Bekasi, segera hubungi nomor di atas untuk menghubungi Layanan Bencana Alam apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  tanah longsor, bantuan banjir, bantuan gempa bumi dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

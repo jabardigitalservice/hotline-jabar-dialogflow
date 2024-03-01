@@ -1,0 +1,54 @@
+{
+  "id": "642877d3-041a-4272-8d7c-475f17e0f9c0",
+  "parentId": "1ee7b540-8256-44c7-a357-f88accc0aceb",
+  "rootParentId": "1ee7b540-8256-44c7-a357-f88accc0aceb",
+  "name": "Kota Tasikmalaya - Bencana Alam",
+  "auto": true,
+  "contexts": [
+    "KotaTasikmalaya-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KotaTasikmalaya.KotaTasikmalaya-custom-5",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "f7603b95-87dc-4efc-9110-6fa2983c6453",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor : 08112101113 atau klik https://wa.me/628112101113\n\nCall Center di atas adalah Layanan Bencana Alam dari Badan Penanggulangan Bencana Daerah Kota Tasikmalaya.\n\nBagi Wargi Kota Tasikmalaya, segera hubungi nomor di atas untuk menghubungi Layanan Bencana Alam apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  tanah longsor, bantuan banjir, bantuan gempa bumi dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

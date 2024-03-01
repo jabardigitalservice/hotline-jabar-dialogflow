@@ -1,0 +1,32 @@
+[
+  {
+    "id": "4d530e2f-542f-46f5-b3a5-b4b01eaa4732",
+    "data": [
+      {
+        "text": "Kab Sukabumi",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "b386937a-eff3-4cbe-b03a-2f2ee3d4eee5",
+    "data": [
+      {
+        "text": "Kabupaten Sukabumi",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

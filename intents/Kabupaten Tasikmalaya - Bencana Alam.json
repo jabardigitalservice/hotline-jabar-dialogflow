@@ -1,0 +1,55 @@
+{
+  "id": "4edca86e-447d-4295-a89d-d623921e5707",
+  "parentId": "522d2cb8-3d3d-46af-969d-75b0c5fe9a4e",
+  "rootParentId": "522d2cb8-3d3d-46af-969d-75b0c5fe9a4e",
+  "name": "Kabupaten Tasikmalaya - Bencana Alam",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup",
+    "KabupatenTasikmalaya-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenTasikmalaya.KabupatenTasikmalaya-custom-4",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e27ae6a4-c24c-45bd-866d-ab9c3bf1e1e3",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor : 082120594513 atau klik https://wa.me/6282120594513\n\nCall Center di atas adalah Layanan Bencana Alam dari UPTD Penanggulangan Bencana Kabupaten Tasikmalaya.\n\nBagi Wargi Kabupaten Tasikmalaya, segera hubungi nomor di atas untuk menghubungi Layanan Bencana Alam apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  tanah longsor, bantuan banjir, bantuan gempa bumi dan keadaan darurat lainny\n\nHatur Nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

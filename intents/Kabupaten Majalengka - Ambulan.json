@@ -1,0 +1,55 @@
+{
+  "id": "1eb89759-43b3-47a1-90c6-8e6bf84c9a23",
+  "parentId": "9955b2fa-5a85-4cab-90a1-2d83cd46cdb0",
+  "rootParentId": "9955b2fa-5a85-4cab-90a1-2d83cd46cdb0",
+  "name": "Kabupaten Majalengka - Ambulan",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup",
+    "KabupatenMajalengka-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenMajalengka.KabupatenMajalengka-custom-2",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "5a0b7288-3626-4581-862b-cd20366b5a0d",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  119\n\nCall Center di atas adalah layanan Ambulans dari Dinas Kesehatan Kabupaten Majalengka.\n\nBagi Wargi Kabupaten Majalengka, segera hubungi nomor di atas untuk menghubungi ambulans apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  kecelakaan, bantuan kesehatan dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

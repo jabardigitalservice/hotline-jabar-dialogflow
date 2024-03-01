@@ -1,0 +1,54 @@
+{
+  "id": "6b6d9455-66ea-4833-b2d8-185c0faa303a",
+  "parentId": "b0fdb884-e3d6-444f-b31e-d90912034c94",
+  "rootParentId": "b0fdb884-e3d6-444f-b31e-d90912034c94",
+  "name": "Kota Depok - Pemadam Kebakaran",
+  "auto": true,
+  "contexts": [
+    "KotaDepok-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KotaDepok.KotaDepok-custom-4",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "61019673-9c39-477b-b502-19529ee02b91",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor : \n112\n(021) 77827280 - Mako Kembang\n(021) 87745313 - Cimanggis\n(021) 7543025 - Cinere\n(0251) 8604113 - Bojongsari\n(021) 77888580 - Cipayung\n(021) 8752113 - Tapos\n(021) 77200760 - Pos Walikota\n(021) 778200796 - Pos Merdeka\n\nBagi Wargi Kota Depok, segera hubungi nomor di atas untuk menghubungi Pemadam Kebakaran apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  penyelamatan dan pertolongan pertama dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

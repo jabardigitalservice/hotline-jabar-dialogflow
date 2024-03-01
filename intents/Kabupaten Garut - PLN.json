@@ -1,0 +1,54 @@
+{
+  "id": "ad38c7f3-5e08-414c-b3d5-94248eb005fb",
+  "parentId": "80ca572b-0338-41e9-b16a-2d8ceb29fba3",
+  "rootParentId": "80ca572b-0338-41e9-b16a-2d8ceb29fba3",
+  "name": "Kabupaten Garut - PLN",
+  "auto": true,
+  "contexts": [
+    "KabupatenGarut-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenGarut.KabupatenGarut-custom-4",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "2fef1514-467e-4540-a773-1acba1ad2b14",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  123\n\nCall Center di atas adalah Layanan Perusahaan Listrik Negara dari Perusahaan Listrik Negara Kabupaten Garut.\n\nBagi Wargi Kabupaten Garut, segera hubungi nomor di atas untuk menghubungi Perusahaan Listrik Negara apabila terjadi situasi Gangguan Listrik.\n\nHatur Nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

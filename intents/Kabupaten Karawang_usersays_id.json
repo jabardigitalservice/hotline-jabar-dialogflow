@@ -1,0 +1,32 @@
+[
+  {
+    "id": "22987e76-6fd6-4d0f-a497-945055414c9b",
+    "data": [
+      {
+        "text": "Kab Karawang",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "620bd2d0-b8f8-45d0-abc1-19b9c5508c3e",
+    "data": [
+      {
+        "text": "Kabupaten Karawang",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

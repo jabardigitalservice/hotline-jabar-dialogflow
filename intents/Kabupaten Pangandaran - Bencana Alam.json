@@ -1,0 +1,55 @@
+{
+  "id": "549ebd89-eb57-4f28-8a6c-cd2130ed2576",
+  "parentId": "58abc9aa-baa9-4381-8fef-973292a3e384",
+  "rootParentId": "58abc9aa-baa9-4381-8fef-973292a3e384",
+  "name": "Kabupaten Pangandaran - Bencana Alam",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup",
+    "KabupatenPangandaran-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenPangandaran.KabupatenPangandaran-custom-2",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "f4bf6464-3a3d-40a3-b4e5-c97214f52625",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor : 081221293229 atau klik https://wa.me/6281221293229\n\nCall Center di atas adalah Layanan Bencana Alam dari UPTD Penanggulangan Bencana Kabupaten Pangandaran.\n\nBagi Wargi Kabupaten Pangandaran, segera hubungi nomor di atas untuk menghubungi Layanan Bencana Alam apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  tanah longsor, bantuan banjir, bantuan gempa bumi dan keadaan darurat lainnya.\n\nHatur Nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

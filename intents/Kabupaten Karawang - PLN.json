@@ -1,0 +1,55 @@
+{
+  "id": "d31a39b1-1321-4e7f-a12b-32ba5b65407a",
+  "parentId": "3b0c6771-ae72-4eb0-9a40-44574da3c3da",
+  "rootParentId": "3b0c6771-ae72-4eb0-9a40-44574da3c3da",
+  "name": "Kabupaten Karawang - PLN",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup",
+    "KabupatenKarawang-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenKarawang.KabupatenKarawang-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "0e8537c4-5646-43e7-b933-2eb4419382bf",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  123\n\nCall Center di atas adalah Layanan Perusahaan Listrik Negara dari Perusahaan Listrik Negara Kabupaten Karawang.\n\nBagi Wargi Kabupaten Karawang, segera hubungi nomor di atas untuk menghubungi Perusahaan Listrik Negara apabila terjadi situasi Gangguan Listrik.\n\nHatur nuhun"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

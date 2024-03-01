@@ -1,0 +1,54 @@
+{
+  "id": "2bebc797-caa4-4616-bd43-8b2f98c510a1",
+  "parentId": "187e686e-c34f-4fbe-bf43-298c29219bf2",
+  "rootParentId": "187e686e-c34f-4fbe-bf43-298c29219bf2",
+  "name": "Kota Bogor - Bencana Alam",
+  "auto": true,
+  "contexts": [
+    "KotaBogor-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KotaBogor.KotaBogor-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "f3e7b47c-086f-4894-94ea-3f392a2aff94",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  088809112569 atau klik https://wa.me/6288809112569\n\nCall Center di atas adalah Layanan Bencana Alam dari Badan Penanggulangan Bencana Daerah Kota Bogor.\n\nBagi Wargi Kota Bogor, segera hubungi nomor di atas untuk menghubungi Layanan Bencana Alam apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  tanah longsor, bantuan banjir, bantuan gempa bumi dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

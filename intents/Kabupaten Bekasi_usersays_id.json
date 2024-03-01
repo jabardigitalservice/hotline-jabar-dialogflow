@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ced88f58-2f84-495f-871b-681345ad723f",
+    "data": [
+      {
+        "text": "Kab Bekasi",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "36ce2ca5-421a-401c-9e10-80989e587972",
+    "data": [
+      {
+        "text": "Kabupaten Bekasi",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

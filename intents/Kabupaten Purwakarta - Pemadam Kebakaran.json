@@ -1,0 +1,55 @@
+{
+  "id": "78cddfee-3c90-4c59-8335-7de7037f9776",
+  "parentId": "edc9946f-d40e-4d41-bfd4-eb9144957a27",
+  "rootParentId": "edc9946f-d40e-4d41-bfd4-eb9144957a27",
+  "name": "Kabupaten Purwakarta - Pemadam Kebakaran",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup",
+    "KabupatenPurwakarta-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenPurwakarta.KabupatenPurwakarta-custom-3",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "739f3900-db2b-4381-b8e5-fe82f804d860",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  112 atau (0264) 8225113 \nWhatsapp\t :  087860142543  atau klik https://wa.me/6287860142543\n\nCall Center di atas adalah Layanan Pemadam Kebakaran dari Dinas Pemadam Kebakaran Kabupaten Purwakarta, Whatsapp Center di atas adalah layanan yang disediakan oleh Dinas komunikasi dan informasi kabupaten Purwakarta.\n\nBagi Wargi Kabupaten Purwakarta, segera hubungi nomor di atas untuk menghubungi Pemadam Kebakaran apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  panyelamatan dan pertolongan pertama dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,54 @@
+{
+  "id": "51735662-ce9b-4f9d-b721-79540401be34",
+  "parentId": "dac77be0-a536-41f6-9663-51f675270ab6",
+  "rootParentId": "dac77be0-a536-41f6-9663-51f675270ab6",
+  "name": "Kota Banjar - Pemadam Kebakaran",
+  "auto": true,
+  "contexts": [
+    "KotaBanjar-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KotaBanjar.KotaBanjar-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "12825c40-2836-4e93-8cc3-2cab1f72db1c",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  081292189579 atau klik https://wa.me/6281292189579\n\nCall Center di atas adalah Layanan Pemadam Kebakaran dari Pemerintah Kota Banjar yang dikelola oleh Dinas Pemadam Kebakaran dan Penanggulangan Bencana Kota Banjar.\n\nBagi Wargi Kota Banjar, segera hubungi nomor di atas untuk menghubungi Pemadam Kebakaran apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti penyelamatan dan pertolongan pertama dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

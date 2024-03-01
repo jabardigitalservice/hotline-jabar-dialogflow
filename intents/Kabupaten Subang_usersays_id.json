@@ -1,0 +1,32 @@
+[
+  {
+    "id": "c63ad460-de1d-41be-ab1a-757289f44bc4",
+    "data": [
+      {
+        "text": "Kab Subang",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "5c4cc9e9-e414-4ecc-b1e3-da86a5e8dea5",
+    "data": [
+      {
+        "text": "Kabupaten Subang",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

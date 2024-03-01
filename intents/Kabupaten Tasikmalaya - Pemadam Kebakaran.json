@@ -1,0 +1,55 @@
+{
+  "id": "97f18326-feec-4e77-8adf-96e762f44e9e",
+  "parentId": "522d2cb8-3d3d-46af-969d-75b0c5fe9a4e",
+  "rootParentId": "522d2cb8-3d3d-46af-969d-75b0c5fe9a4e",
+  "name": "Kabupaten Tasikmalaya - Pemadam Kebakaran",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup",
+    "KabupatenTasikmalaya-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenTasikmalaya.KabupatenTasikmalaya-custom-2",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "758de1a2-43b0-4967-831d-f4edf2a15834",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor : 08112355113 atau klik https://wa.me/628112355113\n\nCall Center di atas adalah Layanan Pemadam Kebakaran Kabupaten Tasikmalaya.\n\nBagi Wargi Kabupaten Tasikmalaya, segera hubungi nomor di atas untuk menghubungi Pemadam Kebakaran apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti panyelamatan dan pertolongan pertama dan keadaan darurat lainnya.\n\nHatur Nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

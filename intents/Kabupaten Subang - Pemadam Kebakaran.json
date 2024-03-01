@@ -1,0 +1,54 @@
+{
+  "id": "a8cb05e2-ffc8-41b2-87a4-9b6a11401614",
+  "parentId": "39c071f8-86c1-4752-a674-f41dac971737",
+  "rootParentId": "39c071f8-86c1-4752-a674-f41dac971737",
+  "name": "Kabupaten Subang - Pemadam Kebakaran",
+  "auto": true,
+  "contexts": [
+    "KabupatenSubang-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenSubang.KabupatenSubang-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "b1f06e98-274b-4653-a60c-a78045d436e6",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  (0260) 411007\n\nCall Center di atas adalah Layanan Pemadam Kebakaran dari Dinas Pemadam Kebakaran Kabupaten Subang.\n\nBagi Wargi Kabupaten Subang, segera hubungi nomor di atas untuk menghubungi Pemadam Kebakaran apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  panyelamatan dan pertolongan pertama dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

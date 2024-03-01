@@ -1,0 +1,54 @@
+{
+  "id": "ba7f4802-dbd5-4ce0-aa68-050c9e572941",
+  "parentId": "f1de4901-430b-4121-b7cc-cd9796942e95",
+  "rootParentId": "f1de4901-430b-4121-b7cc-cd9796942e95",
+  "name": "Kabupaten Bandung - Bencana Alam",
+  "auto": true,
+  "contexts": [
+    "KabupatenBandung-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenBandung.KabupatenBandung-custom-3",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "91a7172e-c476-4304-8fdc-dd1187ed4332",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  085162901129 atau klik https://wa.me/6285162901129\n\nCall Center di atas adalah Layanan Bencana Alam dari Badan Penanggulangan Bencana Daerah Kabupaten Bandung.\n\nBagi Wargi Kabupaten Bandung, segera hubungi nomor di atas untuk menghubungi Layanan Bencana Alam apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  tanah longsor, bantuan banjir, bantuan gempa bumi dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,54 @@
+{
+  "id": "da93a1bd-57c0-48b3-8f96-fde6435e3958",
+  "parentId": "187e686e-c34f-4fbe-bf43-298c29219bf2",
+  "rootParentId": "187e686e-c34f-4fbe-bf43-298c29219bf2",
+  "name": "Kota Bogor - Polisi",
+  "auto": true,
+  "contexts": [
+    "KotaBogor-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KotaBogor.KotaBogor-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "fe4d5402-d560-444f-a680-0e7e045dba32",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor : 110 \nWhatsapp\t: 087810010057 atau klik https://wa.me/6287810010057\n\nCall Center di atas adalah layanan Polisi dari Polisi Kota Bogor.\n\nBagi Wargi Kota Bogor, segera hubungi nomor di atas untuk menghubungi polisi apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  kecelakaan, seperti pencurian, seperti tawuran dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

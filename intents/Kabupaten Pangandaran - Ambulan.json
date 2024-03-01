@@ -1,0 +1,55 @@
+{
+  "id": "213fd52c-4e20-4b9d-9e0d-3eef2cbe49c8",
+  "parentId": "58abc9aa-baa9-4381-8fef-973292a3e384",
+  "rootParentId": "58abc9aa-baa9-4381-8fef-973292a3e384",
+  "name": "Kabupaten Pangandaran - Ambulan",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup",
+    "KabupatenPangandaran-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenPangandaran.KabupatenPangandaran-custom-5",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d5820211-03c1-421f-b646-ab730d094635",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  119\n\nCall Center di atas adalah layanan Ambulans dari Dinas Kesehatan Kabupaten Pangandaran.\n\nBagi Wargi Kabupaten Pangandaran, segera hubungi nomor di atas untuk menghubungi ambulans apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  kecelakaan, bantuan kesehatan dan keadaan darurat lainnya.\n\nHatur Nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

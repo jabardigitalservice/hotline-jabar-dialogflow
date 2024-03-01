@@ -1,0 +1,55 @@
+{
+  "id": "5c2dde23-828b-48b3-a56b-8d96ad4e8fd4",
+  "parentId": "9955b2fa-5a85-4cab-90a1-2d83cd46cdb0",
+  "rootParentId": "9955b2fa-5a85-4cab-90a1-2d83cd46cdb0",
+  "name": "Kabupaten Majalengka - PLN",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup",
+    "KabupatenMajalengka-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenMajalengka.KabupatenMajalengka-custom-4",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "11c09b90-7d71-4599-b413-67273ed5f6c9",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  08112341752 atau https://wa.me/628112341752\n\nCall Center di atas adalah Layanan Perusahaan Listrik Negara dari Perusahaan Listrik Negara Kabupaten Majalengka.\n\nBagi Wargi Kabupaten Majalengka, segera hubungi nomor di atas untuk menghubungi Perusahaan Listrik Negara apabila terjadi situasi Gangguan Listrik.\n\nHatur nuhun"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

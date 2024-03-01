@@ -1,0 +1,54 @@
+{
+  "id": "07bb0a1b-f25b-40eb-a112-98e1413186f3",
+  "parentId": "f7d7dad8-f71a-4298-bbfa-dd200c79bfef",
+  "rootParentId": "f7d7dad8-f71a-4298-bbfa-dd200c79bfef",
+  "name": "Kabupaten Cirebon - Ambulan",
+  "auto": true,
+  "contexts": [
+    "KabupatenCirebon-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenCirebon.KabupatenCirebon-custom-5",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "59a21703-2c11-4f40-a97e-03aef073d547",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor : 119 Ext 0 atau (0231) 8800119\nWhatsapp\t: 085161180119 atau klik link https://wa.me/6285161180119 \n\nCall Center di atas adalah layanan Ambulans dari Pemerintah Kabupaten Cirebon yang dikelola oleh Dinas Kesehatan Kabupaten Cirebon.\n\nBagi Wargi Kota Cirebon, segera hubungi nomor di atas untuk menghubungi ambulans apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  kecelakaan, bantuan kesehatan dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

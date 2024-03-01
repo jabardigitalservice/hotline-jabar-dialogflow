@@ -1,0 +1,55 @@
+{
+  "id": "c62fc2ba-b366-414a-bfb4-6ee546da3ec1",
+  "parentId": "9955b2fa-5a85-4cab-90a1-2d83cd46cdb0",
+  "rootParentId": "9955b2fa-5a85-4cab-90a1-2d83cd46cdb0",
+  "name": "Kabupaten Majalengka - Polisi",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup",
+    "KabupatenMajalengka-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenMajalengka.KabupatenMajalengka-custom-5",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "b5a5c51f-6a4f-4cb0-a057-fa5bf5e48eba",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor : (0233) 281221\n\nCall Center di atas adalah layanan Polisi dari Polresta Kabupaten Majalengka.\n\nBagi Wargi Kabupaten Majalengka, segera hubungi nomor di atas untuk menghubungi polisi apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  kecelakaan, seperti pencurian, seperti tawuran dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

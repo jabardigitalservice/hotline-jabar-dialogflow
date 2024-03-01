@@ -1,0 +1,54 @@
+{
+  "id": "eede7f7a-ac45-4dab-a2ba-4ae7ef4e330c",
+  "parentId": "b0fdb884-e3d6-444f-b31e-d90912034c94",
+  "rootParentId": "b0fdb884-e3d6-444f-b31e-d90912034c94",
+  "name": "Kota Depok - Polisi",
+  "auto": true,
+  "contexts": [
+    "KotaDepok-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KotaDepok.KotaDepok-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "1b5ba841-773b-43f6-a5ce-f7d78d194a9d",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  112 atau 110\n\nCall Center di atas adalah layanan Polisi dari Pemerintah Kota Depok yang dikelola oleh Dinas Komunikasi dan Informatika Kota Depok dan Polres Metro Depok.\n\nBagi Wargi Kota Depok, segera hubungi nomor di atas untuk menghubungi polisi apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  kecelakaan, seperti pencurian, seperti tawuran dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

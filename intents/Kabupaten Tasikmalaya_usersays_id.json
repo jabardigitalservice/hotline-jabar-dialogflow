@@ -1,0 +1,32 @@
+[
+  {
+    "id": "eb249b54-476d-47df-a22c-6f9303785c9c",
+    "data": [
+      {
+        "text": "Kab Tasikmalaya",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "05e488da-4e35-40e8-99e4-686dc29384b3",
+    "data": [
+      {
+        "text": "Kabupaten Tasikmalaya",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

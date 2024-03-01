@@ -1,0 +1,94 @@
+{
+  "id": "522d2cb8-3d3d-46af-969d-75b0c5fe9a4e",
+  "name": "Kabupaten Tasikmalaya",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "LayananKegawatdaruratan-followup",
+          "lifespan": 5
+        },
+        {
+          "name": "KabupatenTasikmalaya-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c67de0e6-96da-45bf-9891-b3954562de57",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "private": false,
+            "content_type": "input_select",
+            "content": "Sampurasun, Wargi Jabar!\nBerikut ini adalah kontak Layanan Kegawatdaruratan untuk Kabupaten Tasikmalaya.\n\nUntuk memulai, silakan pilih salah satu opsi di bawah ini:",
+            "content_attributes": {
+              "items": [
+                {
+                  "title": "Ambulan",
+                  "value": "Ambulan"
+                },
+                {
+                  "title": "Bencana Alam",
+                  "value": "Bencana Alam"
+                },
+                {
+                  "value": "Pemadam Kebakaran",
+                  "title": "Pemadam Kebakaran"
+                },
+                {
+                  "value": "PLN",
+                  "title": "PLN"
+                },
+                {
+                  "title": "Polisi",
+                  "value": "Polisi"
+                }
+              ]
+            }
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

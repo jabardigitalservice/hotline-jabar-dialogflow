@@ -1,0 +1,55 @@
+{
+  "id": "1cb45e71-5133-4d49-add8-f79921227c15",
+  "parentId": "76eff04e-86e7-489a-a803-026f05029ff7",
+  "rootParentId": "76eff04e-86e7-489a-a803-026f05029ff7",
+  "name": "Kabupaten Indramayu - Bencana Alam",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup",
+    "KabupatenIndramayu-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenIndramayu.KabupatenIndramayu-custom-5",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "02ea0153-3caa-4abf-b525-647e53575e13",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  081911019911  atau klik https://wa.me/6281911019911\n\nCall Center di atas adalah Layanan Bencana Alam dari Badan Penanggulangan Bencana Daerah Kabupaten Indramayu.\n\nBagi Wargi Kabupaten Indramayu, segera hubungi nomor di atas untuk menghubungi Layanan Bencana Alam apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  tanah longsor, bantuan banjir, bantuan gempa bumi dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

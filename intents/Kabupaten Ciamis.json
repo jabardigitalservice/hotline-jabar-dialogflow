@@ -1,0 +1,94 @@
+{
+  "id": "bfce12cb-9335-4154-9964-a06db0b2557a",
+  "name": "Kabupaten Ciamis",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "KabupatenCiamis-followup",
+          "lifespan": 2
+        },
+        {
+          "name": "LayananKegawatdaruratan-followup",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "9b5dd2cb-2431-41d3-ae22-49298efc2580",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "private": false,
+            "content": "Sampurasun, Wargi Jabar!\nBerikut ini adalah kontak Layanan Kegawatdaruratan untuk Kabupaten Ciamis.\n\nUntuk memulai, silakan pilih salah satu opsi di bawah ini:",
+            "content_type": "input_select",
+            "content_attributes": {
+              "items": [
+                {
+                  "value": "Ambulan",
+                  "title": "Ambulan"
+                },
+                {
+                  "title": "Bencana Alam",
+                  "value": "Bencana Alam"
+                },
+                {
+                  "title": "Pemadam Kebakaran",
+                  "value": "Pemadam Kebakaran"
+                },
+                {
+                  "value": "PLN",
+                  "title": "PLN"
+                },
+                {
+                  "title": "Polisi",
+                  "value": "Polisi"
+                }
+              ]
+            }
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

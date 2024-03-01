@@ -1,0 +1,55 @@
+{
+  "id": "1ff7bc49-882d-40e7-892d-23dbc42f2f9a",
+  "parentId": "9955b2fa-5a85-4cab-90a1-2d83cd46cdb0",
+  "rootParentId": "9955b2fa-5a85-4cab-90a1-2d83cd46cdb0",
+  "name": "Kabupaten Majalengka - Bencana Alam",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup",
+    "KabupatenMajalengka-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenMajalengka.KabupatenMajalengka-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "fd13c56c-897c-4703-8119-6e45cc43174f",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor : (0233) 283044 \nWhatsapp\t: 082340400300 atau https://wa.me/6282340400300\n\nCall Center di atas adalah Layanan Bencana Alam dari Badan Penanggulangan Bencana Daerah Kabupaten Majalengka.\n\nBagi Wargi Kabupaten Majalengka, segera hubungi nomor di atas untuk menghubungi Layanan Bencana Alam apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  tanah longsor, bantuan banjir, bantuan gempa bumi dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

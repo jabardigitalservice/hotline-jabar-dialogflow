@@ -1,0 +1,17 @@
+[
+  {
+    "id": "11ed721c-67c1-4c7d-ab13-4869c62bd3b3",
+    "data": [
+      {
+        "text": "Kota Sukabumi",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

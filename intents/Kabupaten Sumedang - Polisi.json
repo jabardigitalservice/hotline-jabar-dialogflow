@@ -1,0 +1,55 @@
+{
+  "id": "a4d33b36-3a13-4beb-8b0e-52d2bb250440",
+  "parentId": "a5f8d45f-b8f7-48b1-b5d3-b6d746993d6d",
+  "rootParentId": "a5f8d45f-b8f7-48b1-b5d3-b6d746993d6d",
+  "name": "Kabupaten Sumedang - Polisi",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup",
+    "KabupatenSumedang-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenSumedang.KabupatenSumedang-custom-2",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "188ab6de-7902-4874-8697-630df4664336",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi nomor : 110 atau (0261) 201230\n\nCall Center di atas adalah layanan Polisi dari Polres Kabupaten Sumedang.\n\nBagi Wargi Kabupaten Sumedang, segera hubungi nomor di atas untuk menghubungi polisi apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  kecelakaan, seperti pencurian, seperti tawuran dan keadaan darurat lainnya.\n\nHatur Nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

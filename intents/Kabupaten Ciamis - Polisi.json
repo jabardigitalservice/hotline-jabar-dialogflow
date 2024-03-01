@@ -1,0 +1,54 @@
+{
+  "id": "b4e0b08e-8575-4c22-aa82-031056225c03",
+  "parentId": "bfce12cb-9335-4154-9964-a06db0b2557a",
+  "rootParentId": "bfce12cb-9335-4154-9964-a06db0b2557a",
+  "name": "Kabupaten Ciamis - Polisi",
+  "auto": true,
+  "contexts": [
+    "KabupatenCiamis-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenCiamis.KabupatenCiamis-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "f1e9d24a-ba72-467c-997e-2cb52f05b53b",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  (0265) 774444\n\nCall Center di atas adalah layanan Polisi Kabupaten Ciamis.\n\nBagi Wargi Kabupaten Ciamis, segera hubungi nomor di atas untuk menghubungi polisi apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  kecelakaan, seperti pencurian, seperti tawuran dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

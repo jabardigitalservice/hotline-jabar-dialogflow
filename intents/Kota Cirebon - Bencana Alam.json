@@ -1,0 +1,54 @@
+{
+  "id": "489b1822-a8cf-47b7-8c1e-f19c6d8d9560",
+  "parentId": "3de1a75b-15c9-4b24-8522-28a0784ede99",
+  "rootParentId": "3de1a75b-15c9-4b24-8522-28a0784ede99",
+  "name": "Kota Cirebon - Bencana Alam",
+  "auto": true,
+  "contexts": [
+    "KotaCirebon-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KotaCirebon.KotaCirebon-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "9e10e3ac-dbc4-4545-b98b-a1cff2a224ed",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor : (0231) 8228284 atau 112 \nCall / Whatsapp\t: 0811227117 atau klik https://wa.me/62811227117\n\nCall Center di atas adalah Layanan Bencana Alam dari Badan Penanggulangan Bencana Daerah Kota Cirebon.\n\nBagi Wargi Kota Cirebon, segera hubungi nomor di atas untuk menghubungi Layanan Bencana Alam apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  tanah longsor, bantuan banjir, bantuan gempa bumi dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

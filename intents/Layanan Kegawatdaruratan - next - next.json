@@ -18,53 +18,53 @@
           "type": "4",
           "title": "",
           "payload": {
-            "content_type": "input_select",
+            "private": false,
+            "content": "Silakan pilih salah satu opsi di bawah ini :",
             "content_attributes": {
               "items": [
                 {
-                  "value": "Kab. Indramayu",
-                  "title": "Kab. Indramayu"
+                  "value": "Kab Indramayu",
+                  "title": "Kab Indramayu"
                 },
                 {
-                  "value": "Kab. Karawang",
-                  "title": "Kab. Karawang"
+                  "value": "Kab Karawang",
+                  "title": "Kab Karawang"
                 },
                 {
-                  "title": "Kab. Kuningan",
-                  "value": "Kab. Kuningan"
+                  "value": "Kab Kuningan",
+                  "title": "Kab Kuningan"
                 },
                 {
-                  "title": "Kab. Majalengka",
-                  "value": "Kab. Majalengka"
+                  "title": "Kab Majalengka",
+                  "value": "Kab Majalengka"
                 },
                 {
-                  "title": "Kab. Pangandaran",
-                  "value": "Kab. Pangandaran"
+                  "value": "Kab Pangandaran",
+                  "title": "Kab Pangandaran"
                 },
                 {
-                  "value": "Kab. Purwakarta",
-                  "title": "Kab. Purwakarta"
+                  "title": "Kab Purwakarta",
+                  "value": "Kab Purwakarta"
                 },
                 {
-                  "title": "Kab. Subang",
-                  "value": "Kab. Subang"
+                  "title": "Kab Subang",
+                  "value": "Kab Subang"
                 },
                 {
-                  "title": "Kab. Sukabumi",
-                  "value": "Kab. Sukabumi"
+                  "value": "Kab Sukabumi",
+                  "title": "Kab Sukabumi"
                 },
                 {
-                  "title": "Kab. Sumedang",
-                  "value": "Kab. Sumedang"
+                  "title": "Kab Sumedang",
+                  "value": "Kab Sumedang"
                 },
                 {
-                  "value": "Kab. Tasikmalaya",
-                  "title": "Kab. Tasikmalaya"
+                  "value": "Kab Tasikmalaya",
+                  "title": "Kab Tasikmalaya"
                 }
               ]
             },
-            "private": false,
-            "content": "Silakan pilih salah satu opsi di bawah ini :"
+            "content_type": "input_select"
           },
           "textToSpeech": "",
           "lang": "id",

@@ -1,0 +1,129 @@
+[
+  {
+    "id": "1d76469a-1b1c-4554-9ade-481b17bc6d4b",
+    "data": [
+      {
+        "text": "Kontak Ambulan ",
+        "userDefined": false
+      },
+      {
+        "text": "KBB",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "e562175d-d54f-4fff-a7f3-16187e28a87b",
+    "data": [
+      {
+        "text": "Kontak Ambulan ",
+        "userDefined": false
+      },
+      {
+        "text": "Kab Bandung Barat",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "9016b971-5eb4-4af1-8cfa-a936f97b1645",
+    "data": [
+      {
+        "text": "Kontak Ambulan ",
+        "userDefined": false
+      },
+      {
+        "text": "Kabupaten Bandung Barat",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "01bb9b59-03fe-423b-874d-30dbf02c4a7f",
+    "data": [
+      {
+        "text": "Ambulan ",
+        "userDefined": false
+      },
+      {
+        "text": "KBB",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "a5b98568-004e-435e-bd65-7cfa066e0c13",
+    "data": [
+      {
+        "text": "Ambulan ",
+        "userDefined": false
+      },
+      {
+        "text": "Kab Bandung Barat",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "774e7d23-d894-41a0-aee6-bc7ba6bfbcd5",
+    "data": [
+      {
+        "text": "Ambulan ",
+        "userDefined": false
+      },
+      {
+        "text": "Kabupaten Bandung Barat",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "8b74214f-5d18-4864-8422-f79f836693c6",
+    "data": [
+      {
+        "text": "Ambulan",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "id": "5a4a2ee9-0146-415a-a759-d72239ac2520",
+  "parentId": "c6681d4b-a9fb-4240-865a-13ee38b1d232",
+  "rootParentId": "c6681d4b-a9fb-4240-865a-13ee38b1d232",
+  "name": "Kabupaten Bandung Barat - PLN",
+  "auto": true,
+  "contexts": [
+    "KabupatenBandungBarat-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenBandungBarat.KabupatenBandungBarat-custom-5",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "a53caaf2-6e9e-4ed0-8b53-a067330597ee",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  123\n\nCall Center di atas adalah Layanan Perusahaan Listrik Negara dari Perusahaan Listrik Negara Kabupaten Bandung Barat.\n\nBagi Wargi Kabupaten Bandung Barat, segera hubungi nomor di atas untuk menghubungi Perusahaan Listrik Negara apabila terjadi situasi Gangguan Listrik.\n\nHatur nuhun"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

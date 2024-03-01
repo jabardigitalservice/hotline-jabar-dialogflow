@@ -1,0 +1,94 @@
+{
+  "id": "80ca572b-0338-41e9-b16a-2d8ceb29fba3",
+  "name": "Kabupaten Garut",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "KabupatenGarut-followup",
+          "lifespan": 2
+        },
+        {
+          "name": "LayananKegawatdaruratan-followup",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "3374dd70-b820-4bdf-94a6-039031f9f75f",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "content": "Sampurasun, Wargi Jabar!\nBerikut ini adalah kontak Layanan Kegawatdaruratan untuk Kabupaten Garut.\n\nUntuk memulai, silakan pilih salah satu opsi di bawah ini:",
+            "content_attributes": {
+              "items": [
+                {
+                  "value": "Ambulan",
+                  "title": "Ambulan"
+                },
+                {
+                  "title": "Bencana Alam",
+                  "value": "Bencana Alam"
+                },
+                {
+                  "title": "Pemadam Kebakaran",
+                  "value": "Pemadam Kebakaran"
+                },
+                {
+                  "title": "PLN",
+                  "value": "PLN"
+                },
+                {
+                  "title": "Polisi",
+                  "value": "Polisi"
+                }
+              ]
+            },
+            "content_type": "input_select",
+            "private": false
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

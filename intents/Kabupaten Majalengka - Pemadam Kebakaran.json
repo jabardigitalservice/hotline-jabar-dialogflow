@@ -1,0 +1,55 @@
+{
+  "id": "281f5c4d-b9c4-45a2-a746-a5fcd30cbc98",
+  "parentId": "9955b2fa-5a85-4cab-90a1-2d83cd46cdb0",
+  "rootParentId": "9955b2fa-5a85-4cab-90a1-2d83cd46cdb0",
+  "name": "Kabupaten Majalengka - Pemadam Kebakaran",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup",
+    "KabupatenMajalengka-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenMajalengka.KabupatenMajalengka-custom-3",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "86b1284f-9230-4288-ad04-46b3d38da52f",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor : (0233) 281113 \nWhatsapp\t: 08112316113 atau https://wa.me/628112316113\n\nCall Center di atas adalah Layanan Pemadam Kebakaran dari Dinas Pemadam Kebakaran Kabupaten Majalengka.\n\nBagi Wargi Kabupaten Majalengka, segera hubungi nomor di atas untuk menghubungi Pemadam Kebakaran apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  panyelamatan dan pertolongan pertama dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

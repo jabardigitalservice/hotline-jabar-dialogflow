@@ -1,0 +1,54 @@
+{
+  "id": "413fefd1-16dd-4567-8d5d-1e5de84104d4",
+  "parentId": "b0fdb884-e3d6-444f-b31e-d90912034c94",
+  "rootParentId": "b0fdb884-e3d6-444f-b31e-d90912034c94",
+  "name": "Kota Depok - Ambulan",
+  "auto": true,
+  "contexts": [
+    "KotaDepok-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KotaDepok.KotaDepok-custom-3",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "bf573545-1392-4154-8bb3-52ace829c46e",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  112 atau 119\n\nCall Center di atas adalah layanan Ambulans dari Pemerintah Kota Depok yang dikelola oleh Dinas Kesehatan Kota Depok.\n\nBagi Wargi Kota Depok, segera hubungi nomor di atas untuk menghubungi ambulans apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  kecelakaan, bantuan kesehatan dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

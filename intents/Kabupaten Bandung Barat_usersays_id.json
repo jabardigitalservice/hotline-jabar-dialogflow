@@ -1,0 +1,32 @@
+[
+  {
+    "id": "9fabd4c0-586c-45a7-82e9-61953abde198",
+    "data": [
+      {
+        "text": "KBB",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "650c187e-c2be-45ae-beb1-f4ced94442a2",
+    "data": [
+      {
+        "text": "Kabupaten Bandung Barat",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

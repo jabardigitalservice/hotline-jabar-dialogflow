@@ -1,0 +1,55 @@
+{
+  "id": "d8521190-620d-45ef-ae78-080546fd2da0",
+  "parentId": "58abc9aa-baa9-4381-8fef-973292a3e384",
+  "rootParentId": "58abc9aa-baa9-4381-8fef-973292a3e384",
+  "name": "Kabupaten Pangandaran - Polisi",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup",
+    "KabupatenPangandaran-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenPangandaran.KabupatenPangandaran-custom-4",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "2b6370a3-870e-4ee3-b4ab-fce8db051219",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi nomor : 082133118110 atau klik https://wa.me/6282133118110\n\nCall Center di atas adalah layanan Polisi dari Polres Kabupaten Pangandaran. \n\nBagi Wargi Kabupaten Pangandaran, segera hubungi nomor di atas untuk menghubungi polisi apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  kecelakaan, seperti pencurian, seperti tawuran dan keadaan darurat lainnya.\n\nHatur Nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

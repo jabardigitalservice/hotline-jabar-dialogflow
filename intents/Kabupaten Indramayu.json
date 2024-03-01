@@ -1,0 +1,94 @@
+{
+  "id": "76eff04e-86e7-489a-a803-026f05029ff7",
+  "name": "Kabupaten Indramayu",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "LayananKegawatdaruratan-followup",
+          "lifespan": 5
+        },
+        {
+          "name": "KabupatenIndramayu-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "59eb37e6-05b8-474c-b2b9-abb3b7d2e782",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "content_attributes": {
+              "items": [
+                {
+                  "value": "Ambulan",
+                  "title": "Ambulan"
+                },
+                {
+                  "value": "Bencana Alam",
+                  "title": "Bencana Alam"
+                },
+                {
+                  "title": "Pemadam Kebakaran",
+                  "value": "Pemadam Kebakaran"
+                },
+                {
+                  "value": "PLN",
+                  "title": "PLN"
+                },
+                {
+                  "value": "Polisi",
+                  "title": "Polisi"
+                }
+              ]
+            },
+            "content": "Sampurasun, Wargi Jabar!\nBerikut ini adalah kontak Layanan Kegawatdaruratan untuk Kabupaten Indramayu.\n\nUntuk memulai, silakan pilih salah satu opsi di bawah ini:",
+            "content_type": "input_select",
+            "private": false
+          },
+          "textToSpeech": "",
+          "lang": "id",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

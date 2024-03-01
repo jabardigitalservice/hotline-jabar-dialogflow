@@ -1,0 +1,54 @@
+{
+  "id": "42594152-25f5-4efa-b28d-4730ab093de5",
+  "parentId": "3de1a75b-15c9-4b24-8522-28a0784ede99",
+  "rootParentId": "3de1a75b-15c9-4b24-8522-28a0784ede99",
+  "name": "Kota Cirebon - Ambulan",
+  "auto": true,
+  "contexts": [
+    "KotaCirebon-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KotaCirebon.KotaCirebon-custom-5",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "c82deded-d774-41f1-bd0b-a4e86269c739",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  112 atau 119\n\nCall Center di atas adalah layanan Ambulans dari Pemerintah Kota Cirebon yang dikelola oleh Dinas Kesehatan Kota Cirebon.\n\nBagi Wargi Kota Cirebon, segera hubungi nomor di atas untuk menghubungi ambulans apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  kecelakaan, bantuan kesehatan dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

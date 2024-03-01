@@ -1,0 +1,54 @@
+{
+  "id": "fc26e7e1-5af6-4c9c-8535-aa08b0bc8d38",
+  "parentId": "dac77be0-a536-41f6-9663-51f675270ab6",
+  "rootParentId": "dac77be0-a536-41f6-9663-51f675270ab6",
+  "name": "Kota Banjar - Polisi",
+  "auto": true,
+  "contexts": [
+    "KotaBanjar-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KotaBanjar.KotaBanjar-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "42952f02-f2e2-4311-b981-22496a531d26",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  110\n\nCall Center di atas adalah layanan Polisi dari Kepolisian Negara Republik Indonesia.\n\nBagi Wargi Kota Banjar, segera hubungi nomor di atas untuk menghubungi polisi apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  kecelakaan, seperti pencurian, seperti tawuran dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

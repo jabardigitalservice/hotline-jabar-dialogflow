@@ -1,0 +1,17 @@
+[
+  {
+    "id": "66290002-8ab8-4ff3-9c59-c1dbb3ff72ce",
+    "data": [
+      {
+        "text": "Kota Banjar",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

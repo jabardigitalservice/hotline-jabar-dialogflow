@@ -1,0 +1,55 @@
+{
+  "id": "276f5a1c-5636-4ed4-b859-b2b4ad9c9a8e",
+  "parentId": "76eff04e-86e7-489a-a803-026f05029ff7",
+  "rootParentId": "76eff04e-86e7-489a-a803-026f05029ff7",
+  "name": "Kabupaten Indramayu - Pemadam Kebakaran",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup",
+    "KabupatenIndramayu-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenIndramayu.KabupatenIndramayu-custom-2",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "6220aa73-cbaf-4e6f-a84e-37046d753a80",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  083176083215 atau klik https://wa.me/6283176083215\n\nCall Center di atas adalah Layanan Pemadam Kebakaran dari Dinas Pemadam Kebakaran Kabupaten Indramayu.\n\nBagi Wargi Kabupaten Indramayu, segera hubungi nomor di atas untuk menghubungi Pemadam Kebakaran apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  penyelamatan dan pertolongan pertama dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,54 @@
+{
+  "id": "9efe7599-8d53-41d4-9171-ea999273e48d",
+  "parentId": "3de1a75b-15c9-4b24-8522-28a0784ede99",
+  "rootParentId": "3de1a75b-15c9-4b24-8522-28a0784ede99",
+  "name": "Kota Cirebon - PLN",
+  "auto": true,
+  "contexts": [
+    "KotaCirebon-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KotaCirebon.KotaCirebon-custom-3",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e74208a9-a821-4ef7-9737-207866b32824",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  123\n\nCall Center di atas adalah Layanan Perusahaan Listrik Negara dari Perusahaan Listrik Negara Kota Cirebon.\n\nBagi Wargi Kota Cirebon, segera hubungi nomor di atas untuk menghubungi Perusahaan Listrik Negara apabila terjadi situasi Gangguan Listrik.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

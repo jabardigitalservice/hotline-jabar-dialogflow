@@ -1,0 +1,54 @@
+{
+  "id": "a7b1a87c-9678-440e-946a-5f2ff008b920",
+  "parentId": "587904a7-0d22-46ed-b730-6a7f24fb015a",
+  "rootParentId": "587904a7-0d22-46ed-b730-6a7f24fb015a",
+  "name": "Kabupaten Cianjur - PLN",
+  "auto": true,
+  "contexts": [
+    "KabupatenCianjur-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenCianjur.KabupatenCianjur-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "7735c048-4879-4630-8e34-cab7026fdbeb",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor : 123\n\nCall Center di atas adalah Layanan Perusahaan Listrik Negara dari Perusahaan Listrik Negara Kabupaten Cianjur.\n\nBagi Wargi Kabupaten Cianjur, segera hubungi nomor di atas untuk menghubungi Perusahaan Listrik Negara apabila terjadi situasi Gangguan Listrik.\n\nHatur nuhun"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

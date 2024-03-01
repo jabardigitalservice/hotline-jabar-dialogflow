@@ -1,0 +1,54 @@
+{
+  "id": "e3afb095-249b-4fba-829a-b3c8d498dcea",
+  "parentId": "f1de4901-430b-4121-b7cc-cd9796942e95",
+  "rootParentId": "f1de4901-430b-4121-b7cc-cd9796942e95",
+  "name": "Kabupaten Bandung - Polisi",
+  "auto": true,
+  "contexts": [
+    "KabupatenBandung-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenBandung.KabupatenBandung-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "ac06e3e0-b02a-4b98-bc94-46514bfef47e",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  081282467967 atau klik https://wa.me/6281282467967 \n\nCall Center di atas adalah layanan Polisi dari Polres Kabupaten Bandung.\n\nBagi Wargi Kabupaten Bandung, segera hubungi nomor di atas untuk menghubungi polisi apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  kecelakaan, seperti pencurian, seperti tawuran dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

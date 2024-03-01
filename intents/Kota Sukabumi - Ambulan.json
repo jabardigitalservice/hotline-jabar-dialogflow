@@ -1,0 +1,54 @@
+{
+  "id": "264525a0-4103-4739-a0e9-404d7a42c488",
+  "parentId": "a924c28e-06b5-4b20-b978-036ce85ab35d",
+  "rootParentId": "a924c28e-06b5-4b20-b978-036ce85ab35d",
+  "name": "Kota Sukabumi - Ambulan",
+  "auto": true,
+  "contexts": [
+    "KotaSukabumi-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KotaSukabumi.KotaSukabumi-custom-2",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "a574a6e2-cef2-42ae-a39f-96ad846546dd",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor  : 119\n\nCall Center di atas adalah layanan Ambulans dari Dinas Kesehatan Kota Sukabumi.\n\nBagi Wargi Kota Sukabumi, segera hubungi nomor di atas untuk menghubungi ambulans apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  kecelakaan, bantuan kesehatan dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

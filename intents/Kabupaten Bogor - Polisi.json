@@ -1,0 +1,54 @@
+{
+  "id": "d7853f03-60f3-48d0-8065-9a40506af7c3",
+  "parentId": "d2901c9e-c1bb-4233-b0ef-32d0d667e500",
+  "rootParentId": "d2901c9e-c1bb-4233-b0ef-32d0d667e500",
+  "name": "Kabupaten Bogor - Polisi",
+  "auto": true,
+  "contexts": [
+    "KabupatenBogor-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenBogor.KabupatenBogor-custom-3",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "c440343f-206a-4f86-a9c4-000e831d5d10",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  (021) 8750163 \n\nCall Center di atas adalah layanan Polisi dari Polres Kabupaten Bogor\n\nBagi Wargi Kabupaten Bogor, segera hubungi nomor di atas untuk menghubungi polisi apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  kecelakaan, seperti pencurian, seperti tawuran dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

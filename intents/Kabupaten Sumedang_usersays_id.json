@@ -1,0 +1,32 @@
+[
+  {
+    "id": "93936ad7-8535-4d84-8d46-8ca820b6af15",
+    "data": [
+      {
+        "text": "Kab Sumedang",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "3ce687d0-47a9-4152-b433-07237114f015",
+    "data": [
+      {
+        "text": "Kabupaten Sumedang",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

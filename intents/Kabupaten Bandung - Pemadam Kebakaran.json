@@ -1,0 +1,54 @@
+{
+  "id": "cdde5508-9b39-477c-939d-a55f7d8e2d09",
+  "parentId": "f1de4901-430b-4121-b7cc-cd9796942e95",
+  "rootParentId": "f1de4901-430b-4121-b7cc-cd9796942e95",
+  "name": "Kabupaten Bandung - Pemadam Kebakaran",
+  "auto": true,
+  "contexts": [
+    "KabupatenBandung-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenBandung.KabupatenBandung-custom-2",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "2b67d333-20f0-4d11-8fe3-64d7ba87ff5c",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  085163589113 atau klik https://wa.me/6285163589113\n\nCall Center di atas adalah Layanan Pemadam Kebakaran dari Dinas Pemadam Kebakaran Kabupaten Bandung.\n\nBagi Wargi Kabupaten Bandung, segera hubungi nomor di atas untuk menghubungi Pemadam Kebakaran apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  penyelamatan dan pertolongan pertama dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

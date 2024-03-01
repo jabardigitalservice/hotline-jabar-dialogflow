@@ -1,0 +1,55 @@
+{
+  "id": "52d75d18-ec26-4706-948c-b4f079565178",
+  "parentId": "edc9946f-d40e-4d41-bfd4-eb9144957a27",
+  "rootParentId": "edc9946f-d40e-4d41-bfd4-eb9144957a27",
+  "name": "Kabupaten Purwakarta - Bencana Alam",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup",
+    "KabupatenPurwakarta-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenPurwakarta.KabupatenPurwakarta-custom-2",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "a2d2822c-ca25-40bc-98ba-f76b411ee1dc",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :112\nWhatsapp\t: \n087860142543 atau klik https://wa.me/6287860142543 \n08119937117 atau klik https://wa.me/628119937117\n\nCall Center di atas adalah Layanan Bencana Alam dari Badan Penanggulangan Bencana Daerah Kabupaten Purwakarta dan Whatsapp Center di atas adalah layanan yang disediakan oleh Dinas komunikasi dan informasi kabupaten Purwakarta.\n\nBagi Wargi Kabupaten Purwakarta, segera hubungi nomor di atas untuk menghubungi Layanan Bencana Alam apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  tanah longsor, bantuan banjir, bantuan gempa bumi dan keadaan darurat lainnya.\n\n💡 Ketik angka 9 untuk kembali ke menu sebelumnya\n💡 Ketik angka 0 untuk kembali ke halaman utama\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

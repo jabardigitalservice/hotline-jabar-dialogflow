@@ -1,0 +1,54 @@
+{
+  "id": "f653dad9-dcf9-4e05-8734-f2515618a442",
+  "parentId": "b9ca6f51-e1e9-4b30-813c-a09ee8bbb596",
+  "rootParentId": "b9ca6f51-e1e9-4b30-813c-a09ee8bbb596",
+  "name": "Kabupaten Kuningan - Polisi",
+  "auto": true,
+  "contexts": [
+    "KabupatenKuningan-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenKuningan.KabupatenKuningan-custom-4",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "a3b7b91b-04c6-450a-8b1e-6f2ba2d75d33",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor : 081394978743 atau klik https://wa.me/6281394978743 \n\nCall Center di atas adalah layanan Polisi dari Polres Kabupaten Kuningan\n\nBagi Wargi Kabupaten Kuningan, segera hubungi nomor di atas untuk menghubungi polisi apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  kecelakaan, seperti pencurian, seperti tawuran dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

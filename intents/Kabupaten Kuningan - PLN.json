@@ -1,0 +1,54 @@
+{
+  "id": "dabf463f-6ef7-4810-aed8-a7a4b70c0f20",
+  "parentId": "b9ca6f51-e1e9-4b30-813c-a09ee8bbb596",
+  "rootParentId": "b9ca6f51-e1e9-4b30-813c-a09ee8bbb596",
+  "name": "Kabupaten Kuningan - PLN",
+  "auto": true,
+  "contexts": [
+    "KabupatenKuningan-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenKuningan.KabupatenKuningan-custom-5",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "755ad208-e636-4c9a-8188-13b38d591a4d",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor : (0232) 871930\n\nCall Center di atas adalah Layanan Perusahaan Listrik Negara dari Perusahaan Listrik Negara Kabupaten Kuningan.\n\nBagi Wargi Kabupaten Kuningan, segera hubungi nomor di atas untuk menghubungi Perusahaan Listrik Negara apabila  terjadi situasi Gangguan Listrik.\n\nHatur nuhun"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

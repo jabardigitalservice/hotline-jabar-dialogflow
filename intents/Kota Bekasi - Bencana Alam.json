@@ -1,0 +1,54 @@
+{
+  "id": "21f59f31-03d9-41f2-a605-39e8037bd11f",
+  "parentId": "1e164a8b-1634-4f5a-af75-bef573342820",
+  "rootParentId": "1e164a8b-1634-4f5a-af75-bef573342820",
+  "name": "Kota Bekasi - Bencana Alam",
+  "auto": true,
+  "contexts": [
+    "KotaBekasi-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KotaBekasi.KotaBekasi-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "a5679b0b-2774-4dfb-ab22-de5e23ea41cc",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  081283957877 atau klik https://wa.me/6281283957877\n\nCall Center di atas adalah Layanan Bencana Alam dari Badan Penanggulangan Bencana Daerah Kota Bekasi.\n\nBagi Wargi Kota Bekasi, segera hubungi nomor di atas untuk menghubungi Layanan Bencana Alam apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  tanah longsor, bantuan banjir, bantuan gempa bumi dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,54 @@
+{
+  "id": "4950d0c8-605c-470c-9bc4-efc0f3509736",
+  "parentId": "1e164a8b-1634-4f5a-af75-bef573342820",
+  "rootParentId": "1e164a8b-1634-4f5a-af75-bef573342820",
+  "name": "Kota Bekasi - Ambulan",
+  "auto": true,
+  "contexts": [
+    "KotaBekasi-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KotaBekasi.KotaBekasi-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "004ea39e-dcbd-488f-9ae1-b6b19fecc4af",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  119 atau (021) 88960247\n\nCall Center di atas adalah layanan Ambulans dari Dinas Kesehatan Kota Bekasi.\n\nBagi Wargi Kota Bandung, segera hubungi nomor di atas untuk menghubungi ambulans apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  kecelakaan, bantuan kesehatan dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

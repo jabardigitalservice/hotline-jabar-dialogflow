@@ -1,0 +1,32 @@
+[
+  {
+    "id": "48788724-49a9-47cc-b9cd-f45f6fb85c22",
+    "data": [
+      {
+        "text": "Kabupaten Purwakarta",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "751092ce-deaf-4e1a-a504-a6c8252aeaef",
+    "data": [
+      {
+        "text": "Kab Purwakarta",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "id": "f8fc6c96-d407-4e46-b8d4-9db0bfd3c2fb",
+  "parentId": "a924c28e-06b5-4b20-b978-036ce85ab35d",
+  "rootParentId": "a924c28e-06b5-4b20-b978-036ce85ab35d",
+  "name": "Kota Sukabumi - Polisi",
+  "auto": true,
+  "contexts": [
+    "KotaSukabumi-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KotaSukabumi.KotaSukabumi-custom-3",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "dc45033a-98f9-45ad-8213-eb0afad372aa",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi nomor : 0811654110 atau klik https://wa.me/62811654110\n\nCall Center di atas adalah layanan Polisi dari Polres Sukabumi Kota.\n\nBagi Wargi Kota Sukabumi, segera hubungi nomor di atas untuk menghubungi polisi apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  kecelakaan, seperti pencurian, seperti tawuran dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

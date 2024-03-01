@@ -1,0 +1,54 @@
+{
+  "id": "ae0224e1-54dc-4980-8fb6-f176e9c33c9d",
+  "parentId": "f7d7dad8-f71a-4298-bbfa-dd200c79bfef",
+  "rootParentId": "f7d7dad8-f71a-4298-bbfa-dd200c79bfef",
+  "name": "Kabupaten Cirebon - Polisi",
+  "auto": true,
+  "contexts": [
+    "KabupatenCirebon-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenCirebon.KabupatenCirebon-custom-4",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "a16dfc69-7728-438a-a885-139553991621",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  110 atau 08112497497 atau klik https://wa.me/628112497497\n\nCall Center diatas adalah layanan Polisi dari Polresta Kabupaten Cirebon.\n\nBagi Wargi Kabupaten Cirebon, segera hubungi nomor di atas untuk menghubungi polisi apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  kecelakaan, seperti pencurian, seperti tawuran dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,54 @@
+{
+  "id": "4b703bd3-e7bf-4ba6-afd7-a0c9f2a2940c",
+  "parentId": "187e686e-c34f-4fbe-bf43-298c29219bf2",
+  "rootParentId": "187e686e-c34f-4fbe-bf43-298c29219bf2",
+  "name": "Kota Bogor - Pemadam Kebakaran",
+  "auto": true,
+  "contexts": [
+    "KotaBogor-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KotaBogor.KotaBogor-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d7142e38-2b54-4112-8257-0b020d6932ed",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  (0251) 8322100\n\nCall Center di atas adalah Layanan Pemadam Kebakaran dari Pemerintah Kota Bogor yang dikelola oleh Dinas Pemadam Kebakaran Kota Bogor.\n\nBagi Wargi Kota Bogor, segera hubungi nomor di atas untuk menghubungi Pemadam Kebakaran  apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  penyelamatan dan pertolongan pertama dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

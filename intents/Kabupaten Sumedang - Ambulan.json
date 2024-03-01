@@ -1,0 +1,55 @@
+{
+  "id": "017e94e2-f683-4746-8291-b0b52e41a171",
+  "parentId": "a5f8d45f-b8f7-48b1-b5d3-b6d746993d6d",
+  "rootParentId": "a5f8d45f-b8f7-48b1-b5d3-b6d746993d6d",
+  "name": "Kabupaten Sumedang - Ambulan",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup",
+    "KabupatenSumedang-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenSumedang.KabupatenSumedang-custom-4",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "ebf8fcf7-b7a7-44fa-a641-e23d52f7e985",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  119\n\nCall Center di atas adalah layanan Ambulans dari Dinas Kesehatan Kabupaten Sumedang.\n\nBagi Wargi Kabupaten Sumedang, segera hubungi nomor di atas untuk menghubungi ambulans apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  kecelakaan, bantuan kesehatan dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

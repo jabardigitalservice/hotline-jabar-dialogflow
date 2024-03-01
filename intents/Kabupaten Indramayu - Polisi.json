@@ -1,0 +1,55 @@
+{
+  "id": "cc68d0ce-547d-410f-a83d-a5681025ba52",
+  "parentId": "76eff04e-86e7-489a-a803-026f05029ff7",
+  "rootParentId": "76eff04e-86e7-489a-a803-026f05029ff7",
+  "name": "Kabupaten Indramayu - Polisi",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup",
+    "KabupatenIndramayu-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenIndramayu.KabupatenIndramayu-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "3435bae9-5965-4a0f-99d1-2c0833dfda48",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  081999700110 atau klik https://wa.me/6281999700110\n\nCall Center di atas adalah layanan Polisi dari Polresta Kabupaten Indramayu. \n\nBagi Wargi Kabupaten Indramayu, segera hubungi nomor di atas untuk menghubungi polisi apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  kecelakaan, seperti pencurian, seperti tawuran dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

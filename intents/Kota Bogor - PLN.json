@@ -1,0 +1,54 @@
+{
+  "id": "a9437b77-c6aa-4499-84f8-63378935f996",
+  "parentId": "187e686e-c34f-4fbe-bf43-298c29219bf2",
+  "rootParentId": "187e686e-c34f-4fbe-bf43-298c29219bf2",
+  "name": "Kota Bogor - PLN",
+  "auto": true,
+  "contexts": [
+    "KotaBogor-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KotaBogor.KotaBogor-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "7f4ae687-0f23-4174-87bb-2f93f0e296d2",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  123\n\nCall Center di atas adalah Layanan Perusahaan Listrik Negara dari Perusahaan Listrik Negara Kota Bogor.\n\nBagi Wargi Kota Bogor, segera hubungi nomor di atas untuk menghubungi Perusahaan Listrik Negara apabila terjadi situasi Gangguan Listrik.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

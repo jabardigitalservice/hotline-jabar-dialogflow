@@ -1,0 +1,54 @@
+{
+  "id": "4e650313-9400-4786-8f73-713c1d4031df",
+  "parentId": "b0fdb884-e3d6-444f-b31e-d90912034c94",
+  "rootParentId": "b0fdb884-e3d6-444f-b31e-d90912034c94",
+  "name": "Kota Depok - Bencana Alam",
+  "auto": true,
+  "contexts": [
+    "KotaDepok-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KotaDepok.KotaDepok-custom-2",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d40bc442-0125-486f-8c4c-1778fa64ce42",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  112\n\nCall Center di atas adalah layanan Bencana Alam dari Pemerintah Kota Depok yang dikelola oleh Dinas Komunikasi dan Informatika Kota Depok.\n\nBagi Wargi Kota Depok, segera hubungi nomor di atas untuk menghubungi Layanan Bencana Alam apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  tanah longsor, bantuan banjir, bantuan gempa bumi dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

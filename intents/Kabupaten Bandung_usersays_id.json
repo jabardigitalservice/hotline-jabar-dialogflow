@@ -1,0 +1,32 @@
+[
+  {
+    "id": "f1e0f5f1-0f64-4c96-b4c7-e600373be7f6",
+    "data": [
+      {
+        "text": "kab Bandung",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "5e6f10b7-c9ff-44bb-898e-8b81ff3e6718",
+    "data": [
+      {
+        "text": "Kabupaten Bandung",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

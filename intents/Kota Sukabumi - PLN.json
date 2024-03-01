@@ -1,0 +1,54 @@
+{
+  "id": "67d0cd5f-7509-4e80-8cc6-5a42c1487a4c",
+  "parentId": "a924c28e-06b5-4b20-b978-036ce85ab35d",
+  "rootParentId": "a924c28e-06b5-4b20-b978-036ce85ab35d",
+  "name": "Kota Sukabumi - PLN",
+  "auto": true,
+  "contexts": [
+    "KotaSukabumi-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KotaSukabumi.KotaSukabumi-custom-4",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "96e8b6fd-faea-4712-b9ec-ee08498bce53",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi nomor : 123\n\nCall Center di atas adalah Layanan Perusahaan Listrik Negara dari Perusahaan Listrik Negara Kota Sukabumi.\n\nBagi Wargi Kota Sukabumi, segera hubungi nomor di atas untuk menghubungi Perusahaan Listrik Negara apabila terjadi situasi Gangguan Listrik.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

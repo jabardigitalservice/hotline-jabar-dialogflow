@@ -1,0 +1,32 @@
+[
+  {
+    "id": "80d4e741-cfd4-41e8-9ade-531de3feed19",
+    "data": [
+      {
+        "text": "Kab Indramayu",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "1873e7ea-e24b-441e-8189-7ac7968c1991",
+    "data": [
+      {
+        "text": "Kabupaten Indramayu",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

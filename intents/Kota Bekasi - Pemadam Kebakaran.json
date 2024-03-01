@@ -1,0 +1,54 @@
+{
+  "id": "29513ffd-d192-4d6c-abbe-0109bc27d3e1",
+  "parentId": "1e164a8b-1634-4f5a-af75-bef573342820",
+  "rootParentId": "1e164a8b-1634-4f5a-af75-bef573342820",
+  "name": "Kota Bekasi - Pemadam Kebakaran",
+  "auto": true,
+  "contexts": [
+    "KotaBekasi-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KotaBekasi.KotaBekasi-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "917ebc77-5cf7-4c2f-a2da-cef5a78abf49",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  (021) 88957805\n\nCall Center di atas adalah Layanan Pemadam Kebakaran dari Dinas Pemadam Kebakaran dan Penanggulangan Bencana Kota Bekasi.\n\nBagi Wargi Kota Bekasi, segera hubungi nomor di atas untuk menghubungi Pemadam Kebakaran  apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  penyelamatan dan pertolongan pertama dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

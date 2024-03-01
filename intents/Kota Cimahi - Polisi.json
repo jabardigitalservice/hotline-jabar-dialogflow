@@ -1,0 +1,54 @@
+{
+  "id": "cc8731d8-af5a-4f9c-a852-914469f4a950",
+  "parentId": "854184f4-c455-416d-a226-6c7f14420aa8",
+  "rootParentId": "854184f4-c455-416d-a226-6c7f14420aa8",
+  "name": "Kota Cimahi - Polisi",
+  "auto": true,
+  "contexts": [
+    "KotaCimahi-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KotaCimahi.KotaCimahi-custom-4",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "2885aa93-e152-4df6-a6cc-87a192028d2a",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor : 110\nWhatsapp\t: 081275752003 atau klik https://wa.me/6281275752003\n\nCall Center di atas adalah layanan Polisi dari Polres Kota Cimahi.\n\nBagi Wargi Kota Cimahi, segera hubungi nomor di atas untuk menghubungi polisi apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  kecelakaan, seperti pencurian, seperti tawuran dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

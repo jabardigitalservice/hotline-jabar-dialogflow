@@ -1,0 +1,54 @@
+{
+  "id": "18ad89b4-c1a3-44b9-9694-60b0669e3a19",
+  "parentId": "80ca572b-0338-41e9-b16a-2d8ceb29fba3",
+  "rootParentId": "80ca572b-0338-41e9-b16a-2d8ceb29fba3",
+  "name": "Kabupaten Garut - Ambulan",
+  "auto": true,
+  "contexts": [
+    "KabupatenGarut-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenGarut.KabupatenGarut-custom-5",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "639aa836-410d-41b8-bda5-a55523dc288e",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  119\n\nCall Center di atas adalah layanan Ambulans dari Pemerintah Kabupaten Garut yang dikelola oleh Dinas Kesehatan Kabupaten Garut.\n\nBagi Wargi Kabupaten Garut, segera hubungi nomor di atas  untuk menghubungi ambulans apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  kecelakaan, bantuan kesehatan dan keadaan darurat lainnya.\n\nHatur Nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

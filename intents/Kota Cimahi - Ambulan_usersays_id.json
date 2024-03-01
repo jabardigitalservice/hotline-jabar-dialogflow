@@ -1,0 +1,53 @@
+[
+  {
+    "id": "bb6da19f-d796-4441-8ec8-242408121e79",
+    "data": [
+      {
+        "text": "kontak ambulan ",
+        "userDefined": false
+      },
+      {
+        "text": "kota cimahi",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "2bef8597-05b8-4f8f-9e83-e1e8cccedd82",
+    "data": [
+      {
+        "text": "ambulan",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "c9fa65c0-5975-4a5e-bfbc-96966123a425",
+    "data": [
+      {
+        "text": "ambulan ",
+        "userDefined": false
+      },
+      {
+        "text": "kota cimahi",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

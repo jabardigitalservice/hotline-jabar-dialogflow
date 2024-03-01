@@ -1,0 +1,54 @@
+{
+  "id": "544b4fe3-dd8a-4304-b332-f6b5c7eb71d4",
+  "parentId": "d2901c9e-c1bb-4233-b0ef-32d0d667e500",
+  "rootParentId": "d2901c9e-c1bb-4233-b0ef-32d0d667e500",
+  "name": "Kabupaten Bogor - PLN",
+  "auto": true,
+  "contexts": [
+    "KabupatenBogor-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenBogor.KabupatenBogor-custom-2",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "8edf2dbc-06cc-4962-ae66-edd32898c4db",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  123\n\nCall Center di atas adalah Layanan Perusahaan Listrik Negara dari Perusahaan Listrik Negara Kabupaten Bogor.\n\nBagi Wargi Kabupaten Bekasi, segera hubungi nomor di atas untuk menghubungi Perusahaan Listrik Negara apabila terjadi situasi Gangguan Listrik.\n\nHatur nuhun"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

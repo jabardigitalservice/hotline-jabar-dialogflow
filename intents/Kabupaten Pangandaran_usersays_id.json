@@ -1,0 +1,32 @@
+[
+  {
+    "id": "d44de36b-6f0d-4ab7-8530-a2b831c91cb4",
+    "data": [
+      {
+        "text": "Kab Pangandaran",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "6cbee520-c306-4ef3-b001-3badff462646",
+    "data": [
+      {
+        "text": "Kabupaten Pangandaran",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "f77faada-494d-46a6-88eb-e220dbd28f7a",
+    "data": [
+      {
+        "text": "Kab Garut",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "cb822a83-977d-4180-ae8f-e0b44dbb581b",
+    "data": [
+      {
+        "text": "Kabupaten Garut",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

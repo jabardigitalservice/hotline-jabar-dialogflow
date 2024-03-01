@@ -1,0 +1,32 @@
+[
+  {
+    "id": "24f25143-ad93-4450-a7b9-caed3d262a86",
+    "data": [
+      {
+        "text": "Kab Ciamis",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "ba23b793-c276-4263-b847-bed5d3a56288",
+    "data": [
+      {
+        "text": "Kabupaten Ciamis",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

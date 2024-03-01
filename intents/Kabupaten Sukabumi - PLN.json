@@ -1,0 +1,55 @@
+{
+  "id": "e169bc22-581a-489c-8144-e5efac579ab2",
+  "parentId": "f8463666-625f-42c9-8044-e5451743b5a4",
+  "rootParentId": "f8463666-625f-42c9-8044-e5451743b5a4",
+  "name": "Kabupaten Sukabumi - PLN",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup",
+    "KabupatenSukabumi-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenSukabumi.KabupatenSukabumi-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "1cbfdf92-72b8-4b3d-8d70-f0c8d9ed8a0b",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi nomor : (0266) 432223\n\nCall Center di atas adalah Layanan Perusahaan Listrik Negara dari Perusahaan Listrik Negara Kabupaten Sukabumi.\n\nBagi Wargi Kabupaten Sukabumi, segera hubungi nomor di atas untuk menghubungi Perusahaan Listrik Negara apabila terjadi situasi Gangguan Listrik.\n\nHatur nuhun"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

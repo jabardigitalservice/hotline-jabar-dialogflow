@@ -1,0 +1,32 @@
+[
+  {
+    "id": "7f120baa-b9fc-4a3e-a8e8-f11367bd821f",
+    "data": [
+      {
+        "text": "Kab Cirebon",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  },
+  {
+    "id": "5192f59d-8aea-4233-a757-2bb93b052269",
+    "data": [
+      {
+        "text": "Kabupaten Cirebon",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

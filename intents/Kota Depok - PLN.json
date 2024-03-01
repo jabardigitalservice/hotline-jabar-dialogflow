@@ -1,0 +1,54 @@
+{
+  "id": "c13cb33e-52b8-4abc-bbe6-f24176c6e828",
+  "parentId": "b0fdb884-e3d6-444f-b31e-d90912034c94",
+  "rootParentId": "b0fdb884-e3d6-444f-b31e-d90912034c94",
+  "name": "Kota Depok - PLN",
+  "auto": true,
+  "contexts": [
+    "KotaDepok-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KotaDepok.KotaDepok-custom-5",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "567fc813-2270-47c6-b67f-98b550e8223f",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  123 atau 112\n\nCall Center di atas adalah Layanan Perusahaan Listrik Negara dari Pemerintah Kota Depok yang dikelola oleh Dinas Komunikasi dan Informatika Kota Depok dan Perusahaan Listrik Negara Kota Depok.\n\nBagi Wargi Kota Depok, segera hubungi nomor di atas untuk menghubungi Perusahaan Listrik Negara apabila terjadi situasi Gangguan Listrik.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

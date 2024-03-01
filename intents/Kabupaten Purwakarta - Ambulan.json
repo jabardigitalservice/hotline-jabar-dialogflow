@@ -1,0 +1,55 @@
+{
+  "id": "0d9d182f-a4c7-46d5-a88a-d2ead344158d",
+  "parentId": "edc9946f-d40e-4d41-bfd4-eb9144957a27",
+  "rootParentId": "edc9946f-d40e-4d41-bfd4-eb9144957a27",
+  "name": "Kabupaten Purwakarta - Ambulan",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup",
+    "KabupatenPurwakarta-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenPurwakarta.KabupatenPurwakarta-custom-5",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "2d9d9336-3a75-412f-9827-ae53e67e8193",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  119 atau 112 \nWhatsapp\t:  087860142543 atau klik https://wa.me/6287860142543\n\nCall Center di atas adalah layanan Ambulans dari Dinas Kesehatan Kabupaten Purwakarta..\n\nBagi Wargi Kabupaten Purwakarta, segera hubungi nomor di atas untuk menghubungi ambulans apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  kecelakaan, bantuan kesehatan dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

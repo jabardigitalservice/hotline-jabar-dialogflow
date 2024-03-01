@@ -1,0 +1,17 @@
+[
+  {
+    "id": "08b3d121-cdf9-4e85-b9fd-7a4066a2c3ba",
+    "data": [
+      {
+        "text": "Kota Bekasi",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

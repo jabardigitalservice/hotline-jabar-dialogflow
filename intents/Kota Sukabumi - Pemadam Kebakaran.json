@@ -1,0 +1,54 @@
+{
+  "id": "655e83a9-9f47-4a15-a5d7-32edb5b2ac08",
+  "parentId": "a924c28e-06b5-4b20-b978-036ce85ab35d",
+  "rootParentId": "a924c28e-06b5-4b20-b978-036ce85ab35d",
+  "name": "Kota Sukabumi - Pemadam Kebakaran",
+  "auto": true,
+  "contexts": [
+    "KotaSukabumi-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KotaSukabumi.KotaSukabumi-custom-5",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d66765c3-3a5e-47aa-9d84-e8052109b59c",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor : (0266) 222155\n\nCall Center di atas adalah Layanan Pemadam Kebakaran dari Dinas Kebakaran Kota Sukabumi.\n\nBagi Wargi Kota Sukabumi, segera hubungi nomor di atas untuk menghubungi Pemadam Kebakaran apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  penyelamatan dan pertolongan pertama dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

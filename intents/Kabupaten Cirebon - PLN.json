@@ -1,0 +1,68 @@
+{
+  "id": "875f2b4c-1464-4a1a-9737-38f7a8d8983d",
+  "parentId": "f7d7dad8-f71a-4298-bbfa-dd200c79bfef",
+  "rootParentId": "f7d7dad8-f71a-4298-bbfa-dd200c79bfef",
+  "name": "Kabupaten Cirebon - PLN",
+  "auto": true,
+  "contexts": [
+    "KabupatenCirebon-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenCirebon.KabupatenCirebon-custom-3",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "15faba03-bc90-4800-869e-2d80adc79750",
+          "name": "currency-name",
+          "required": false,
+          "dataType": "@sys.currency-name",
+          "value": "$currency-name",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "340a7216-5493-4f16-8ad0-5caab1def2d5",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  123\n\nCall Center di atas adalah Layanan Perusahaan Listrik Negara dari Perusahaan Listrik Negara Kabupaten Cirebon.\n\nBagi Wargi Kabupaten Cirebon, segera hubungi nomor di atas untuk menghubungi Perusahaan Listrik Negara apabila terjadi situasi Gangguan Listrik.\n\nHatur nuhun"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "e1bb586f-f140-499d-bbdb-80d8d6c13867",
+    "data": [
+      {
+        "text": "Kota Depok",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "id",
+    "updated": 0
+  }
+]

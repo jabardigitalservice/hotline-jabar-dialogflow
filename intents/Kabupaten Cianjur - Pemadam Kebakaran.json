@@ -1,0 +1,54 @@
+{
+  "id": "46809605-af29-4206-87fc-fec26dd526af",
+  "parentId": "587904a7-0d22-46ed-b730-6a7f24fb015a",
+  "rootParentId": "587904a7-0d22-46ed-b730-6a7f24fb015a",
+  "name": "Kabupaten Cianjur - Pemadam Kebakaran",
+  "auto": true,
+  "contexts": [
+    "KabupatenCianjur-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenCianjur.KabupatenCianjur-custom-2",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e3646591-1102-4099-ab33-687fc586f77a",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Berikut nomor Pemadam Kebakaran:\n(0263) 281392 - WMK Cianjur\n(0263) 321213 - WMK Ciranjang\n(0263) 521573 - WMK Cipanas\n(0263) 317333 - WMK Cikalong\n(0263) 2330113 - WMK Cibeber\n(0263) 2361382 - WMK SDB\n\nBagi Wargi Kabupaten Cianjur, segera hubungi nomor di atas untuk menghubungi Pemadam Kebakaran apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  penyelamatan dan pertolongan pertama dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

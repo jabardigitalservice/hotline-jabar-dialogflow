@@ -1,0 +1,54 @@
+{
+  "id": "9819ae20-3ef8-4662-9f45-af6619f46f10",
+  "parentId": "3de1a75b-15c9-4b24-8522-28a0784ede99",
+  "rootParentId": "3de1a75b-15c9-4b24-8522-28a0784ede99",
+  "name": "Kota Cirebon - Pemadam Kebakaran",
+  "auto": true,
+  "contexts": [
+    "KotaCirebon-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KotaCirebon.KotaCirebon-custom-4",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "0073cc70-e2cf-4d08-b397-a8c1bf0ee495",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor : \n112\n(0231) 484113 \n(0231) 488304\n(0231) 8808889 \n085161484113 \n\nCall Center di atas adalah Layanan Pemadam Kebakaran dari Pemerintah Kota Cirebon yang dikelola oleh Dinas Perumahan dan Kawasan Permukiman Kota Cirebon.\n\nBagi Wargi Kota Cirebon, segera hubungi nomor di atas untuk menghubungi Pemadam Kebakaran  apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti penyelamatan dan pertolongan pertama dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

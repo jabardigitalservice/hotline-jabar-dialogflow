@@ -1,0 +1,54 @@
+{
+  "id": "8cc364be-7175-4753-9f8f-c31e2eb16c11",
+  "parentId": "1ee7b540-8256-44c7-a357-f88accc0aceb",
+  "rootParentId": "1ee7b540-8256-44c7-a357-f88accc0aceb",
+  "name": "Kota Tasikmalaya - PLN",
+  "auto": true,
+  "contexts": [
+    "KotaTasikmalaya-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KotaTasikmalaya.KotaTasikmalaya-custom-3",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e075a0ff-ca2a-4b5b-a36a-a230f4c8154c",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  123\n\nCall Center di atas adalah Layanan Perusahaan Listrik Negara dari Perusahaan Listrik Negara Kota Tasikmalaya.\n\nBagi Wargi Kota Tasikmalaya, segera hubungi nomor di atas untuk menghubungi Perusahaan Listrik Negara apabila terjadi situasi Gangguan Listrik.\n\nHatur nuhun"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

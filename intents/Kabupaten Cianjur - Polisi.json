@@ -1,0 +1,54 @@
+{
+  "id": "ec6e85ff-c07b-4069-af09-ca2481918d64",
+  "parentId": "587904a7-0d22-46ed-b730-6a7f24fb015a",
+  "rootParentId": "587904a7-0d22-46ed-b730-6a7f24fb015a",
+  "name": "Kabupaten Cianjur - Polisi",
+  "auto": true,
+  "contexts": [
+    "KabupatenCianjur-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenCianjur.KabupatenCianjur-custom-4",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d4b3e54b-8728-4262-9ba1-5ff0aeca79ee",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor : 110  \nWhatsApp Lapor Kapolres : 082115771110 atau klik https://wa.me/6282115771110\n\nBagi Wargi Kabupaten Cianjur, segera hubungi nomor di atas untuk menghubungi polisi apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  kecelakaan, seperti pencurian, seperti tawuran dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

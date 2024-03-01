@@ -1,0 +1,54 @@
+{
+  "id": "0bdf834c-7e83-4407-990f-d91400112e22",
+  "parentId": "1a32f4b9-3869-4886-aa9a-ca1fe64f920e",
+  "rootParentId": "1a32f4b9-3869-4886-aa9a-ca1fe64f920e",
+  "name": "Kabupaten Bekasi - Ambulan",
+  "auto": true,
+  "contexts": [
+    "KabupatenBekasi-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenBekasi.KabupatenBekasi-custom-4",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "bb3825d2-0374-429f-83b6-5a1bb869341f",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor : 119 \nWhatsapp\t: 08111139927 atau klik https://wa.me/628111139927\n\nCall Center di atas adalah layanan Ambulans dari Dinas Kesehatan Kabupaten Bekasi\n\nBagi Wargi Kabupaten Bekasi, segera hubungi nomor di atas untuk menghubungi ambulans apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  kecelakaan, bantuan kesehatan dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "dcfe756b-7307-41e2-ab3d-566a4e947b30",
+  "parentId": "522d2cb8-3d3d-46af-969d-75b0c5fe9a4e",
+  "rootParentId": "522d2cb8-3d3d-46af-969d-75b0c5fe9a4e",
+  "name": "Kabupaten Tasikmalaya - PLN",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup",
+    "KabupatenTasikmalaya-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenTasikmalaya.KabupatenTasikmalaya-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d5fc937f-7a56-4074-8c00-80402d0af448",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi nomor : 123\n\nCall Center di atas adalah Layanan Perusahaan Listrik Negara dari Perusahaan Listrik Negara Kabupaten Tasikmalaya.\n\nBagi Wargi Kabupaten Tasikmalaya, segera hubungi nomor di atas untuk menghubungi Perusahaan Listrik Negara apabila terjadi situasi Gangguan Listrik.\n\nHatur Nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

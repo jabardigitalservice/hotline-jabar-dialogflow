@@ -1,0 +1,54 @@
+{
+  "id": "301ec688-4cf4-4d07-b5c0-afc608b4011d",
+  "parentId": "b9ca6f51-e1e9-4b30-813c-a09ee8bbb596",
+  "rootParentId": "b9ca6f51-e1e9-4b30-813c-a09ee8bbb596",
+  "name": "Kabupaten Kuningan - Ambulan",
+  "auto": true,
+  "contexts": [
+    "KabupatenKuningan-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenKuningan.KabupatenKuningan-custom-3",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "c1239ed3-bcaf-4eab-b2c9-460bf985a1ed",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor : \n(0232) 871605 - RSUD 45 Kabupaten Kuningan\n(0232) 614885 / 614884 - RSUD Linggarjati \n\n\nCall Center di atas adalah layanan Ambulans dari RSUD 45 Kabupaten Kuningan dan RSUD Linggarjati.\n\nBagi Wargi Kabupaten Kuningan, segera hubungi nomor di atas untuk menghubungi ambulans apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  kecelakaan, bantuan kesehatan dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

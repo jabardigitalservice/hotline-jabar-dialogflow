@@ -1,0 +1,55 @@
+{
+  "id": "29e89fd5-de5f-4985-9bbc-9ed876c8efb1",
+  "parentId": "76eff04e-86e7-489a-a803-026f05029ff7",
+  "rootParentId": "76eff04e-86e7-489a-a803-026f05029ff7",
+  "name": "Kabupaten Indramayu - PLN",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup",
+    "KabupatenIndramayu-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenIndramayu.KabupatenIndramayu-custom-3",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "8733706e-26fd-4eba-aba1-0ea651af6cae",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor :  08111028123 atau klik https://wa.me/628111028123\n\nCall Center di atas adalah Layanan Perusahaan Listrik Negara dari Perusahaan Listrik Negara Kabupaten Indramayu.\n\nBagi Wargi Kabupaten Indramayu, segera hubungi nomor di atas untuk menghubungi Perusahaan Listrik Negara apabila terjadi situasi Gangguan Listrik.\n\nHatur nuhun"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

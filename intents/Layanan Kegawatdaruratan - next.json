@@ -23,53 +23,53 @@
           "type": "4",
           "title": "",
           "payload": {
+            "content": "Silakan pilih salah satu opsi di bawah ini :",
+            "private": false,
+            "content_type": "input_select",
             "content_attributes": {
               "items": [
                 {
-                  "value": "Kota Tasikmalaya",
-                  "title": "Kota Tasikmalaya"
+                  "title": "Kota Tasikmalaya",
+                  "value": "Kota Tasikmalaya"
                 },
                 {
-                  "title": "Kab. Bandung",
-                  "value": "Kab. Bandung"
+                  "title": "Kab Bandung",
+                  "value": "Kab Bandung"
                 },
                 {
-                  "value": "Kab. Bandung Barat",
-                  "title": "Kab. Bandung Barat"
+                  "title": "Kab Bandung Barat",
+                  "value": "Kab Bandung Barat"
                 },
                 {
-                  "title": "Kab. Bekasi",
-                  "value": "Kab. Bekasi"
+                  "title": "Kab Bekasi",
+                  "value": "Kab Bekasi"
                 },
                 {
-                  "title": "Kab. Bogor",
-                  "value": "Kab. Bogor"
+                  "value": "Kab Bogor",
+                  "title": "Kab Bogor"
                 },
                 {
-                  "value": "Kab. Ciamis",
-                  "title": "Kab. Ciamis"
+                  "title": "Kab Ciamis",
+                  "value": "Kab Ciamis"
                 },
                 {
-                  "value": "Kab. Cianjur",
-                  "title": "Kab. Cianjur"
+                  "title": "Kab Cianjur",
+                  "value": "Kab Cianjur"
                 },
                 {
-                  "title": "Kab. Cirebon",
-                  "value": "Kab. Cirebon"
+                  "value": "Kab Cirebon",
+                  "title": "Kab Cirebon"
                 },
                 {
-                  "value": "Kab. Garut",
-                  "title": "Kab. Garut"
+                  "title": "Kab Garut",
+                  "value": "Kab Garut"
                 },
                 {
                   "title": "Kota/ Kab Lainnya 2",
                   "value": "Kota/ Kab Lainnya 2"
                 }
               ]
-            },
-            "content_type": "input_select",
-            "content": "Silakan pilih salah satu opsi di bawah ini :",
-            "private": false
+            }
           },
           "textToSpeech": "",
           "lang": "id",

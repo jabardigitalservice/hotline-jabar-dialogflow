@@ -1,0 +1,55 @@
+{
+  "id": "09ab6c17-bce5-4828-806e-dca97543b80b",
+  "parentId": "a5f8d45f-b8f7-48b1-b5d3-b6d746993d6d",
+  "rootParentId": "a5f8d45f-b8f7-48b1-b5d3-b6d746993d6d",
+  "name": "Kabupaten Sumedang - Bencana Alam",
+  "auto": true,
+  "contexts": [
+    "LayananKegawatdaruratan-followup",
+    "KabupatenSumedang-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "KabupatenSumedang.KabupatenSumedang-custom-5",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "666a1bbf-9410-42b5-9086-e84637f3ad24",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "id",
+          "speech": [
+            "Hubungi Nomor : 08112065733\n\nCall Center di atas adalah Layanan Bencana Alam dari UPTD Penanggulangan Bencana Kabupaten Sumedang.\n\nBagi Wargi Kabupaten Sumedang, segera hubungi nomor di atas untuk menghubungi Layanan Bencana Alam apabila terjadi situasi gawat darurat yang terjadi di sekitarmu, seperti  tanah longsor, bantuan banjir, bantuan gempa bumi dan keadaan darurat lainnya.\n\nHatur nuhun 🙏"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
